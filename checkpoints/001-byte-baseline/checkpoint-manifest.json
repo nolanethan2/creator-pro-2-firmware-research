@@ -1,0 +1,18 @@
+{
+  "firmware-analysis.json": {
+    "bytes": 22460,
+    "sha256": "24f3c40e244792a7b446b129c6b5b2ceec4384a1663ac68c85c72900fab41f8d"
+  },
+  "firmware-report.md": {
+    "bytes": 10471,
+    "sha256": "df3221d3df1272aa5b7a8535a059f4a7fb0d0dd212d5699261bcf6359c700da9"
+  },
+  "firmware-strings.json": {
+    "bytes": 369877,
+    "sha256": "98bfbda38c41741fb7335c644958843c987138ed8fe0417405bdf8b55c88e0c1"
+  },
+  "firmware-xrefs.json": {
+    "bytes": 1097822,
+    "sha256": "cebae104e7e4e4d79d2a6075210fe8deb49cd4189084534cc0f52c5116385a35"
+  }
+}
