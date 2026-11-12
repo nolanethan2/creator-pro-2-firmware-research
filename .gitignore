@@ -1,0 +1,7 @@
+**/__pycache__/
+**/pylibs/
+**/*.rep/
+**/*.lock*
+**/input/*.bin
+**/reproduce/outputs/*
+!**/reproduce/outputs/.gitkeep
