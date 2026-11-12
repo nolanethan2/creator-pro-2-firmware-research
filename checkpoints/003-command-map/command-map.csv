@@ -1,0 +1,56 @@
+route,command,handler,observed_behavior,status
+queued,G0/G1,0x080109F0,Parse XYZ E F and enqueue linear motion,confirmed
+queued,G4,0x08010B8A,Dwell handler,confirmed dispatch
+queued,G28,0x08010BDE,Homing handler,candidate semantics
+queued,G90,0x0801177A,Clear relative-axis mask at 0x200006AC,original-instruction dispatch emulation; clears mask and increments change counter
+queued,G91,0x0801177A,Consumes command without changing relative-axis mask 0x200006AC or change counter; tested starting masks 0/1/31,original-instruction dispatch emulation; parser/handler stubs
+queued,G92/G93,0x08010CD2,Shared position-related handler; G93 first waits for motion,candidate semantics
+queued,G161/G162,0x0801177A,"G161 consumed; G162 uses Z presence to select configured extent, otherwise current/zero Z by relative mask; other staged axes retained","original-instruction routing and six handler cases; planner intercepted, F omitted"
+queued,M0/M1,0x08011210,Optional P seconds; wait state 6 and prompt flag,confirmed handler behavior; hardware meaning where noted remains inferred
+queued,M6,0x08010EDE,"Wait state 4; P timeout in seconds, default 900",confirmed handler behavior; hardware meaning where noted remains inferred
+queued,M7,0x08010F16,"Wait state 5; P timeout in seconds, default 1800",confirmed handler behavior; hardware meaning where noted remains inferred
+queued,M17,0x08010DEA,Enable motors argument 1,confirmed
+queued,M18,0x08010DEA,Wait for motion then disable motors argument 0,confirmed
+queued,M25,0x08011756,Pause-related handler,candidate semantics
+queued,M104,0x08010FA6,Set selected extruder target from S and T,confirmed
+queued,M106,0x0801177A,Set fan-related PF13/PB0 outputs according to tool/mode,confirmed GPIO behavior
+queued,M107,0x0801177A,Reset PF13 and PB0 outputs,confirmed GPIO behavior
+queued,M108,0x080113EC,Wait then select tool from T when mode flag permits,confirmed
+queued,M109,0x0801177A,Defers queue consumption while motion-ready predicate is false; when true consumes without a heater-wait handler,static branch plus original-instruction false-predicate emulation
+queued,M110,0x080113EC,Wait then select tool from T,confirmed
+queued,M111,0x080114B8,T1 both carriages mirror X count changes; T2 duplicate; requires complete job initialization,instruction-emulated with numeric/GPIO stubs
+queued,M118,0x08011266,Job extents and first/last T metadata; D1/D2 arm IDEX setup; omitted D retains mode,instruction-emulated with numeric-conversion stub
+queued,M132,0x08010F4E,Zeros extrusion coordinates and resynchronizes motion positions,confirmed handler behavior; hardware meaning where noted remains inferred
+queued,M140,0x0801104A,Set bed target from S if bed enabled,confirmed
+queued,M146,0x0801177A,Recognized branch skips action and consumes command,original-instruction dispatch emulation; consume-only path confirmed
+queued,M147,0x08011112,Parse F/L and enqueue frequency/duration pair,confirmed handler behavior; hardware meaning where noted remains inferred
+queued,M148,0x08011154,Select stored sound pattern or repeated two-tone pattern,confirmed handler behavior; hardware meaning where noted remains inferred
+queued,M201/M204/M205/M206/M221,0x0801177A,Recognized branches go directly to consume,original-instruction dispatch emulation; consume-only path confirmed
+queued,M203,0x0801177A,Set per-axis feedrate-like configuration fields for X Y Z E,confirmed writes
+queued,M220,0x0801177A,Set scaling value from S at 0x200006A4,confirmed writes
+queued,M301/M304/M612/M999,0x0801177A,Recognized branches go directly to consume,original-instruction dispatch emulation; consume-only path confirmed
+queued,M610,0x080111F8,Persist machine name at configuration base+0x40 (34 bytes),confirmed handler behavior; hardware meaning where noted remains inferred
+queued,M611,0x08011198,"S1 persistent single-extruder selector; S2 dual, updates home offsets",confirmed handler and intercepted-storage emulation
+queued,M906,0x08010E9C,"Parse R/L motor-current values; calls channel 0/5 driver, exact hardware unverified",confirmed handler behavior; hardware meaning where noted remains inferred
+queued,M907,0x0801177A,Defers consume while planner count is nonzero,confirmed
+immediate,M23,0x08014868,Open selected print file plus 0x08014768 follow-up,confirmed
+immediate,M24,0x08014C68,Resume/start-related print state and reply ok,candidate semantics
+immediate,M25,0x08014C68,Set pause-related state and reply ok,candidate semantics
+immediate,M26,0x08014C68,Conditional print cleanup and reply ok,confirmed dispatch
+immediate,M27,0x08014C68,Report SD printing byte progress,confirmed
+immediate,M28,0x080143EA,Begin file writing,confirmed
+immediate,M29,0x080143B4,End file writing,candidate semantics
+immediate,M105,0x08014BF8,Temperature reporting,confirmed
+immediate,M112,0x08014C68,Motion_StopAndResync plus Command_ResetState then ok,confirmed call path
+immediate,M114,0x08014C68,Report X Y Z A B coordinate values,confirmed
+immediate,M115,0x08014C68,Report machine type/name firmware UID dimensions and tool count,confirmed
+immediate,M119,0x0801490E,Report MachineStatus and MoveMode; do not assume conventional endstop-only reply,confirmed
+immediate,M502,0x08014C68,Report FILAMENT value,confirmed nonstandard behavior
+immediate,M504,0x08014C68,Call configuration write helper with offset 0xFC,confirmed call path
+immediate,M600,0x080143A6,Reply succeed,confirmed
+immediate,M601,0x080142DE,Claim control and report success/failure,confirmed
+immediate,M602,0x08014388,Release control,confirmed
+immediate,M650,0x08014C68,Report X and Y configuration values,confirmed
+immediate,M651,0x08014C68,Report scaled X Y Z configuration values,confirmed
+immediate channel0,M601,0x080142DE,Claim-control handler allowed in channel0 path,confirmed
+immediate channel0,M615,0x0801402C,Reset cumulative print-time hours/minutes in RAM and storage offsets 0x69/0x6B,original-instruction handler tests with persistent-write stubs; routing sweep

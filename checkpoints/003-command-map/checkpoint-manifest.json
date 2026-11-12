@@ -1,0 +1,10 @@
+{
+  "command-map.csv": {
+    "bytes": 6019,
+    "sha256": "752d70664f692994b17cd644f016ce24b5722d7958c78ff7284be9006b6060a8"
+  },
+  "sources/FirmwareAnnotate.java": {
+    "bytes": 3131,
+    "sha256": "66274e27b049074a5ec3ace2a74631927ec601f0caf2f7734af7af0860431216"
+  }
+}
