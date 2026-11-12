@@ -1,0 +1,335 @@
+{
+  "method": "Original instructions for field search/last-field search, selector handlers, math, coordinate parsing and axis stepping in Unicorn. Decimal-number conversion is stubbed from the cursor because C-runtime locale initialization is absent. EEPROM writes/readback, GPIO and planner reinitialization are intercepted in memory; no device access. Geometry limits are explicit test inputs 200/148/150, not a live settings read.",
+  "m118_cases": [
+    {
+      "command": "M118 X20 Y20 Z20 T0",
+      "flags": {
+        "0x2000000e": 0,
+        "0x20000011": 0,
+        "0x20000012": 0,
+        "0x2000001d": 0,
+        "0x2000001e": 0,
+        "0x2000001f": 1,
+        "0x2000002a": 0,
+        "0x20000044": 0,
+        "0x20000217": 0
+      }
+    },
+    {
+      "command": "M118 X20 Y20 Z20 T0 T1",
+      "flags": {
+        "0x2000000e": 1,
+        "0x20000011": 0,
+        "0x20000012": 0,
+        "0x2000001d": 0,
+        "0x2000001e": 0,
+        "0x2000001f": 1,
+        "0x2000002a": 0,
+        "0x20000044": 0,
+        "0x20000217": 0
+      }
+    },
+    {
+      "command": "M118 X20 Y20 Z20 T0 T1 D1",
+      "flags": {
+        "0x2000000e": 1,
+        "0x20000011": 1,
+        "0x20000012": 0,
+        "0x2000001d": 0,
+        "0x2000001e": 1,
+        "0x2000001f": 0,
+        "0x2000002a": 0,
+        "0x20000044": 0,
+        "0x20000217": 0
+      }
+    },
+    {
+      "command": "M118 X20 Y20 Z20 T0 T1 D2",
+      "flags": {
+        "0x2000000e": 1,
+        "0x20000011": 2,
+        "0x20000012": 0,
+        "0x2000001d": 0,
+        "0x2000001e": 1,
+        "0x2000001f": 0,
+        "0x2000002a": 0,
+        "0x20000044": 0,
+        "0x20000217": 0
+      }
+    },
+    {
+      "command": "M118 X20 Y20 Z20 T0 T1 D3",
+      "flags": {
+        "0x2000000e": 1,
+        "0x20000011": 3,
+        "0x20000012": 0,
+        "0x2000001d": 0,
+        "0x2000001e": 0,
+        "0x2000001f": 1,
+        "0x2000002a": 0,
+        "0x20000044": 0,
+        "0x20000217": 0
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "profile": "0x11",
+      "index": 0,
+      "persisted_writes": [
+        {
+          "offset": 38,
+          "value": 17
+        }
+      ],
+      "config_selected_fields": {
+        "0x8": 12897,
+        "0xc": 7343,
+        "0x7c": 94139704,
+        "0x80": 94139704,
+        "0x84": 400000000,
+        "0x88": 96275202,
+        "0x90": 12897,
+        "0x94": 7343
+      }
+    },
+    {
+      "profile": "0x12",
+      "index": 1,
+      "persisted_writes": [
+        {
+          "offset": 38,
+          "value": 18
+        }
+      ],
+      "config_selected_fields": {
+        "0x8": 12897,
+        "0xc": 7343,
+        "0x7c": 94139704,
+        "0x80": 94139704,
+        "0x84": 400000000,
+        "0x88": 96275202,
+        "0x90": 12897,
+        "0x94": 7343
+      }
+    }
+  ],
+  "machine_selector_cases": [
+    {
+      "input": 1,
+      "persisted": [
+        {
+          "offset": 14,
+          "value": 1
+        }
+      ],
+      "config_selector": 1,
+      "single_extruder_predicate": 1,
+      "x_home_steps": 14225,
+      "y_home_steps": 6778
+    },
+    {
+      "input": 2,
+      "persisted": [
+        {
+          "offset": 14,
+          "value": 2
+        }
+      ],
+      "config_selector": 2,
+      "single_extruder_predicate": 0,
+      "x_home_steps": 12897,
+      "y_home_steps": 7343
+    },
+    {
+      "input": 3,
+      "persisted": [
+        {
+          "offset": 14,
+          "value": 2
+        }
+      ],
+      "config_selector": 2,
+      "single_extruder_predicate": 0,
+      "x_home_steps": 12897,
+      "y_home_steps": 7343
+    }
+  ],
+  "coordinate_transform_cases": [
+    {
+      "mode": "ordinary",
+      "input_xyz": [
+        20,
+        20,
+        20
+      ],
+      "parsed_xyz": [
+        20.0,
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "mode": "copy_calibration",
+      "input_xyz": [
+        20,
+        20,
+        20
+      ],
+      "parsed_xyz": [
+        86.0,
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "mode": "mirror_compensation",
+      "input_xyz": [
+        20,
+        20,
+        20
+      ],
+      "parsed_xyz": [
+        -86.0,
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "mode": "duplicate_compensation",
+      "input_xyz": [
+        20,
+        20,
+        20
+      ],
+      "parsed_xyz": [
+        -46.0,
+        20.0,
+        20.0
+      ]
+    }
+  ],
+  "carriage_step_cases": [
+    {
+      "command": "M111 T1",
+      "primary_counter_delta": 1,
+      "secondary_counter_delta": -1,
+      "gpio_requests": [
+        {
+          "port": "0x40020400",
+          "mask": "0x40",
+          "high": false
+        },
+        {
+          "port": "0x40020800",
+          "mask": "0x8",
+          "high": false
+        },
+        {
+          "port": "0x40020400",
+          "mask": "0x20",
+          "high": true
+        },
+        {
+          "port": "0x40020800",
+          "mask": "0x2",
+          "high": false
+        },
+        {
+          "port": "0x40020800",
+          "mask": "0x4",
+          "high": true
+        },
+        {
+          "port": "0x40020400",
+          "mask": "0x20",
+          "high": false
+        },
+        {
+          "port": "0x40020800",
+          "mask": "0x4",
+          "high": false
+        }
+      ]
+    },
+    {
+      "command": "M111 T2",
+      "primary_counter_delta": 1,
+      "secondary_counter_delta": 1,
+      "gpio_requests": [
+        {
+          "port": "0x40020400",
+          "mask": "0x40",
+          "high": false
+        },
+        {
+          "port": "0x40020800",
+          "mask": "0x8",
+          "high": true
+        },
+        {
+          "port": "0x40020400",
+          "mask": "0x20",
+          "high": true
+        },
+        {
+          "port": "0x40020800",
+          "mask": "0x2",
+          "high": false
+        },
+        {
+          "port": "0x40020800",
+          "mask": "0x4",
+          "high": true
+        },
+        {
+          "port": "0x40020400",
+          "mask": "0x20",
+          "high": false
+        },
+        {
+          "port": "0x40020800",
+          "mask": "0x4",
+          "high": false
+        }
+      ]
+    }
+  ],
+  "extent_boundary_cases": [
+    {
+      "command": "M118 X100 Y74 Z150 T0 T1 D0",
+      "out_of_bounds_flag": 0
+    },
+    {
+      "command": "M118 X101 Y74 Z150 T0 T1 D0",
+      "out_of_bounds_flag": 1
+    },
+    {
+      "command": "M118 X47.5 Y74 Z150 T0 T1 D1",
+      "out_of_bounds_flag": 0
+    },
+    {
+      "command": "M118 X47.6 Y74 Z150 T0 T1 D1",
+      "out_of_bounds_flag": 1
+    },
+    {
+      "command": "M118 X47.5 Y74 Z150 T0 T1 D2",
+      "out_of_bounds_flag": 0
+    },
+    {
+      "command": "M118 X20 Y75 Z150 T0 T1 D2",
+      "out_of_bounds_flag": 1
+    },
+    {
+      "command": "M118 X20 Y20 Z151 T0 T1 D2",
+      "out_of_bounds_flag": 1
+    }
+  ],
+  "omitted_D_case": [
+    {
+      "test": "D omitted after D1",
+      "mode_still": 1,
+      "setup_flag": 1
+    }
+  ]
+}

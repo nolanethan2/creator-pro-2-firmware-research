@@ -1,0 +1,18 @@
+{
+  "IDEX-and-Profile-Findings.md": {
+    "bytes": 8427,
+    "sha256": "eee6711f60d7576b06700b076067aa916c4504e639ebbdd68c6dea2e2a52f02d"
+  },
+  "idex-selector-verification.json": {
+    "bytes": 7218,
+    "sha256": "05d47adcf7c695daec150b920f724961aaea67b0d9cecf32e86df6ee88c0d36c"
+  },
+  "sources/emulate_idex.py": {
+    "bytes": 5863,
+    "sha256": "392f0c948962c307fe97040976e06e9bf827e55c55a14130616f120650bd2928"
+  },
+  "sources/FirmwareIDEX.java": {
+    "bytes": 1824,
+    "sha256": "18f0221364fbda9d55042c3398f25a4ce4401f9a9824c2b30592cd7fb1a48ec0"
+  }
+}
