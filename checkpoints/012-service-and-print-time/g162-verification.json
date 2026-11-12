@@ -1,0 +1,215 @@
+{
+  "method": "Original G162 handler and float instructions with planner intercepted; F field omitted. Deliberately seeded staging values test retained fields, not normal job preconditions. No device access.",
+  "checks": [
+    {
+      "command": "G162",
+      "relative_mask": 0,
+      "staged_before": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "current_before": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "planned": {
+        "target": [
+          10.0,
+          20.0,
+          3.0,
+          40.0,
+          50.0
+        ],
+        "feed": 10.0
+      },
+      "current_after": [
+        10.0,
+        20.0,
+        3.0,
+        40.0,
+        50.0
+      ]
+    },
+    {
+      "command": "G162 Z-900",
+      "relative_mask": 0,
+      "staged_before": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "current_before": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "planned": {
+        "target": [
+          10.0,
+          20.0,
+          150.0,
+          40.0,
+          50.0
+        ],
+        "feed": 10.0
+      },
+      "current_after": [
+        10.0,
+        20.0,
+        150.0,
+        40.0,
+        50.0
+      ]
+    },
+    {
+      "command": "G162 Z999",
+      "relative_mask": 0,
+      "staged_before": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "current_before": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "planned": {
+        "target": [
+          10.0,
+          20.0,
+          150.0,
+          40.0,
+          50.0
+        ],
+        "feed": 10.0
+      },
+      "current_after": [
+        10.0,
+        20.0,
+        150.0,
+        40.0,
+        50.0
+      ]
+    },
+    {
+      "command": "G162",
+      "relative_mask": 1,
+      "staged_before": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "current_before": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "planned": {
+        "target": [
+          10.0,
+          20.0,
+          0.0,
+          40.0,
+          50.0
+        ],
+        "feed": 10.0
+      },
+      "current_after": [
+        11.0,
+        22.0,
+        3.0,
+        44.0,
+        55.0
+      ]
+    },
+    {
+      "command": "G162 Z-900",
+      "relative_mask": 1,
+      "staged_before": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "current_before": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "planned": {
+        "target": [
+          10.0,
+          20.0,
+          150.0,
+          40.0,
+          50.0
+        ],
+        "feed": 10.0
+      },
+      "current_after": [
+        11.0,
+        22.0,
+        153.0,
+        44.0,
+        55.0
+      ]
+    },
+    {
+      "command": "G162 Z999",
+      "relative_mask": 1,
+      "staged_before": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "current_before": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "planned": {
+        "target": [
+          10.0,
+          20.0,
+          150.0,
+          40.0,
+          50.0
+        ],
+        "feed": 10.0
+      },
+      "current_after": [
+        11.0,
+        22.0,
+        153.0,
+        44.0,
+        55.0
+      ]
+    }
+  ]
+}

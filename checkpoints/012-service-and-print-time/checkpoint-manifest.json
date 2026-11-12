@@ -1,0 +1,22 @@
+{
+  "g162-verification.json": {
+    "bytes": 3510,
+    "sha256": "039bccc4652ce6e09b7a769afde245be4700cc0a53ffecdf4ed0e42eb983dc51"
+  },
+  "Service-and-Command-Findings.md": {
+    "bytes": 5248,
+    "sha256": "53f3da08cab5d54f0801913be08e65f50ee81cf4a0a55eec4f77eb685ab73eb2"
+  },
+  "sources/emulate_g162.py": {
+    "bytes": 1828,
+    "sha256": "4b9650a9605aa2646879cad072743934351cf00df350e6b6243787f872f3a7b1"
+  },
+  "sources/emulate_usage.py": {
+    "bytes": 4267,
+    "sha256": "7408d3ba6467210427b6b40aa9071b7f9abfb09d3c048c98474084680a661332"
+  },
+  "usage-service-verification.json": {
+    "bytes": 4141,
+    "sha256": "69b776e9f2dab112148f83df9d1585f4421ba6a0956c9c5ae9a851c42b661436"
+  }
+}

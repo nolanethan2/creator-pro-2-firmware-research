@@ -1,0 +1,201 @@
+{
+  "method": "Original usage/timer/service-file instructions. Time, storage, delay and filesystem interfaces are intercepted. All writes are recorded in memory; no device or real service file was used.",
+  "checks": [
+    {
+      "test": "load stored hours/minutes",
+      "hours": 1234,
+      "minutes": 37,
+      "writes": []
+    },
+    {
+      "test": "M615 reset handler",
+      "hours": 0,
+      "minutes": 0,
+      "writes": [
+        {
+          "offset": 105,
+          "bytes": 2,
+          "value": 0
+        },
+        {
+          "offset": 107,
+          "bytes": 1,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "test": "startup service-file gate",
+      "flag": 0,
+      "open_status": 0,
+      "opens": [
+        {
+          "path": "1:/j6&^%$#@-'s#&%%z@3#{}.txt",
+          "mode": 1
+        }
+      ],
+      "closes": 1,
+      "hours": 0,
+      "minutes": 0,
+      "writes": [
+        {
+          "offset": 105,
+          "bytes": 2,
+          "value": 0
+        },
+        {
+          "offset": 107,
+          "bytes": 1,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "test": "startup service-file gate",
+      "flag": 0,
+      "open_status": 4,
+      "opens": [
+        {
+          "path": "1:/j6&^%$#@-'s#&%%z@3#{}.txt",
+          "mode": 1
+        }
+      ],
+      "closes": 1,
+      "hours": 7,
+      "minutes": 8,
+      "writes": []
+    },
+    {
+      "test": "startup service-file gate",
+      "flag": 1,
+      "open_status": 0,
+      "opens": [],
+      "closes": 0,
+      "hours": 7,
+      "minutes": 8,
+      "writes": []
+    },
+    {
+      "test": "one-hour timer boundary",
+      "elapsed_microseconds": 3599999999,
+      "hours": 12,
+      "minutes": 0,
+      "writes": []
+    },
+    {
+      "test": "one-hour timer boundary",
+      "elapsed_microseconds": 3600000000,
+      "hours": 13,
+      "minutes": 0,
+      "writes": [
+        {
+          "offset": 105,
+          "bytes": 2,
+          "value": 13
+        }
+      ]
+    },
+    {
+      "test": "one-hour timer boundary",
+      "elapsed_microseconds": 3600000001,
+      "hours": 13,
+      "minutes": 0,
+      "writes": [
+        {
+          "offset": 105,
+          "bytes": 2,
+          "value": 13
+        }
+      ]
+    },
+    {
+      "test": "finalize partial print session",
+      "minutes_before": 10,
+      "session_minutes": 5,
+      "hours": 12,
+      "minutes": 15,
+      "writes": [
+        {
+          "offset": 107,
+          "bytes": 1,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "test": "finalize partial print session",
+      "minutes_before": 59,
+      "session_minutes": 1,
+      "hours": 13,
+      "minutes": 0,
+      "writes": [
+        {
+          "offset": 105,
+          "bytes": 2,
+          "value": 13
+        },
+        {
+          "offset": 107,
+          "bytes": 1,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "test": "finalize partial print session",
+      "minutes_before": 59,
+      "session_minutes": 59,
+      "hours": 13,
+      "minutes": 58,
+      "writes": [
+        {
+          "offset": 105,
+          "bytes": 2,
+          "value": 13
+        },
+        {
+          "offset": 107,
+          "bytes": 1,
+          "value": 58
+        }
+      ]
+    },
+    {
+      "test": "16-bit cumulative-hour rollover",
+      "hours": 0,
+      "minutes": 0,
+      "writes": [
+        {
+          "offset": 105,
+          "bytes": 2,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "test": "pause freezes timer; resume excludes 20 paused minutes",
+      "active_minutes": 15,
+      "hours": 0,
+      "minutes": 15,
+      "writes": [
+        {
+          "offset": 107,
+          "bytes": 1,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "test": "one-hour interval across unsigned clock wrap",
+      "hours": 1,
+      "minutes": 0,
+      "writes": [
+        {
+          "offset": 105,
+          "bytes": 2,
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
