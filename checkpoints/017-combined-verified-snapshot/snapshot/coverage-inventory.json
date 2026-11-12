@@ -1,0 +1,74 @@
+{
+  "scope": "Inventory, not a percentage of complete reverse engineering. Function discovery and indirect-call recovery are incomplete.",
+  "source_flash_bytes": 1048576,
+  "exported_recovered_functions": 2317,
+  "curated_function_labels": 477,
+  "unreviewed_function_labels": 1840,
+  "utf8_language_resource_strings": 1803,
+  "language_blocks": 10,
+  "regions": [
+    {
+      "region": "Bootloader",
+      "start": "0x8000000",
+      "end_exclusive": "0x8010000",
+      "recovered_functions": 377,
+      "curated_labels": 11
+    },
+    {
+      "region": "Application startup, commands and configuration",
+      "start": "0x8010000",
+      "end_exclusive": "0x8016000",
+      "recovered_functions": 168,
+      "curated_labels": 91
+    },
+    {
+      "region": "Application interrupts, heaters and drivers",
+      "start": "0x8016000",
+      "end_exclusive": "0x801bc00",
+      "recovered_functions": 210,
+      "curated_labels": 40
+    },
+    {
+      "region": "UI and print workflow",
+      "start": "0x801bc00",
+      "end_exclusive": "0x8028800",
+      "recovered_functions": 214,
+      "curated_labels": 76
+    },
+    {
+      "region": "Transport and motion",
+      "start": "0x8028800",
+      "end_exclusive": "0x802c500",
+      "recovered_functions": 112,
+      "curated_labels": 36
+    },
+    {
+      "region": "MCU/USB peripheral support",
+      "start": "0x802c500",
+      "end_exclusive": "0x8032944",
+      "recovered_functions": 256,
+      "curated_labels": 105
+    },
+    {
+      "region": "Filesystem",
+      "start": "0x8032944",
+      "end_exclusive": "0x8035d3c",
+      "recovered_functions": 62,
+      "curated_labels": 62
+    },
+    {
+      "region": "GUI, display and other support",
+      "start": "0x8035d3c",
+      "end_exclusive": "0x8049500",
+      "recovered_functions": 845,
+      "curated_labels": 14
+    },
+    {
+      "region": "Runtime and numeric support",
+      "start": "0x8049500",
+      "end_exclusive": "0x804c000",
+      "recovered_functions": 73,
+      "curated_labels": 42
+    }
+  ]
+}

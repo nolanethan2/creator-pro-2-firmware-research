@@ -1,0 +1,7 @@
+{
+  "method": "Node vm syntax and DOM logic smoke check",
+  "all_functions": 2317,
+  "reviewed_filter": 477,
+  "typed_planner_detail": true,
+  "comparison_leaf_warning_visible": true
+}

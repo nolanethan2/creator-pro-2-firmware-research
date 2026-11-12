@@ -1,0 +1,21 @@
+{
+  "function_count": 2317,
+  "manually_labeled": 477,
+  "call_edges": 6228,
+  "string_references": 195,
+  "hardware_references": 428,
+  "decompiler_error_functions": [
+    "08002ee8",
+    "08018a54"
+  ],
+  "sha256": "45e8691c1866211de3b9f74b74d784a902e5d63e4f6eba0559a7528532376502",
+  "decompiler_bad_instruction_warnings": [],
+  "manually_overridden_switch_functions": [
+    "08011f34",
+    "0801217e",
+    "08012aaa",
+    "08017e7c",
+    "08020a9a",
+    "08037706"
+  ]
+}

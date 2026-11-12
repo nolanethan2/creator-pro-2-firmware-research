@@ -1,0 +1,20 @@
+setter_function,setter_name,periodic_callback_thumb_bit_cleared,callback_name,widget_table_address,widget_count_literal,dialog_callback_thumb_bit_cleared
+0801c28a,UI_Home_Open,0801c272,FUN_0801c272,0804C7EC,5,0801c184
+0801c5b4,UI_About_Open,0801bc10,not recovered,0804C878,8,0801c504
+0801d326,UI_FileBrowser_Open,0801bc10,not recovered,0804C958,0xc,0801d06a
+0801e4c6,UI_PrintStatus_Open,0801e068,FUN_0801e068,0804CAC8,0xf,0801ded8
+0801e938,FUN_0801e938,0801bc10,not recovered,0804CDBC,4,0801e858
+0801ee8c,UI_Tools_Open,0801bc10,not recovered,0804CE2C,9,0801ecd8
+080205b4,UI_Preheat_Open,0801bc10,not recovered,080AC448,0xf,0801ff36
+08020db2,UI_FilamentHeating_Open,08020a9a,FUN_08020a9a,080AC73C,6,080208f4
+080213aa,UI_FilamentLoadUnload_Open,0801bc10,not recovered,080AC7E4,8,08021188
+08021666,UI_Homing_Open,0802161c,FUN_0802161c,080AC8C4,4,0802154e
+08021e48,UI_ManualJog_Open,08021db8,FUN_08021db8,080AC934,0xc,08021a84
+08022988,UI_Language_Open,0801bc10,not recovered,080ACA84,10,080224d0
+08022d72,UI_BedLeveling_Open,08022cf2,FUN_08022cf2,080ACB9C,4,08022b4c
+080235dc,UI_TemperatureStatus_Open,080233a2,FUN_080233a2,080ACC0C,0xe,08023180
+08023b78,UI_PreheatDuringPrint_Open,080239bc,FUN_080239bc,080ACD94,0xc,080238fe
+08023f7e,UI_Settings_Open,0801bc10,not recovered,080ACEE4,8,08023e2e
+08028034,UI_CalibrationWizard_Open,08027624,FUN_08027624,080AD440,8,08027ebe
+080282ea,UI_ContinueZCalibration_Open,0801bc10,not recovered,080AD7DC,4,08028220
+08028a7e,UI_ExpertCalibrationIntro_Open,08028a14,UI_ExpertCalibrationIntro_Periodic,080AD84C,5,0802893c

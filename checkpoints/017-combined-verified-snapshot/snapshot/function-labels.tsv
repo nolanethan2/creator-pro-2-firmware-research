@@ -1,0 +1,478 @@
+address	name	confidence	evidence
+08000188	Boot_Runtime_Entry	high	Reset branches here after SystemInit
+08000230	Boot_Reset	high	Boot vector slot 1
+0800206a	Boot_ProgramApplicationFromFile	high	Reads creatorp.bin in chunks, erases/programs/verifies application flash
+08002286	Boot_Main	high	Mounts volumes, startup display, optional update, application handoff
+0800256c	Boot_SystemInit	high	Clock and reset register configuration
+08005334	Boot_FS_Open	high	File object, path and mode parameters
+08005494	Boot_FS_Read	high	File object, buffer, length and bytes-read pointer
+0800594e	Boot_FS_Close	high	Closes update file
+080078de	Boot_DrawText_Candidate	medium	Coordinates, text and RGB565 color arguments
+08009108	Boot_ProgramWordsAndVerify	high	Writes 32-bit words then compares flash readback
+08009156	Boot_JumpToApplication	high	Checks MSP range, loads stack pointer and calls reset vector
+08010188	App_Runtime_Entry	high	Application reset tail branch
+08010190	App_ScatterLoad	high	Two 16-byte scatter descriptors
+080101c4	App_Decompress_InitializedData	high	Token-based literal/zero/backreference decoder
+08010220	App_ZeroFill	high	Zero-fill scatter handler
+080102ae	App_C_RuntimeStart	high	Runtime initialization then App_Main
+080102cc	App_InitializeSubsystems	high	UID, peripherals, config, motion and state initialization
+08010302	SCB_SetVTOR	high	Writes address to SCB VTOR
+0801030e	App_SetVectorBase	high	Sets VTOR to 0x08010000
+0801031c	Watchdog_Initialize	high	IWDG unlock, prescaler, reload and start
+0801033e	App_Main	high	Initialization followed by perpetual cooperative service loop
+080103b0	Command_ResetState	high	Clears command queue and processing flags
+080105fa	Command_ParseNumericValue	high	Parses numeric field after last found character
+08010662	Command_FindField	high	Searches current command with strchr and stores cursor
+0801068c	Command_FindLastField	high	Searches last matching field character with strrchr; M118 uses first/last T to detect a two-tool job
+080106b6	Command_ReplyConsumedIfRequired	high	Conditionally formats/sends common consumed-command response based on source and processing-state flags
+080106f4	Command_ParseMoveCoordinates	high	XYZ/E/F parsing, tool-dependent transforms and feedrate
+080109f0	GCode_G0_G1_LinearMove	high	Dispatcher G0/G1 branch; calls motion planner
+08010b8a	GCode_G4_Dwell	high	Dispatcher G4 target
+08010bde	GCode_G28_Home_Candidate	medium	Dispatcher G28 target; homing internals require further field naming
+08010cd2	GCode_G92_G93_SetPosition_Candidate	medium	Shared dispatcher target for G92/G93
+08010dea	GCode_M17_M18_MotorEnable	high	M17 passes 1, M18 passes 0
+08010e9c	GCode_M906_SetMotorCurrent	high	Parses R/L, calls 0x080171AC with selector 0/5
+08010ede	GCode_M6_StartWait	high	Sets command wait state 4 and microsecond timeout from P; default 900 seconds
+08010f16	GCode_M7_StartWait	high	Sets command wait state 5 and microsecond timeout from P; default 1800 seconds
+08010f4e	GCode_M132_ResetExtruderCoordinates	high	Zeros extrusion coordinates and resynchronizes motion positions
+08010fa6	GCode_M104_SetExtruderTarget	high	Parses S and T; calls Heater_SetTarget
+0801104a	GCode_M140_SetBedTarget	high	Parses S, uses heater at 0x20001F98
+08011112	GCode_M147_QueueTone	high	Parses F/L and enqueues frequency/duration pair
+08011154	GCode_M148_PlaySound	high	Parses S and selects stored sound pattern or repeated two-tone pattern
+08011198	GCode_M611_SetExtruderCount	high	S argument calls persistent count selector; this is not an advanced feature unlock
+080111f8	GCode_M610_SetMachineName	high	Passes command text+5 to persisted machine-name setter
+08011210	GCode_M0M1_StartPauseWait	high	Optional P seconds, wait state 6 and prompt flag
+08011266	GCode_M118_ConfigureJobIDEX	high	First/last T sets two-tool flag; D1/D2 arm IDEX setup, bounds and calibration flags. D omitted retains prior mode. Original-instruction tests with numeric conversion stub; not a standalone physical mode-switch recipe
+080113ec	Command_SelectTool_Candidate	medium	Called by M108/M110 with T selection
+080114b8	GCode_M111_SetSynchronizedCarriages	high	T sets 0x20000013 and enables both X carriages; offline original-instruction step test confirms T1 opposite counter deltas and T2 same deltas
+080116a4	GCode_G162_PlanConfiguredZMove	high	Z field presence selects configured unsigned Z extent; absence uses current Z or zero by relative mask; retains other staged axes; six original-instruction checks without F
+08011756	GCode_M25_RequestPause	high	Sets UI pause request byte, displays localized pause message, performs UI update and pause-state request
+0801177a	GCode_DispatchQueuedCommand	high	G and M numeric dispatch plus queue consumption
+08011f34	Homing_StateMachine_Candidate	medium	13-state machine called during command wait state 3
+0801217e	PrintJob_StateMachine_Candidate	medium	Print setup, heater targets, pause and motion state transitions
+0801287a	Command_AccumulateFileLine	high	10x96-byte command ring; CR/LF and semicolon parsing
+08012aaa	Command_ServiceQueue	high	File input, commands, wait states and dispatch
+080135fc	Config_IsSingleExtruder	high	Returns MachineConfig[0x1C] != 2; branches select one/two temperature reports and startup disables second heater in single mode
+0801361c	Config_WriteByte	high	Backup SRAM or external serial EEPROM path
+08013658	Config_WriteU16	high	Writes two little-endian bytes to selected settings backend
+08013696	Config_WriteU32	high	Writes four bytes to selected settings backend
+080136d4	Config_WriteFloat	high	Stores float using selected settings backend
+08013710	Config_WriteBlock	high	Source pointer, storage address, length; serial EEPROM or backup SRAM
+08013760	Config_ReadByteWithDefault	high	Returns default when stored byte is 0xFF
+080137a0	Config_ReadU16WithDefault	high	0xFFFF sentinel selects caller default
+080137e6	Config_ReadU32WithDefault	high	0xFFFFFFFF sentinel selects caller default
+08013828	Config_ReadFloatWithDefault	medium	Float read and sentinel/default selection; flags-returning comparison requires instruction review
+08013870	Config_ReadBlock	high	Destination pointer, storage address, length; serial EEPROM or backup SRAM
+080138c0	Config_ApplyExtruderCountHomeOffsets	high	Chooses profile-table home offsets based on one/two-extruder predicate
+08013940	Config_SetExtruderCount	high	Input 1 stores one-extruder selector; all other tested inputs store 2 at EEPROM +0x0E; updates RAM count and home offsets
+080139ba	Config_ApplyOutputColorSelector_Candidate	medium	Reads base+0x28 and applies PG5/PG6/PG7 patterns; physical load unverified
+08013a8a	Config_SetMachineName	high	Copies name to 0x200001CA, writes/reads 34 bytes at storage base+0x40
+08013ab4	Config_SelectPulleyTypeProfile	high	0x11 Silver / 0x12 Black from UI option text and callback; selected initial motion tables identical in this firmware; enclosing UI title is Pulley Type, not case color
+08013c7a	Config_SaveXCalibrationOffset	high	Reads float at 0x20001028 and writes EEPROM offset 0 through byte-addressed float writer
+08013c96	Config_SaveYCalibrationOffset	high	Reads float at 0x2000102C and writes EEPROM offset 4
+08013cd6	Config_ResetUserSettingsDefaults	high	Restores language, variant profile, temperature presets and machine-name defaults; selects profile by storage backend
+08013d3e	Config_LoadPrintTimeCounters	high	Loads uint16 hours at storage +0x69 and byte minutes at +0x6B; original-instruction startup read test
+08013d70	Config_LoadMachineSettings	high	Reads configuration fields, profiles and temperature defaults
+08013fe2	Device_ReadUniqueID	high	Reads three words at 0x1FFF7A10
+08013ffc	Config_SavePrintHours	high	Writes uint16 storage +0x69 then delay; observed in emulated hour increment/finalization
+08014014	Config_SavePrintMinutes	high	Writes byte storage +0x6B then delay; observed in emulated finalization
+0801402c	GCode_M615_ResetPrintTimeCounters	high	Resets stored/RAM hours and minutes; immediate channel-zero M615 and startup marker-file callers; original-instruction tests
+0801407c	PrintTime_ServiceHourTimer	high	3600000000-us expiration increments cumulative and session hour counters; tested boundary, uint16 rollover and clock wrap
+080140be	PrintTime_GetSessionHoursMinutes	high	Returns session hours and elapsed microseconds divided by 60000000; timer inactive/recovery branches require context
+0801410a	PrintTime_AccumulateAndStopSession	high	Accumulates session minute remainder, carries at 60, persists counters, clears timer/session-hour accumulator; original-instruction checks
+08014252	Command_EnqueueHostLine	high	Copies host line to 10-entry ring and reports buffer full
+080142de	GCode_M601_ClaimControl	high	Control success/failure replies
+08014388	GCode_M602_ReleaseControl	high	Control Release reply
+080143a6	Host_ReplySucceed	high	Formats succeed response
+080143ea	GCode_M28_BeginFileWrite	high	File creation and Writing to file reply
+08014712	PrintTime_StartSessionTimer	high	Starts one-hour timer or shorter recovered-session remainder; clears/restores byte session-hour counter
+08014868	GCode_M23_OpenPrintFile	high	Dispatcher M23 target and file-open errors
+0801490e	GCode_M119_ReportMachineStatus	high	MachineStatus and MoveMode formatted replies
+08014bf8	GCode_M105_ReportTemperatures	high	Dispatcher M105 target
+08014c68	Host_DispatchImmediateCommand	high	M115 identity, M114 positions, M105 temperatures, M112 stop and control commands
+0801526c	Host_AccumulateInputLine	high	Receive character processing with CR/LF and semicolon comments
+08015358	Host_ServiceInputAndState	high	Host line accumulation, immediate dispatch, queue insertion and print states
+08015768	Update_CleanupStagedFile_Candidate	medium	Filesystem operations involving 1:/sys/creatorp.bin
+080157dc	Board_InitializeStorageAndIO	high	SPI, GPIO, filesystems and output initialization
+08015826	Service_ResetPrintTimeIfMarkerPresent	high	When storage mount-status byte is zero, opens exact UTF16 service-marker path read-only; successful open calls counter reset; tested missing/present/gated
+08015944	Time_GetMicroseconds	high	Returns counter at 0x20000250; incremented by 100 every 100us SysTick
+0801595c	Fault_RecordHeaterError	high	Combines fault code and heater ID into error word
+08015a7c	Heater_ServiceScheduler	high	Schedules sensor conversion and three heater objects
+08015bdc	PID_Reset	high	Zeros integral, history, output and derivative ring
+08015c10	PID_Update	high	Error, integral, four-sample derivative history and weighted output
+08015cde	PID_SetTarget	high	Called by Heater_SetTarget
+0801615c	System_RequestReset	high	AIRCR SYSRESETREQ sequence
+0801619a	App_SysTick_Handler	high	Application vector slot 15
+080161c6	App_USB_OTG_FS_IRQHandler	high	Application IRQ67
+080161d0	App_SDIO_IRQHandler	high	Application IRQ49
+080161d8	App_DMA2_Stream3_IRQHandler	high	Application IRQ59
+080161ec	Timer_Clear	high	Clears timer active/expired flags
+080161f4	Timer_Start	high	Stores start timestamp and timeout interval
+08016212	Timer_HasExpired	high	Unsigned elapsed-time comparison against interval
+08016248	Timer_SetPaused	high	Captures elapsed time on pause and adjusts timestamp on resume; original-instruction pause-exclusion test
+08016270	Timer_IsActive	high	Returns first timer byte
+08016276	Timer_GetElapsedMicroseconds	high	Inactive returns zero; paused returns saved elapsed; active uses unsigned timestamp delta; tested paused and resumed
+08016c56	SensorSPI3_Initialize	high	SPI3 pins PC10/11/12, chip select PF12
+08016d34	SensorSPI3_Configure	high	SPI configuration at 0x40003C00
+08016d8e	SensorSPI3_Transfer16	high	SPI TXE/RXNE polling and word transfer
+08016dd8	SysTick_Initialize100us	high	LOAD=SystemCoreClock/10000-1
+08016e5a	SysTick_Service	high	Adds 100us, timers, output state and PC6/PC7 debounce
+08017058	MotionTimers_Initialize	high	TIM13 and TIM14 configuration
+08017120	App_TIM13_IRQHandler	high	Checks/clears TIM13 update, calls motion ISR
+0801713a	App_TIM14_IRQHandler	high	Checks/clears TIM14 update, calls extruder ISR
+080171ac	MotorCurrent_SetChannel	medium	Clamps current byte and sends serial control sequence; exact driver unverified
+080175b8	Sensor_TableInterpolate	high	20-entry binary search and linear interpolation
+080176f8	BedSensor_FilterAndConvert	high	8-sample ring, middle four samples and table 0
+08017826	Sensor_ConvertSignedAuxReading_Candidate	medium	Signed serial sensor reading conversion
+0801786c	ExtruderSensor_GetReading	high	Returns per-channel converted temperature and sensor status
+08017884	ExtruderSensor_PollSPI	high	SPI3 transfers, channel cycling, reference compensation and sentinel handling
+080179e4	HeaterOutputs_Initialize	high	TIM5 PWM on PA2/PA3 and bed output PA1
+08017aca	Heater_WriteOutput	high	Heater 2 GPIO PA1; heaters 3/4 TIM5 CCR3/CCR4
+08017bc8	Heater_InitializeController	high	Fault/timer reset and PID parameter setup
+08017c98	Heater_SetTarget	high	Clamps bed to 120 and extruder to 240, sets monitoring timers
+08017e52	Heater_LatchFaultAndDisable	high	Sets disabled flag, clears target/output and records fault
+08017e7c	Heater_UpdateControlAndChecks	high	Sensor status, temperature checks, PID/bang-bang output and faults
+0801819a	Heater_AuxHysteresisControl_Candidate	medium	Temperature-triggered auxiliary output with hysteresis
+0801838a	Sound_QueueTone	high	20-entry queue of 16-bit frequency/duration pairs
+080183e6	AuxOutput_Service_Candidate	medium	Periodic timed output task
+08018402	Sound_PlayStoredPattern	high	Selects flash frequency/duration sequence terminated by zero duration
+08018488	Sound_QueueRepeatedTwoTone	high	Repeated 494/440 pairs with duration 300
+0801b04c	Config_SelectSerialEEPROM	high	Selects serial configuration storage path
+0801b306	EEPROM_ReadByte	high	Bitbang serial read with 0xA0/0xA1 address sequence
+0801b43c	EEPROM_WriteByte	high	Bitbang serial write and post-write delays
+0801b58e	EEPROM_ReadFloatBits	high	Reads four bytes through byte-addressed EEPROM backend and returns assembled word
+0801bc6a	UI_SelectInitialFontAndLanguage	high	Font18.bin and fallback language table
+0801bdc4	UI_ShowHeaterFault	high	Maps heater fault code to localized sensor/temperature/rise/drop error messages
+0801bf32	UI_Service	high	Page callback, GUI processing and refresh tasks
+0801bf5c	UI_SetStatusMessage	high	Copies status text to RAM buffer
+0801bf76	UI_CloseStatusDialog	high	Closes status dialog handle 0x2000038C and clears it
+0801c026	UI_Home_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for Home screen
+0801c184	UI_Home_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match Home screen
+0801c28a	UI_Home_Open	high	Static widget table 0x804c7ec and callback 0801c184; role established from displayed strings, event routes and control-path review
+0801c2cc	UI_Home_OpenPrintSource	high	Home print action opens storage/source screen
+0801c2e2	UI_Home_OpenPreheat	high	Home preheat action selects normal or in-print screen based on 0x20000444
+0801c304	UI_Home_OpenTools	high	Home tools action opens Tools screen
+0801c32a	UI_About_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for About screen
+0801c504	UI_About_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match About screen
+0801c5b4	UI_About_Open	high	Static widget table 0x804c878 and callback 0801c504; role established from displayed strings, event routes and control-path review
+0801ce96	UI_FileBrowser_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for FileBrowser screen
+0801d06a	UI_FileBrowser_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match FileBrowser screen
+0801d326	UI_FileBrowser_Open	high	Static widget table 0x804c958 and callback 0801d06a; role established from displayed strings, event routes and control-path review
+0801d42c	UI_PrintStatus_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for PrintStatus screen
+0801ded8	UI_PrintStatus_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match PrintStatus screen
+0801e4c6	UI_PrintStatus_Open	high	Static widget table 0x804cac8 and callback 0801ded8; role established from displayed strings, event routes and control-path review
+0801e9ce	UI_Tools_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for Tools screen
+0801ecd8	UI_Tools_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match Tools screen
+0801ee8c	UI_Tools_Open	high	Static widget table 0x804ce2c and callback 0801ecd8; role established from displayed strings, event routes and control-path review
+0801f3a8	UI_Preheat_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for Preheat screen
+0801ff36	UI_Preheat_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match Preheat screen
+080205b4	UI_Preheat_Open	high	Static widget table 0x80ac448 and callback 0801ff36; role established from displayed strings, event routes and control-path review
+0802072e	UI_FilamentHeating_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for FilamentHeating screen
+080208f4	UI_FilamentHeating_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match FilamentHeating screen
+08020db2	UI_FilamentHeating_Open	high	Static widget table 0x80ac73c and callback 080208f4; role established from displayed strings, event routes and control-path review
+08020f3a	UI_FilamentLoadUnload_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for FilamentLoadUnload screen
+08021188	UI_FilamentLoadUnload_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match FilamentLoadUnload screen
+080213aa	UI_FilamentLoadUnload_Open	high	Static widget table 0x80ac7e4 and callback 08021188; role established from displayed strings, event routes and control-path review
+0802146a	UI_Homing_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for Homing screen
+0802154e	UI_Homing_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match Homing screen
+08021666	UI_Homing_Open	high	Static widget table 0x80ac8c4 and callback 0802154e; role established from displayed strings, event routes and control-path review
+0802179c	UI_ManualJog_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for ManualJog screen
+08021a84	UI_ManualJog_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match ManualJog screen
+08021e48	UI_ManualJog_Open	high	Static widget table 0x80ac934 and callback 08021a84; role established from displayed strings, event routes and control-path review
+08021eca	UI_Language_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for Language screen
+080224d0	UI_Language_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match Language screen
+08022988	UI_Language_Open	high	Static widget table 0x80aca84 and callback 080224d0; role established from displayed strings, event routes and control-path review
+08022a72	UI_BedLeveling_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for BedLeveling screen
+08022b4c	UI_BedLeveling_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match BedLeveling screen
+08022d72	UI_BedLeveling_Open	high	Static widget table 0x80acb9c and callback 08022b4c; role established from displayed strings, event routes and control-path review
+08022e06	UI_TemperatureStatus_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for TemperatureStatus screen
+08023180	UI_TemperatureStatus_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match TemperatureStatus screen
+080235dc	UI_TemperatureStatus_Open	high	Static widget table 0x80acc0c and callback 08023180; role established from displayed strings, event routes and control-path review
+0802364a	UI_PreheatDuringPrint_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for PreheatDuringPrint screen
+080238fe	UI_PreheatDuringPrint_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match PreheatDuringPrint screen
+08023b78	UI_PreheatDuringPrint_Open	high	Static widget table 0x80acd94 and callback 080238fe; role established from displayed strings, event routes and control-path review
+08023c1a	UI_Settings_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for Settings screen
+08023e2e	UI_Settings_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match Settings screen
+08023f7e	UI_Settings_Open	high	Static widget table 0x80acee4 and callback 08023e2e; role established from displayed strings, event routes and control-path review
+080240e2	Update_StageApplicationFile	high	Skips 20 input bytes then copies 4KiB chunks to sys/Creatorp.bin
+080244a4	UI_Settings_OpenExpertCalibration	high	Settings Expert Mode button route to intro screen; no secret enable bit
+080244c2	UI_SingleButtonMessage_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for SingleButtonMessage screen
+08024550	UI_SingleButtonMessage_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match SingleButtonMessage screen
+08024608	UI_SingleButtonMessage_Open	high	Static widget table 0x80acfc4 and callback 08024550; role established from displayed strings, event routes and control-path review
+08024cde	UI_PrintAdjustments_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for PrintAdjustments screen
+0802519c	UI_PrintAdjustments_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match PrintAdjustments screen
+08025646	UI_PrintAdjustments_Open	high	Static widget table 0x80ad034 and callback 0802519c; role established from displayed strings, event routes and control-path review
+08025fe4	UI_PulleyTypeDialog_Initialize	high	Adds Silver then Black options; profile 0x12 selects Black; enclosing UI title is Pulley Type, not case color
+08026222	UI_PulleyType_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match PulleyType screen; enclosing UI title is Pulley Type, not case color
+0802636c	UI_PulleyType_Open	high	Static widget table 0x80ad2f0 and callback 08026222; role established from displayed strings, event routes and control-path review
+080267ba	UI_CalibrationWizard_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for CalibrationWizard screen
+08026ad6	UI_CalibrationAdjustment_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for CalibrationAdjustment screen
+080270fe	UI_CalibrationAdjustment_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match CalibrationAdjustment screen
+080275b0	UI_CalibrationAdjustment_Open	high	Static widget table 0x80ad6e0 and callback 080270fe; role established from displayed strings, event routes and control-path review
+08027ebe	UI_CalibrationWizard_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match CalibrationWizard screen
+08028034	UI_CalibrationWizard_Open	high	Static widget table 0x80ad440 and callback 08027ebe; role established from displayed strings, event routes and control-path review
+080280ee	UI_ContinueZCalibration_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for ContinueZCalibration screen
+08028220	UI_ContinueZCalibration_Callback	high	Message dispatch (init/paint/parent notification), widget IDs and routes match ContinueZCalibration screen
+080282ea	UI_ContinueZCalibration_Open	high	Static widget table 0x80ad7dc and callback 08028220; role established from displayed strings, event routes and control-path review
+08028326	UI_ExpertCalibrationIntro_Initialize	high	Invoked for initialization message 0x1D; installs text/appearance for ExpertCalibrationIntro screen
+08028432	UI_ExpertCalibration_Initialize	high	Manual fine calibration title and X-/X+/Y-/Y+ buttons
+08028688	UI_ExpertCalibration_Callback	high	Original-instruction callback tests confirm 0.05 X/Y staging, OK persistence at EEPROM 0/4 and Cancel clearing
+0802893c	UI_ExpertCalibrationIntro_Callback	high	Next creates expert calibration widget table 0x080AD8D8; back returns to Settings
+08028a14	UI_ExpertCalibrationIntro_Periodic	high	On pending flag, installs expert calibration explanation and Next text
+08028a7e	UI_ExpertCalibrationIntro_Open	high	Static widget table 0x80ad84c and callback 0802893c; role established from displayed strings, event routes and control-path review
+08028afc	Host_RxAvailable	high	Receive ring count wrapper
+08028b06	Host_ReadRxByte	high	Receive ring byte wrapper
+08028fa4	Host_SendFormattedResponse	high	Channel 1 uses USB endpoint 0x81
+08029248	USB_ReceiveByteCallback	high	Stores byte in 2048-byte ring at 0x2000A549
+0802946c	USB_GetDeviceDescriptor	high	Returns 18-byte device descriptor
+08029480	USB_GetProductString	high	Creator Pro 2 product string descriptor
+080294a2	USB_GetManufacturerString	high	Flashforge string descriptor
+080294b6	USB_GetSerialString	high	Serial string descriptor selector
+080294d8	USB_GetConfigurationString	high	Creator Pro 2 Config descriptor
+080294fa	USB_GetInterfaceString	high	Creator Pro 2 Port descriptor
+080295fc	Motion_StepperISR	high	Loads queued block, iterates five axes and updates timer for acceleration
+0802990c	Motion_ExtruderPulseISR	high	Pulses axes 3/4 and consumes signed pending counts
+08029b72	Planner_IsQueueEmpty	high	Compares planner queue head 0x200005B1 and tail 0x200005B2
+08029c2e	Motion_ClearQueueAndResync	high	Masks motion interrupt, discards blocks and synchronizes positions
+08029d88	Planner_CalculateTrapezoid	high	134 independent kinematic profile comparisons plus seven busy/nonaccelerated/advance cases; only interrupt wrapper stubbed
+0802a066	Planner_ReversePassBlock	high	Reviews current/next entry-speed limits, nominal-length and lookahead-ready flags; reverse traversal caller
+0802a0ec	Planner_ReversePass	high	Walks from ring head backward to sampled tail, calling reverse block pass
+0802a132	Planner_ForwardPassBlock	high	Limits current block entry speed from previous block acceleration/distance; compares tolerances and marks recalculation
+0802a274	Planner_ForwardPass	high	Walks from tail to head, calling forward block pass
+0802a2a8	Planner_RecalculateTrapezoids	high	Computes adjacent entry/exit speed factors and recalculates profiles, including final block
+0802a32c	Planner_RecalculateLookahead	high	Runs reverse pass, forward pass and trapezoid rebuilding in sequence
+0802a33c	Planner_ResetQueueAndAdvance	high	Clears head/tail, prior speed and positions; stores two advance factors and Z/endstop-related flag
+0802a37c	Planner_BuildMotionBlock	high	128-byte block constructor; axis steps/directions, rate limiting, extrusion advance, trapezoid, ring publication and lookahead; ten isolated block cases
+0802b064	Motion_SetInterruptCriticalSection	high	Privilege test and IRQ control wrapper around shared planner updates
+0802b06a	Planner_NextRingIndex	high	Adds one and wraps index16 to zero; original-instruction block/ring cases
+0802b5f0	Motion_InitializePlanner	high	Loads limits, scaling, planner state and timer setup
+0802b854	Motion_StopAndResync	high	Clears queue, syncs positions and resets motion state
+0802ba16	Motion_PlanLinearMove	high	Converts five coordinate values to step deltas and plans move
+0802c2a8	Motion_TIM13Service	high	Stepper ISR plus per-axis completion handling
+0802c2f0	Motion_TIM14Service	high	Delegates to extruder pulse ISR
+0802c310	App_Reset	high	Application vector slot 1
+0802c350	Clock_ConfigurePLL	high	RCC PLL register, bus prescalers and flash latency
+0802c42c	App_SystemInit	high	Reset RCC state, configure clocks and initial VTOR
+0802cfa6	USB_BuildStringDescriptor	high	ASCII to UTF-16LE USB descriptor conversion
+0802ff64	GPIO_Initialize	high	GPIO mode, speed, output type and pull configuration
+08030028	GPIO_ReadInputBit	high	GPIO IDR bit test
+08030042	GPIO_ReadOutputDataBit	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+0803005c	GPIO_SetBits	high	Writes low half of GPIO BSRR
+08030060	GPIO_ResetBits	high	Writes high half of GPIO BSRR
+0803007a	GPIO_PinAFConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030136	RCC_GetFlagStatus	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030172	RCC_WaitForHSEStartUp	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080301c4	RCC_LSEConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080303ac	RCC_RTCCLKConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080303e2	RCC_RTCCLKCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080303fe	RCC_AHB1PeriphClockCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030420	RCC_AHB2PeriphClockCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030442	RCC_AHB3PeriphClockCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030464	RCC_APB1PeriphClockCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030486	RCC_APB2PeriphClockCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080304a8	RCC_AHB1PeriphResetCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030538	RCC_APB1PeriphResetCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+0803055a	RCC_APB2PeriphResetCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030728	SDIO_GetResponse	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080307ea	SDIO_ITConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+0803082a	SDIO_GetFlagStatus	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030840	SDIO_ClearFlag	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080308f0	SPI_Init	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+0803092c	I2S_Init	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030ab6	SPI_Cmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030bb2	SPI_ReceiveData	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030bb8	SPI_SendData	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030bf4	SPI_I2S_DMACmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030c06	SPI_I2S_ITConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030c26	SPI_I2S_GetFlagStatus	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030c5e	SPI_I2S_GetITStatus	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030c92	SPI_I2S_ClearITPendingBit	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030ca8	TIM_DeInit	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030e02	TIM_TimeBaseInit	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030e7c	TIM_PrescalerConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030e98	TIM_SetAutoReload	high	Timer ARR writer
+08030ed8	TIM_ARRPreloadConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030f14	TIM_Cmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030f2c	TIM_OC1Init	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08030f9e	TIM_OC2Init	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031038	TIM_OC3Init	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031104	TIM_OC4Init	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031188	TIM_SelectOCxM	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080311e6	TIM_SetCompare3	high	Writes timer CCR3 offset 0x3C
+080311ea	TIM_SetCompare4	high	Writes timer CCR4 offset 0x40
+08031272	TIM_OC3PreloadConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031284	TIM_OC4PreloadConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031332	TIM_ClearOC4Ref	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+0803142c	TIM_IC4PrescalerConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031446	TIM_TI4Configure	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031496	TIM_IC3PrescalerConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080314a8	TIM_TI3Configure	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080314f0	TIM_IC2PrescalerConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+0803150a	TIM_TI2Configure	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031564	TIM_IC1PrescalerConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031576	TIM_TI1Configure	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080316f6	TIM_CtrlPWMOutputs	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031744	TIM_ITConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031772	TIM_GetInterruptStatus	high	Timer status and enable test
+08031794	TIM_ClearInterruptPending	high	Timer interrupt status clear
+080317da	TIM_SelectInputTrigger	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031804	TIM_TIxExternalClockConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031842	TIM_ETRConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+0803185e	TIM_ETRClockMode1Config	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031894	TIM_ETRClockMode2Config	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080318ea	TIM_EncoderInterfaceConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031962	PWR_BackupAccessCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031988	PWR_BackupRegulatorCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080319a8	PWR_EnterSTOPMode	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031a38	RTC_WaitForSynchro	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031a94	RTC_EnterInitMode	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031ae8	RTC_DeInit	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031bb4	RTC_ExitInitMode	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031bc6	RTC_Init	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031c48	RTC_RefClockCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031cca	RTC_ByteToBcd2	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031ce6	RTC_Bcd2ToByte	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031cfc	RTC_SetTime	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031dd0	RTC_GetTime	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031e38	RTC_SetDate	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031f04	RTC_GetDate	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08031f4a	RTC_SetAlarm	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08032046	RTC_GetAlarm	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080320b8	RTC_AlarmCmd	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08032128	RTC_AlarmSubSecondConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080321c2	RTC_WakeUpCmd	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080322b0	RTC_CoarseCalibConfig	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080322e4	RTC_CoarseCalibCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08032390	RTC_SmoothCalibConfig	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080323ea	RTC_TimeStampCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08032420	RTC_GetTimeStamp	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+0803259a	RTC_WriteBackupRegister	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080325b4	RTC_ReadBackupRegister	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+0803261e	RTC_SynchroShiftConfig	medium	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080326fe	RTC_GetFlagStatus	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08032720	RTC_ClearFlag	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+0803273c	RTC_GetITStatus	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080328aa	EXTI_ClearITPendingBit	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080328bc	IWDG_WriteAccessCmd	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080328c2	IWDG_SetPrescaler	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080328c8	IWDG_SetReload	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+080328ce	Watchdog_Refresh	high	Writes 0xAAAA to IWDG KR at 0x40003000
+080328d8	IWDG_Enable	high	STM32F407 register base, offsets and bit operations match named peripheral operation; semantic identification, not an exact source/build match
+08032944	Disk_Initialize	high	Two drives: drive 0 serial flash JEDEC ID 0xEF4018; drive 1 SD initialization
+08032990	Disk_StatusAlwaysReady	high	Returns zero; used by filesystem validation
+080329ba	Disk_ReadSectors	high	Drive selection, 512-byte sector addressing and SD/serial-flash read backends
+08032ab6	Disk_WriteSectors	high	Drive selection and 512-byte sector write backends
+08032ba6	Disk_Ioctl	high	Sector count, 512-byte sector size and erase block queries
+08032c2a	FatFs_GetFatTime	high	Packs RTC date/time into FAT timestamp bit layout
+08032c90	FatFs_mem_cpy	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08032caa	FatFs_mem_set	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08032cbe	FatFs_mem_cmp	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08032ce4	FatFs_chk_chr	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08032cf8	FatFs_sync_window	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08032d4a	FatFs_move_window	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08032d7c	FatFs_sync_fs	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08032e44	FatFs_clust2sect	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08032e5e	FatFs_get_fat	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08032f42	FatFs_put_fat	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033078	FatFs_remove_chain	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+080330e0	FatFs_create_chain	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+080331aa	FatFs_clmt_clust	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+080331dc	FatFs_dir_sdi	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033278	FatFs_dir_next	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+0803338c	FatFs_dir_alloc	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+080333e2	FatFs_ld_clust	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033402	FatFs_st_clust	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033412	FatFs_cmp_lfn	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+0803349c	FatFs_pick_lfn	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+0803350c	FatFs_fit_lfn	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033586	FatFs_gen_numname	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033644	FatFs_sum_sfn	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033664	FatFs_dir_find	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033742	FatFs_dir_read	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033806	FatFs_dir_register	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033942	FatFs_dir_remove	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+080339a2	FatFs_create_name	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033bcc	FatFs_get_fileinfo	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033d6c	FatFs_follow_path	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033e12	FatFs_check_fs	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08033e9c	FatFs_find_volume	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+0803422a	FatFs_validate	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08034276	FatFs_f_mount	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+0803429c	FatFs_f_open	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08034400	FatFs_f_read	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+080345da	FatFs_f_write	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08034802	FatFs_f_sync	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+080348b2	FatFs_f_close	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+080348c8	FatFs_f_lseek	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08034ba4	FatFs_f_opendir	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08034c18	FatFs_f_readdir	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08034c74	FatFs_f_stat	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08034cb2	FatFs_f_getfree	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08034db6	FatFs_f_truncate	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08034e50	FatFs_f_unlink	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08034efe	FatFs_f_mkdir	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08035066	FatFs_f_chmod	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+080350be	FatFs_f_utime	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08035118	FatFs_f_rename	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08035230	FatFs_f_mkfs	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08035830	FatFs_f_gets	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+0803592e	FatFs_f_putc	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+080359a4	FatFs_f_puts	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08035c88	FatFs_ff_convert	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08035cfc	FatFs_ff_wtoupper	high	Semantic comparison with Elm-Chan FatFs R0.09b source: algorithm, object offsets, constants and call ordering agree; exact library revision/build not proven
+08037706	UI_LoadLanguageFonts	high	Loads external fonts and selects language resource base
+08037a74	Lib_FormatString_Candidate	medium	Printf-style format usage across application
+0803800c	Lib_StrChr_Candidate	medium	Character search used by G-code parser
+08038078	Lib_StrCopy_Candidate	medium	NUL-terminated string copy usage
+080380ea	Lib_StrRChr	high	Scans to NUL while retaining last matching character pointer
+08038100	Lib_StrLen_Candidate	medium	Length supplied to USB transmit
+0803a1f8	GUI_ButtonCreateIndirect_Recovered	medium	28-byte widget descriptor extraction and text-setting path; button usage in recovered tables
+0803a392	GUI_ButtonSetText_Recovered	medium	Text setter used with button IDs and localized labels
+0803ada6	GUI_FrameWindowCreateIndirect_Recovered	medium	First record in all recovered dialog tables; extracts frame geometry and callback
+0803c27c	GUI_CreateDialogBox_Recovered	medium	Indirect widget constructor loop, 28-byte records, initialization message; consistent with emWin dialog API
+080417ea	GUI_TextCreateIndirect_Recovered	medium	28-byte widget descriptor extraction; text widget usage in recovered tables
+08041930	GUI_TextSetText_Recovered	medium	Text setter used for static text fields and formatted status strings
+08042518	GUI_GetDialogItem_Recovered	medium	Looks up child widget by parent handle and integer ID throughout callbacks
+080425ae	GUI_GetWidgetId_Recovered	medium	Returns widget identifier used in notification dispatch
+08049a24	Motion_StepsFromSquaredRateDifference	high	Returns (arg1-arg0)/arg2 with zero denominator fallback; trapezoid distance helper
+08049a34	Motion_SpeedAfterAcceleration	high	sqrt(max(0,v*v+2*a*d)) with operation-specific float/double rounding; 512 bit-exact cases
+08049b34	Sensor_GetTableEntry	high	Returns packed raw/temperature table entry
+08049b88	Time_GetMicrosecondsWrapper	high	Delegates to Time_GetMicroseconds
+08049b90	Motion_MaxEntrySpeedForDeceleration	high	sqrt(max(0,v*v-2*a*d)) with operation-specific float/double rounding; 512 bit-exact cases
+08049d00	Planner_GetQueuedBlockCount	high	Returns (head-tail)&15; all 256 valid head/tail pairs tested
+08049d18	Planner_DiscardCurrentBlock	high	Advances 16-slot ring tail
+08049d3c	Planner_GetCurrentBlock	high	Returns queue base + tail*128 unless empty
+08049d6c	Stepper_LoadCurrentBlock	high	Sets TIM13 ARR, axis deltas, direction masks and counters
+08049fcc	Math_F64_SqrtWithStatus	high	512 finite nonnegative bit-exact square-root cases; wrapper additionally records status on exceptional output
+0804a078	Endstop_ReadAxisInput	high	Reads axis pin-table input pair at offsets 0x20/0x24 and polarity flag
+0804a0e8	Stepper_SetDirection	high	Pin table offsets 8/12, direction inversion
+0804a224	Stepper_WriteStepPin	high	Pin table offsets 0/4, GPIO set/reset
+0804a268	Stepper_PulseWithEndstopCheck	high	Checks axis input then emits pulse and software delay
+0804a3a8	Stepper_AdvanceAxis	high	DDA accumulator, pulse generation, IDEX branches and position counters
+0804a990	Math_F64_ToF32	high	512 original-instruction conversion cases, binary32 rounding checked
+0804a9f4	Math_F64_Add	high	512 normal finite bit-exact arithmetic cases; exceptional classification tests; original soft-double addition
+0804ab6c	Math_F64_Divide	high	512 normal finite bit-exact arithmetic cases and zero-denominator classification tests
+0804ae1c	Math_F64_CompareFlags_0804ae1c	high	1064 finite pairs: CY arg0>=arg1 and ZR equality; exact integer-CMP NZCV patterns vary by sign
+0804ae94	Math_F64_ToI32	high	Bit-level double exponent/mantissa conversion; exercised throughout trapezoid and arithmetic tests
+0804b02c	Math_F64_CompareFlags_0804b02c	high	1064 finite pairs: CY arg0>=arg1 and ZR equality; explicit four-flag return signature
+0804b0a4	Math_F64_Multiply	high	512 normal finite bit-exact arithmetic cases and zero-times-infinity exception test
+0804b1f8	Runtime_F64_ExceptionDispatch	high	Reads packed descriptor at aligned LR, dispatches exceptional float64 cases, restores caller stack; nonstandard return convention
+0804b2a0	Math_F64_CompareReverseFlags	high	1064 finite pairs: CY arg1>=arg0 and ZR equality; explicit four-flag return signature
+0804b30c	Math_F64_RoundNearestEven	high	553 finite cases including signed half-integer ties and negative zero; NaN/infinity classification tested
+0804b3c0	Math_F64_ReverseSubtract	high	512 normal finite cases return arg1 minus arg0, bit-exact
+0804b3d8	Math_F64_SqrtCore	high	512 normal finite bit-exact square-root cases; negative/infinite input classifications tested
+0804b570	Math_F64_Subtract	high	512 normal finite cases return arg0 minus arg1, bit-exact; infinity case tested
+0804b744	Math_F32_ToF64	high	512 original-instruction conversion cases
+0804b79a	Math_F32_Add	high	VFP instruction and register transfer inspected; arithmetic finite cases also checked by offline instruction emulation
+0804b7c4	Math_F32_Divide	high	VFP instruction and register transfer inspected; arithmetic finite cases also checked by offline instruction emulation
+0804b7d8	Math_F32_CompareFlags_0804b7d8	high	1064 original-instruction finite comparisons each; explicit flag-return signature. WARNING: Ghidra leaf C drops NG/ZR/CY expressions; use VCMP/VMRS disassembly and tested flag truth table, not that leaf C body.
+0804b808	Math_F32_ToI32	high	VFP instruction and register transfer inspected; arithmetic finite cases also checked by offline instruction emulation
+0804b816	Math_F32_ToU32	high	VFP instruction and register transfer inspected; arithmetic finite cases also checked by offline instruction emulation
+0804b824	Math_I32_ToF32	high	VFP instruction and register transfer inspected; arithmetic finite cases also checked by offline instruction emulation
+0804b832	Math_U64_ToF32	high	Two-register unsigned input and binary32 result; exercised by triangular advance profile computation
+0804b892	Math_U32_ToF32	high	VFP instruction and register transfer inspected; arithmetic finite cases also checked by offline instruction emulation
+0804b8a0	Math_F32_CompareFlags_0804b8a0	high	1064 original-instruction finite comparisons each; explicit flag-return signature. WARNING: Ghidra leaf C drops NG/ZR/CY expressions; use VCMP/VMRS disassembly and tested flag truth table, not that leaf C body.
+0804b8d0	Math_F32_Multiply	high	VFP instruction and register transfer inspected; arithmetic finite cases also checked by offline instruction emulation
+0804b982	Math_F32_CompareFlags_0804b982	high	1064 original-instruction finite comparisons each; explicit flag-return signature. WARNING: Ghidra leaf C drops NG/ZR/CY expressions; use VCMP/VMRS disassembly and tested flag truth table, not that leaf C body.
+0804b9aa	Math_F32_ReverseSubtract	high	VFP instruction and register transfer inspected; arithmetic finite cases also checked by offline instruction emulation
+0804b9bc	Math_F32_Subtract	high	VFP instruction and register transfer inspected; arithmetic finite cases also checked by offline instruction emulation

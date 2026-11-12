@@ -1,0 +1,100 @@
+{
+  "method": "Unicorn offline execution of original instructions; no peripheral/device access",
+  "tests": [
+    {
+      "test": "fadd",
+      "inputs": [
+        3.5,
+        2.25
+      ],
+      "expected": 5.75,
+      "actual": 5.75
+    },
+    {
+      "test": "fdiv",
+      "inputs": [
+        7.5,
+        2.5
+      ],
+      "expected": 3,
+      "actual": 3.0
+    },
+    {
+      "test": "fmul",
+      "inputs": [
+        1.5,
+        4
+      ],
+      "expected": 6,
+      "actual": 6.0
+    },
+    {
+      "test": "fsub",
+      "inputs": [
+        7.5,
+        2.5
+      ],
+      "expected": 5,
+      "actual": 5.0
+    },
+    {
+      "test": "frsub",
+      "inputs": [
+        7.5,
+        2.5
+      ],
+      "expected": -5,
+      "actual": -5.0
+    },
+    {
+      "test": "PID_Update",
+      "measured": 90,
+      "expected": 34,
+      "actual": 34
+    },
+    {
+      "test": "PID_Update",
+      "measured": 92,
+      "expected": 38,
+      "actual": 38
+    }
+  ],
+  "sensor_boundary_cases": [
+    {
+      "table": 0,
+      "raw": 1721,
+      "cap": 255,
+      "value": 126
+    },
+    {
+      "table": 0,
+      "raw": 4086,
+      "cap": 255,
+      "value": 4294967267
+    },
+    {
+      "table": 1,
+      "raw": 1247,
+      "cap": 400,
+      "value": 240
+    },
+    {
+      "table": 1,
+      "raw": 1248,
+      "cap": 400,
+      "value": 400
+    },
+    {
+      "table": 1,
+      "raw": 2152,
+      "cap": 400,
+      "value": 400
+    }
+  ],
+  "pid_sequence_check": {
+    "samples": 128,
+    "seed": 407,
+    "reference": "finite float32 reconstructed algorithm, operation-by-operation rounding, integral clamp, four-slot history and truncation before doubling",
+    "all_passed": true
+  }
+}

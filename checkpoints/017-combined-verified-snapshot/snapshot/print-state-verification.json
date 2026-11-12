@@ -1,0 +1,231 @@
+{
+  "method": "Original state-dispatch ARM instructions in offline Unicorn. Planner status, heater readiness/setters, GPIO read, motion/extrusion operations and UI interfaces are stubs. Tests validate state sequencing and waits, not physical motion or heating.",
+  "transitions": [
+    {
+      "state": "0x40",
+      "next": "0x41",
+      "calls": [
+        {
+          "address": "0x8011be2",
+          "r0": 1,
+          "r1": 536870990
+        }
+      ]
+    },
+    {
+      "state": "0x41",
+      "next": "0x42",
+      "calls": []
+    },
+    {
+      "state": "0x42",
+      "next": "0x43",
+      "calls": [
+        {
+          "address": "0x8011c28",
+          "r0": 1,
+          "r1": 536870990
+        }
+      ]
+    },
+    {
+      "state": "0x43",
+      "next": "0x44",
+      "calls": []
+    },
+    {
+      "state": "0x44",
+      "next": "0x45",
+      "calls": [
+        {
+          "address": "0x8011d00",
+          "r0": 1,
+          "r1": 536870990
+        }
+      ]
+    },
+    {
+      "state": "0x45",
+      "next": "0x1",
+      "calls": [
+        {
+          "address": "0x8011c1a",
+          "r0": 0,
+          "r1": 536871014
+        },
+        {
+          "address": "0x801bf76",
+          "r0": 1,
+          "r1": 536870990
+        },
+        {
+          "address": "0x8018402",
+          "r0": 7,
+          "r1": 536870990
+        }
+      ]
+    },
+    {
+      "state": "0x80",
+      "next": "0x81",
+      "calls": [
+        {
+          "address": "0x8011be2",
+          "r0": 0,
+          "r1": 536870990
+        },
+        {
+          "address": "0x80180a4",
+          "r0": 536879000,
+          "r1": 0
+        },
+        {
+          "address": "0x8017c98",
+          "heater": "0x20001f98",
+          "target": 60
+        },
+        {
+          "address": "0x80180a4",
+          "r0": 536878656,
+          "r1": 0
+        },
+        {
+          "address": "0x8017c98",
+          "heater": "0x20001e40",
+          "target": 200
+        },
+        {
+          "address": "0x80180a4",
+          "r0": 536878656,
+          "r1": 1
+        },
+        {
+          "address": "0x80180a4",
+          "r0": 536878828,
+          "r1": 0
+        },
+        {
+          "address": "0x8017c98",
+          "heater": "0x20001eec",
+          "target": 210
+        },
+        {
+          "address": "0x80180a4",
+          "r0": 536878828,
+          "r1": 1
+        },
+        {
+          "address": "0x801bf6a",
+          "r0": 3451,
+          "r1": 1
+        }
+      ]
+    },
+    {
+      "state": "0x81",
+      "next": "0x83",
+      "calls": []
+    },
+    {
+      "state": "0x83",
+      "next": "0x84",
+      "calls": [
+        {
+          "address": "0x8011c1a",
+          "r0": 1,
+          "r1": 536870990
+        }
+      ]
+    },
+    {
+      "state": "0x84",
+      "next": "0x85",
+      "calls": [
+        {
+          "address": "0x8011be2",
+          "r0": 1,
+          "r1": 536870990
+        },
+        {
+          "address": "0x8011d00",
+          "r0": 0,
+          "r1": 536870990
+        }
+      ]
+    },
+    {
+      "state": "0x85",
+      "next": "0x86",
+      "calls": []
+    },
+    {
+      "state": "0x86",
+      "next": "0x87",
+      "calls": [
+        {
+          "address": "0x8011c28",
+          "r0": 0,
+          "r1": 536870990
+        }
+      ]
+    },
+    {
+      "state": "0x87",
+      "next": "0x0",
+      "calls": [
+        {
+          "address": "0x8015b04",
+          "r0": 1,
+          "r1": 536870990
+        },
+        {
+          "address": "0x8011c1a",
+          "r0": 0,
+          "r1": 536870990
+        },
+        {
+          "address": "0x801bf76",
+          "r0": 0,
+          "r1": 536870990
+        }
+      ]
+    }
+  ],
+  "hold_cases": [
+    {
+      "state": "0x41",
+      "condition": "planner busy",
+      "next": "0x41"
+    },
+    {
+      "state": "0x43",
+      "condition": "planner busy",
+      "next": "0x43"
+    },
+    {
+      "state": "0x45",
+      "condition": "planner busy",
+      "next": "0x45"
+    },
+    {
+      "state": "0x85",
+      "condition": "planner busy",
+      "next": "0x85"
+    },
+    {
+      "state": "0x87",
+      "condition": "planner busy",
+      "next": "0x87"
+    },
+    {
+      "state": "0x81",
+      "condition": "required heater not ready",
+      "next": "0x81"
+    },
+    {
+      "state": "0x83",
+      "condition": "required heater not ready",
+      "next": "0x83"
+    }
+  ]
+}

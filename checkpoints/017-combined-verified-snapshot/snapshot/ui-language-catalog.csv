@@ -1,0 +1,1910 @@
+﻿resource_block,language_inferred_from_text,block_address,offset,address,utf8_text
+0,Simplified Chinese,0x08098308,0x0000,0x08098308,打 印
+0,Simplified Chinese,0x08098308,0x0014,0x0809831C,预 热
+0,Simplified Chinese,0x08098308,0x0028,0x08098330,工 具
+0,Simplified Chinese,0x08098308,0x0036,0x0809833E,喷头
+0,Simplified Chinese,0x08098308,0x0047,0x0809834F,左喷头
+0,Simplified Chinese,0x08098308,0x0057,0x0809835F,右喷头
+0,Simplified Chinese,0x08098308,0x0067,0x0809836F,左喷头
+0,Simplified Chinese,0x08098308,0x0080,0x08098388,右喷头
+0,Simplified Chinese,0x08098308,0x009C,0x080983A4,加热平台
+0,Simplified Chinese,0x08098308,0x00B8,0x080983C0,开 始
+0,Simplified Chinese,0x08098308,0x00C8,0x080983D0,停 止
+0,Simplified Chinese,0x08098308,0x00D8,0x080983E0,完 成
+0,Simplified Chinese,0x08098308,0x00E2,0x080983EA,换 丝
+0,Simplified Chinese,0x08098308,0x00F2,0x080983FA,调 平
+0,Simplified Chinese,0x08098308,0x0102,0x0809840A,回 零
+0,Simplified Chinese,0x08098308,0x0112,0x0809841A,手动调节
+0,Simplified Chinese,0x08098308,0x0129,0x08098431,设 置
+0,Simplified Chinese,0x08098308,0x013D,0x08098445,关 于
+0,Simplified Chinese,0x08098308,0x014B,0x08098453,状态查看
+0,Simplified Chinese,0x08098308,0x0163,0x0809846B,语 言
+0,Simplified Chinese,0x08098308,0x016D,0x08098475,触摸校准
+0,Simplified Chinese,0x08098308,0x0185,0x0809848D,时 钟
+0,Simplified Chinese,0x08098308,0x018F,0x08098497,日 期
+0,Simplified Chinese,0x08098308,0x019F,0x080984A7,WIFI
+0,Simplified Chinese,0x08098308,0x01AD,0x080984B5,"恢复出厂
+设置"
+0,Simplified Chinese,0x08098308,0x01CE,0x080984D6,主 题
+0,Simplified Chinese,0x08098308,0x01DE,0x080984E6,简体中文
+0,Simplified Chinese,0x08098308,0x01EC,0x080984F4,English
+0,Simplified Chinese,0x08098308,0x01F6,0x080984FE,日本語
+0,Simplified Chinese,0x08098308,0x0200,0x08098508,繁體中文
+0,Simplified Chinese,0x08098308,0x020E,0x08098516,Deutsch
+0,Simplified Chinese,0x08098308,0x0218,0x08098520,한국어
+0,Simplified Chinese,0x08098308,0x0224,0x0809852C,Français
+0,Simplified Chinese,0x08098308,0x0230,0x08098538,Polski
+0,Simplified Chinese,0x08098308,0x023C,0x08098544,Spanish
+0,Simplified Chinese,0x08098308,0x024B,0x08098553,Portuguese
+0,Simplified Chinese,0x08098308,0x025A,0x08098562,确认打印
+0,Simplified Chinese,0x08098308,0x0282,0x0809858A,打 印
+0,Simplified Chinese,0x08098308,0x0291,0x08098599,删 除
+0,Simplified Chinese,0x08098308,0x029B,0x080985A3,复 制
+0,Simplified Chinese,0x08098308,0x02AA,0x080985B2,确认删除
+0,Simplified Chinese,0x08098308,0x02D2,0x080985DA,左喷头进丝
+0,Simplified Chinese,0x08098308,0x02FA,0x08098602,左喷头退丝
+0,Simplified Chinese,0x08098308,0x0322,0x0809862A,右喷头进丝
+0,Simplified Chinese,0x08098308,0x034A,0x08098652,右喷头退丝
+0,Simplified Chinese,0x08098308,0x0372,0x0809867A,进丝
+0,Simplified Chinese,0x08098308,0x039A,0x080986A2,退丝
+0,Simplified Chinese,0x08098308,0x03C2,0x080986CA,打印时间
+0,Simplified Chinese,0x08098308,0x03DA,0x080986E2,取消打印
+0,Simplified Chinese,0x08098308,0x03FD,0x08098705,是否取消打印任务?
+0,Simplified Chinese,0x08098308,0x0439,0x08098741,是
+0,Simplified Chinese,0x08098308,0x0441,0x08098749,否
+0,Simplified Chinese,0x08098308,0x044D,0x08098755,取消
+0,Simplified Chinese,0x08098308,0x045D,0x08098765,"正在回零, 请等待..."
+0,Simplified Chinese,0x08098308,0x0495,0x0809879D,已回零
+0,Simplified Chinese,0x08098308,0x04BD,0x080987C5,请稍等，喷头与平台正在完成初始化运动
+0,Simplified Chinese,0x08098308,0x052B,0x08098833,请逆时针拧紧底板下三个螺母，再点击下一步按钮
+0,Simplified Chinese,0x08098308,0x0599,0x080988A1,"运动停止后, 请调节底板下前方的螺母"
+0,Simplified Chinese,0x08098308,0x0607,0x0809890F,"运动停止后, 请调节底板下左后方螺母"
+0,Simplified Chinese,0x08098308,0x0675,0x0809897D,"运动停止后, 请调节底板下右后方螺母"
+0,Simplified Chinese,0x08098308,0x06E3,0x080989EB,底板调平已完成
+0,Simplified Chinese,0x08098308,0x071A,0x08098A22,下一步
+0,Simplified Chinese,0x08098308,0x0724,0x08098A2C,USB已连接
+0,Simplified Chinese,0x08098308,0x0749,0x08098A51,USB已断开
+0,Simplified Chinese,0x08098308,0x0770,0x08098A78,正在加热...
+0,Simplified Chinese,0x08098308,0x078C,0x08098A94,"喷头没有加热, 请检查接线"
+0,Simplified Chinese,0x08098308,0x07DE,0x08098AE6,"请开始进丝/退丝, 按键退出"
+0,Simplified Chinese,0x08098308,0x084C,0x08098B54,"开始进丝,请将丝料垂直插入,看到喷头有丝料挤出时请点击[完成]"
+0,Simplified Chinese,0x08098308,0x0900,0x08098C08,"开始退丝,按下压板
+同时按压丝料3秒后垂直拔出"
+0,Simplified Chinese,0x08098308,0x09B4,0x08098CBC,"操作3分钟超时, 按键退出"
+0,Simplified Chinese,0x08098308,0x0A18,0x08098D20,取消进丝
+0,Simplified Chinese,0x08098308,0x0A4E,0x08098D56,是否取消进丝操作?
+0,Simplified Chinese,0x08098308,0x0A92,0x08098D9A,取消退丝
+0,Simplified Chinese,0x08098308,0x0AC8,0x08098DD0,是否取消退丝操作?
+0,Simplified Chinese,0x08098308,0x0B0C,0x08098E14,操作确认
+0,Simplified Chinese,0x08098308,0x0B25,0x08098E2D,是否恢复出厂设置参数?
+0,Simplified Chinese,0x08098308,0x0B5D,0x08098E65,设备名称 :
+0,Simplified Chinese,0x08098308,0x0B7B,0x08098E83,设备型号 :
+0,Simplified Chinese,0x08098308,0x0B94,0x08098E9C,序列号 :
+0,Simplified Chinese,0x08098308,0x0BB2,0x08098EBA,固件版本 :
+0,Simplified Chinese,0x08098308,0x0BD0,0x08098ED8,可打印体积 :
+0,Simplified Chinese,0x08098308,0x0BEE,0x08098EF6,喷头数量 :
+0,Simplified Chinese,0x08098308,0x0C0C,0x08098F14,累计使用 :
+0,Simplified Chinese,0x08098308,0x0C2F,0x08098F37,小时
+0,Simplified Chinese,0x08098308,0x0C43,0x08098F4B,信号强度
+0,Simplified Chinese,0x08098308,0x0C5B,0x08098F63,IP地址
+0,Simplified Chinese,0x08098308,0x0C6F,0x08098F77,默认网关
+0,Simplified Chinese,0x08098308,0x0C92,0x08098F9A,子网掩码
+0,Simplified Chinese,0x08098308,0x0CB0,0x08098FB8,AP模式
+0,Simplified Chinese,0x08098308,0x0CCE,0x08098FD6,连接失败
+0,Simplified Chinese,0x08098308,0x0CEF,0x08098FF7,未连接
+0,Simplified Chinese,0x08098308,0x0D12,0x0809901A,正在连接...
+0,Simplified Chinese,0x08098308,0x0D30,0x08099038,"正在暂停...
+等待缓存运动命令完成..."
+0,Simplified Chinese,0x08098308,0x0D7B,0x08099083,准备恢复打印...
+0,Simplified Chinese,0x08098308,0x0D9F,0x080990A7,正在取消打印...
+0,Simplified Chinese,0x08098308,0x0DC3,0x080990CB,正在接收文件...
+0,Simplified Chinese,0x08098308,0x0DE7,0x080990EF,打印完成！用时：%d小时%d分钟。
+0,Simplified Chinese,0x08098308,0x0E1F,0x08099127,错误
+0,Simplified Chinese,0x08098308,0x0E33,0x0809913B,温度读取失败，请检查接线。
+0,Simplified Chinese,0x08098308,0x0E83,0x0809918B,已达到温度限定值，请检查接线。
+0,Simplified Chinese,0x08098308,0x0ED3,0x080991DB,加热不正常，请检查接线。
+0,Simplified Chinese,0x08098308,0x0F23,0x0809922B,温度正在下降，请检查接线
+0,Simplified Chinese,0x08098308,0x0F73,0x0809927B,温度读取超限，请检查接线
+0,Simplified Chinese,0x08098308,0x0FC3,0x080992CB,未知错误
+0,Simplified Chinese,0x08098308,0x0FEB,0x080992F3,额外喷头
+0,Simplified Chinese,0x08098308,0x0FFF,0x08099307,喷头3
+0,Simplified Chinese,0x08098308,0x1013,0x0809931B,喷头2
+0,Simplified Chinese,0x08098308,0x1027,0x0809932F,喷头1
+0,Simplified Chinese,0x08098308,0x103B,0x08099343,风扇开
+0,Simplified Chinese,0x08098308,0x104F,0x08099357,风扇关
+0,Simplified Chinese,0x08098308,0x1063,0x0809936B,复制模型
+0,Simplified Chinese,0x08098308,0x1077,0x0809937F,复制成功
+0,Simplified Chinese,0x08098308,0x1094,0x0809939C,复制失败
+0,Simplified Chinese,0x08098308,0x10AF,0x080993B7,删除成功
+0,Simplified Chinese,0x08098308,0x10CD,0x080993D5,正在复制文件
+0,Simplified Chinese,0x08098308,0x10EB,0x080993F3,WIFI 开启
+0,Simplified Chinese,0x08098308,0x10FF,0x08099407,WIFI 关闭
+0,Simplified Chinese,0x08098308,0x1113,0x0809941B,开
+0,Simplified Chinese,0x08098308,0x111D,0x08099425,关
+0,Simplified Chinese,0x08098308,0x1127,0x0809942F,卡错误
+0,Simplified Chinese,0x08098308,0x113B,0x08099443,重置
+0,Simplified Chinese,0x08098308,0x114F,0x08099457,直连
+0,Simplified Chinese,0x08098308,0x1163,0x0809946B,重置无线
+0,Simplified Chinese,0x08098308,0x118C,0x08099494,确认需要重置无线设置?
+0,Simplified Chinese,0x08098308,0x11DC,0x080994E4,内部温度
+0,Simplified Chinese,0x08098308,0x11F0,0x080994F8,带轮类型
+0,Simplified Chinese,0x08098308,0x120E,0x08099516,黑色
+0,Simplified Chinese,0x08098308,0x122C,0x08099534,银色
+0,Simplified Chinese,0x08098308,0x124A,0x08099552,带轮
+0,Simplified Chinese,0x08098308,0x1270,0x08099578,打印文件不匹配!
+0,Simplified Chinese,0x08098308,0x12A2,0x080995AA,打印文件内容错误!
+0,Simplified Chinese,0x08098308,0x12D4,0x080995DC,确认
+0,Simplified Chinese,0x08098308,0x12E3,0x080995EB,忽略
+0,Simplified Chinese,0x08098308,0x12F2,0x080995FA,暂停
+0,Simplified Chinese,0x08098308,0x1310,0x08099618,暂停于Z：
+0,Simplified Chinese,0x08098308,0x1342,0x0809964A,完成
+0,Simplified Chinese,0x08098308,0x1357,0x0809965F,恢复打印
+0,Simplified Chinese,0x08098308,0x1378,0x08099680,"上次打印未完成,是否继续?"
+0,Simplified Chinese,0x08098308,0x13B4,0x080996BC,清理残丝
+0,Simplified Chinese,0x08098308,0x1408,0x08099710,清理完喷头和模型上的残丝后点【是】继续打印
+0,Simplified Chinese,0x08098308,0x149E,0x080997A6,"断电续打 
+打开"
+0,Simplified Chinese,0x08098308,0x14CB,0x080997D3,"断电续打 
+关闭"
+0,Simplified Chinese,0x08098308,0x14F5,0x080997FD,未开启
+0,Simplified Chinese,0x08098308,0x1513,0x0809981B,已开启
+0,Simplified Chinese,0x08098308,0x1531,0x08099839,正在复位
+0,Simplified Chinese,0x08098308,0x155F,0x08099867,正在恢复出厂设置
+0,Simplified Chinese,0x08098308,0x1591,0x08099899,升级
+0,Simplified Chinese,0x08098308,0x15A0,0x080998A8,摄像头
+0,Simplified Chinese,0x08098308,0x15D7,0x080998DF,选择直连/出厂设置
+0,Simplified Chinese,0x08098308,0x163B,0x08099943,出厂设置
+0,Simplified Chinese,0x08098308,0x1658,0x08099960,累积耗材使用量: 
+0,Simplified Chinese,0x08098308,0x168A,0x08099992,米
+0,Simplified Chinese,0x08098308,0x16A8,0x080999B0,请先关闭WIFI
+0,Simplified Chinese,0x08098308,0x16DA,0x080999E2,正在检查文件
+0,Simplified Chinese,0x08098308,0x16F8,0x08099A00,确认升级
+0,Simplified Chinese,0x08098308,0x1720,0x08099A28,文件错误
+0,Simplified Chinese,0x08098308,0x173E,0x08099A46,"X轴校准...
+喷头正在加热，请把两个喷头插入丝料"
+0,Simplified Chinese,0x08098308,0x1806,0x08099B0E,"Y轴校准...
+喷头正在加热，请把两个喷头插入丝料"
+0,Simplified Chinese,0x08098308,0x18CE,0x08099BD6,"Z轴校准...
+初始化运动"
+0,Simplified Chinese,0x08098308,0x1932,0x08099C3A,"X轴校准完成 
+是否需要继续校准Y轴?"
+0,Simplified Chinese,0x08098308,0x19C8,0x08099CD0,Y轴校准完成
+0,Simplified Chinese,0x08098308,0x19FA,0x08099D02,"Z轴校准完成 
+是否需要继续校准X轴?"
+0,Simplified Chinese,0x08098308,0x1A90,0x08099D98,X轴校准已取消
+0,Simplified Chinese,0x08098308,0x1AD6,0x08099DDE,Y轴校准已取消
+0,Simplified Chinese,0x08098308,0x1B1C,0x08099E24,Z轴校准已取消
+0,Simplified Chinese,0x08098308,0x1B62,0x08099E6A,正在等待降温
+0,Simplified Chinese,0x08098308,0x1B80,0x08099E88,请选择喷头
+0,Simplified Chinese,0x08098308,0x1BE4,0x08099EEC,验证
+0,Simplified Chinese,0x08098308,0x1C02,0x08099F0A,校准
+0,Simplified Chinese,0x08098308,0x1C20,0x08099F28,请点击X-，X+ 调整距离，使得两条线保持一致
+0,Simplified Chinese,0x08098308,0x1CB6,0x08099FBE,请点击Y-，Y+ 调整距离，使得两条线保持一致
+0,Simplified Chinese,0x08098308,0x1D4C,0x0809A054,"在喷嘴与平台间插入调平卡，请点击 Z-, Z+调整合适的间距"
+0,Simplified Chinese,0x08098308,0x1E14,0x0809A11C,是否需要继续校准Z轴
+0,Simplified Chinese,0x08098308,0x1E78,0x0809A180,手动偏移调整
+0,Simplified Chinese,0x08098308,0x1EAA,0x0809A1B2,此功能仅供高级用户使用。经过打印机校准。如有需要，微调X轴或Y轴的校正偏移量
+0,Simplified Chinese,0x08098308,0x1F72,0x0809A27A,"专家
+模式"
+0,Simplified Chinese,0x08098308,0x1F90,0x0809A298,停止右
+0,Simplified Chinese,0x08098308,0x1FAE,0x0809A2B6,停止左
+0,Simplified Chinese,0x08098308,0x1FCC,0x0809A2D4,打印速度:
+0,Simplified Chinese,0x08098308,0x1FEA,0x0809A2F2,Z 补偿:
+0,Simplified Chinese,0x08098308,0x2008,0x0809A310,返回
+1,English,0x0809A31A,0x0000,0x0809A31A,Print
+1,English,0x0809A31A,0x0014,0x0809A32E,Preheat
+1,English,0x0809A31A,0x0028,0x0809A342,Tools
+1,English,0x0809A31A,0x0036,0x0809A350,Extruder
+1,English,0x0809A31A,0x0047,0x0809A361,Left
+1,English,0x0809A31A,0x0057,0x0809A371,Right
+1,English,0x0809A31A,0x0067,0x0809A381,L Extruder
+1,English,0x0809A31A,0x0080,0x0809A39A,R Extruder
+1,English,0x0809A31A,0x009C,0x0809A3B6,Platform
+1,English,0x0809A31A,0x00B8,0x0809A3D2,Start
+1,English,0x0809A31A,0x00C8,0x0809A3E2,Stop
+1,English,0x0809A31A,0x00D8,0x0809A3F2,Finish
+1,English,0x0809A31A,0x00E2,0x0809A3FC,Filament
+1,English,0x0809A31A,0x00F2,0x0809A40C,Level
+1,English,0x0809A31A,0x0102,0x0809A41C,Home
+1,English,0x0809A31A,0x0112,0x0809A42C,Manual
+1,English,0x0809A31A,0x0129,0x0809A443,Setting
+1,English,0x0809A31A,0x013D,0x0809A457,About
+1,English,0x0809A31A,0x014B,0x0809A465,Status
+1,English,0x0809A31A,0x0163,0x0809A47D,Language
+1,English,0x0809A31A,0x016D,0x0809A487,TP Adjust
+1,English,0x0809A31A,0x0185,0x0809A49F,Clock
+1,English,0x0809A31A,0x018F,0x0809A4A9,Date
+1,English,0x0809A31A,0x019F,0x0809A4B9,WIFI
+1,English,0x0809A31A,0x01AD,0x0809A4C7,FactoryReset
+1,English,0x0809A31A,0x01CE,0x0809A4E8,Theme
+1,English,0x0809A31A,0x01DE,0x0809A4F8,简体中文
+1,English,0x0809A31A,0x01EC,0x0809A506,English
+1,English,0x0809A31A,0x01F6,0x0809A510,日本語
+1,English,0x0809A31A,0x0200,0x0809A51A,繁體中文
+1,English,0x0809A31A,0x020E,0x0809A528,Deutsch
+1,English,0x0809A31A,0x0218,0x0809A532,한국어
+1,English,0x0809A31A,0x0224,0x0809A53E,Français
+1,English,0x0809A31A,0x0230,0x0809A54A,Polski
+1,English,0x0809A31A,0x023C,0x0809A556,Spanish
+1,English,0x0809A31A,0x024B,0x0809A565,Portugues
+1,English,0x0809A31A,0x025A,0x0809A574,Confirm Print
+1,English,0x0809A31A,0x0282,0x0809A59C,Print
+1,English,0x0809A31A,0x0291,0x0809A5AB,Delete
+1,English,0x0809A31A,0x029B,0x0809A5B5,Copy
+1,English,0x0809A31A,0x02AA,0x0809A5C4,Confirm Delete File
+1,English,0x0809A31A,0x02D2,0x0809A5EC,Load Left
+1,English,0x0809A31A,0x02FA,0x0809A614,Unload Left
+1,English,0x0809A31A,0x0322,0x0809A63C,Load Right
+1,English,0x0809A31A,0x034A,0x0809A664,Unload Right
+1,English,0x0809A31A,0x0372,0x0809A68C,Load
+1,English,0x0809A31A,0x039A,0x0809A6B4,Unload
+1,English,0x0809A31A,0x03C2,0x0809A6DC,Print Time
+1,English,0x0809A31A,0x03DA,0x0809A6F4,Cancel Print
+1,English,0x0809A31A,0x03FD,0x0809A717,Cancel Print now?
+1,English,0x0809A31A,0x0439,0x0809A753,Yes
+1,English,0x0809A31A,0x0441,0x0809A75B,No
+1,English,0x0809A31A,0x044D,0x0809A767,Cancel
+1,English,0x0809A31A,0x045D,0x0809A777,Homing! Please wait...
+1,English,0x0809A31A,0x0495,0x0809A7AF,Homing Finished.
+1,English,0x0809A31A,0x04BD,0x0809A7D7,"Please wait, device is homing."
+1,English,0x0809A31A,0x052B,0x0809A845,"Screw the three nuts under the platform counterclockwise until they are tight,then tap the [next]."
+1,English,0x0809A31A,0x0599,0x0809A8B3,Please adjust the front thumb screw under Platform when stop.
+1,English,0x0809A31A,0x0607,0x0809A921,Please adjust the left thumb screw under Platform when stop.
+1,English,0x0809A31A,0x0675,0x0809A98F,Please adjust the right thumb screw under Platform when stop.
+1,English,0x0809A31A,0x06E3,0x0809A9FD,Level Adjustment Finished!
+1,English,0x0809A31A,0x071A,0x0809AA34,Next
+1,English,0x0809A31A,0x0724,0x0809AA3E,USB Connected.
+1,English,0x0809A31A,0x0749,0x0809AA63,USB Disconnected.
+1,English,0x0809A31A,0x0770,0x0809AA8A,Heating...
+1,English,0x0809A31A,0x078C,0x0809AAA6,Extruder is not heating. Check the wiring.
+1,English,0x0809A31A,0x07DE,0x0809AAF8,"Begin loading/unloading.
+Press button to exit."
+1,English,0x0809A31A,0x084C,0x0809AB66,"Load begins,push filament vertically into extruder,and press [Done] when you see filament come out of extruder"
+1,English,0x0809A31A,0x0900,0x0809AC1A,"Unload begins, press down spring presser and withdraw filament"
+1,English,0x0809A31A,0x09B4,0x0809ACCE,"3 minute timeout has elapsed!
+Tap the return arrow to exit."
+1,English,0x0809A31A,0x0A18,0x0809AD32,Cancel load
+1,English,0x0809A31A,0x0A4E,0x0809AD68,Are you sure to cancel load?
+1,English,0x0809A31A,0x0A92,0x0809ADAC,Cancel unload
+1,English,0x0809A31A,0x0AC8,0x0809ADE2,Are you sure to cancel unload?
+1,English,0x0809A31A,0x0B0C,0x0809AE26,Operation Confirm
+1,English,0x0809A31A,0x0B25,0x0809AE3F,Reset the default value of factory?
+1,English,0x0809A31A,0x0B5D,0x0809AE77,Machine Name :
+1,English,0x0809A31A,0x0B7B,0x0809AE95,Machine Type :
+1,English,0x0809A31A,0x0B94,0x0809AEAE,Serial No :
+1,English,0x0809A31A,0x0BB2,0x0809AECC,Firmware Version :
+1,English,0x0809A31A,0x0BD0,0x0809AEEA,Print Volume :
+1,English,0x0809A31A,0x0BEE,0x0809AF08,Tool Count :
+1,English,0x0809A31A,0x0C0C,0x0809AF26,Usage counter :
+1,English,0x0809A31A,0x0C2F,0x0809AF49,hours
+1,English,0x0809A31A,0x0C43,0x0809AF5D,Signal Strength
+1,English,0x0809A31A,0x0C5B,0x0809AF75,IP Address
+1,English,0x0809A31A,0x0C6F,0x0809AF89,Default Gateway
+1,English,0x0809A31A,0x0C92,0x0809AFAC,Subnet Mask
+1,English,0x0809A31A,0x0CB0,0x0809AFCA,AP Mode
+1,English,0x0809A31A,0x0CCE,0x0809AFE8,Connection Failed
+1,English,0x0809A31A,0x0CEF,0x0809B009,Not Connected
+1,English,0x0809A31A,0x0D12,0x0809B02C,Connecting...
+1,English,0x0809A31A,0x0D30,0x0809B04A,"Entering Pause...
+Draining Pipeline..."
+1,English,0x0809A31A,0x0D7B,0x0809B095,Exiting Pause...
+1,English,0x0809A31A,0x0D9F,0x0809B0B9,Cancelling Build...
+1,English,0x0809A31A,0x0DC3,0x0809B0DD,Downloading File...
+1,English,0x0809A31A,0x0DE7,0x0809B101,Build Finished! Build time: %dh%dm.
+1,English,0x0809A31A,0x0E1F,0x0809B139,Error
+1,English,0x0809A31A,0x0E33,0x0809B14D,Temperature reads are failing. Please check wiring.
+1,English,0x0809A31A,0x0E83,0x0809B19D,Temperature limit reached. Please shutdown or restart.
+1,English,0x0809A31A,0x0ED3,0x0809B1ED,Not heating properly. Please check wiring.
+1,English,0x0809A31A,0x0F23,0x0809B23D,Temperature dropping. Please check wiring.
+1,English,0x0809A31A,0x0F73,0x0809B28D,Temperature reads are out of range.Please check wiring.
+1,English,0x0809A31A,0x0FC3,0x0809B2DD,Unknow error
+1,English,0x0809A31A,0x0FEB,0x0809B305,Extra
+1,English,0x0809A31A,0x0FFF,0x0809B319,Heater 3
+1,English,0x0809A31A,0x1013,0x0809B32D,Heater 2
+1,English,0x0809A31A,0x1027,0x0809B341,Heater 1
+1,English,0x0809A31A,0x103B,0x0809B355,Fan On
+1,English,0x0809A31A,0x104F,0x0809B369,Fan Off
+1,English,0x0809A31A,0x1063,0x0809B37D,Copy Model
+1,English,0x0809A31A,0x1077,0x0809B391,Copy Successful
+1,English,0x0809A31A,0x1094,0x0809B3AE,Copy Fail
+1,English,0x0809A31A,0x10AF,0x0809B3C9,Delete Model Successful
+1,English,0x0809A31A,0x10CD,0x0809B3E7,Copying File
+1,English,0x0809A31A,0x10EB,0x0809B405,WIFI on
+1,English,0x0809A31A,0x10FF,0x0809B419,WIFI off
+1,English,0x0809A31A,0x1113,0x0809B42D,on
+1,English,0x0809A31A,0x111D,0x0809B437,off
+1,English,0x0809A31A,0x1127,0x0809B441,card error
+1,English,0x0809A31A,0x113B,0x0809B455,Reset
+1,English,0x0809A31A,0x114F,0x0809B469,Direct
+1,English,0x0809A31A,0x1163,0x0809B47D,WIFI reset
+1,English,0x0809A31A,0x118C,0x0809B4A6,Sure to reset WIFI setting?
+1,English,0x0809A31A,0x11DC,0x0809B4F6,internal
+1,English,0x0809A31A,0x11F0,0x0809B50A,Pulley Type
+1,English,0x0809A31A,0x120E,0x0809B528,Black
+1,English,0x0809A31A,0x122C,0x0809B546,Silver
+1,English,0x0809A31A,0x124A,0x0809B564,Pulley
+1,English,0x0809A31A,0x1270,0x0809B58A,Print file do not match!
+1,English,0x0809A31A,0x12A2,0x0809B5BC,Print file content error!
+1,English,0x0809A31A,0x12D4,0x0809B5EE,OK
+1,English,0x0809A31A,0x12E3,0x0809B5FD,Skip
+1,English,0x0809A31A,0x12F2,0x0809B60C,Pause
+1,English,0x0809A31A,0x1310,0x0809B62A,Pause at Z: 
+1,English,0x0809A31A,0x1342,0x0809B65C,Done
+1,English,0x0809A31A,0x1357,0x0809B671,Resume Print
+1,English,0x0809A31A,0x1378,0x0809B692,Resume the uncompleted print job?
+1,English,0x0809A31A,0x13B4,0x0809B6CE,Remove remaining filament
+1,English,0x0809A31A,0x1408,0x0809B722,Tap [Yes] after removing filament debris in the nozzle and on the printed object
+1,English,0x0809A31A,0x149E,0x0809B7B8,"Resume Print
+ ON"
+1,English,0x0809A31A,0x14CB,0x0809B7E5,"Resume Print
+ OFF"
+1,English,0x0809A31A,0x14F5,0x0809B80F,Not turned on
+1,English,0x0809A31A,0x1513,0x0809B82D,Turned on
+1,English,0x0809A31A,0x1531,0x0809B84B,Resetting
+1,English,0x0809A31A,0x155F,0x0809B879,Restoring to factory settings
+1,English,0x0809A31A,0x1591,0x0809B8AB,Updata
+1,English,0x0809A31A,0x15A0,0x0809B8BA,Camera
+1,English,0x0809A31A,0x15D7,0x0809B8F1,Select Direct / Factory
+1,English,0x0809A31A,0x163B,0x0809B955,Factory
+1,English,0x0809A31A,0x1658,0x0809B972,Used Filament: 
+1,English,0x0809A31A,0x168A,0x0809B9A4,m
+1,English,0x0809A31A,0x16A8,0x0809B9C2,First turn off the wifi
+1,English,0x0809A31A,0x16DA,0x0809B9F4,Checking file
+1,English,0x0809A31A,0x16F8,0x0809BA12,Sure to update
+1,English,0x0809A31A,0x1720,0x0809BA3A,File error
+1,English,0x0809A31A,0x173E,0x0809BA58,"X Calibration...
+Heating extruder, please insert filament into both of extruder."
+1,English,0x0809A31A,0x1806,0x0809BB20,"Y Calibration...
+Heating extruder, please insert filament into both of extruder."
+1,English,0x0809A31A,0x18CE,0x0809BBE8,"Z Calibration...
+Initializing moving."
+1,English,0x0809A31A,0x1932,0x0809BC4C,"X Calibration Complete!
+Continue to calibration Y axis?"
+1,English,0x0809A31A,0x19C8,0x0809BCE2,Y Calibration Complete!
+1,English,0x0809A31A,0x19FA,0x0809BD14,"Z Calibration Complete!
+Continue to calibration X axis?"
+1,English,0x0809A31A,0x1A90,0x0809BDAA,X Calibration cancelled.
+1,English,0x0809A31A,0x1AD6,0x0809BDF0,Y Calibration cancelled.
+1,English,0x0809A31A,0x1B1C,0x0809BE36,Z Calibration cancelled.
+1,English,0x0809A31A,0x1B62,0x0809BE7C,Waiting for cooling...
+1,English,0x0809A31A,0x1B80,0x0809BE9A,Please randomly select extruder to calibration.
+1,English,0x0809A31A,0x1BE4,0x0809BEFE,Verify
+1,English,0x0809A31A,0x1C02,0x0809BF1C,Calibration
+1,English,0x0809A31A,0x1C20,0x0809BF3A,Please tap X-，X+ to adjust and verify make sure the lines are aligned.
+1,English,0x0809A31A,0x1CB6,0x0809BFD0,Please tap Y-，Y+ to adjust and verify make sure the lines are aligned.
+1,English,0x0809A31A,0x1D4C,0x0809C066,"Please tap Z-, Z+ to adjust and put the leveling card between nozzle and platform to verify a proper distance."
+1,English,0x0809A31A,0x1E14,0x0809C12E,Continue to calibration Z axis?
+1,English,0x0809A31A,0x1E78,0x0809C192,Manual fine calibration
+1,English,0x0809A31A,0x1F72,0x0809C28C,"Expert
+Mode"
+1,English,0x0809A31A,0x1F90,0x0809C2AA,Stop right
+1,English,0x0809A31A,0x1FAE,0x0809C2C8,Stop left
+1,English,0x0809A31A,0x1FCC,0x0809C2E6,Print Speed:
+1,English,0x0809A31A,0x1FEA,0x0809C304,Z Offset:
+1,English,0x0809A31A,0x2008,0x0809C322,Back
+2,Traditional Chinese,0x0809C32C,0x0000,0x0809C32C,打 印
+2,Traditional Chinese,0x0809C32C,0x0014,0x0809C340,預 熱
+2,Traditional Chinese,0x0809C32C,0x0028,0x0809C354,工 具
+2,Traditional Chinese,0x0809C32C,0x0036,0x0809C362,噴 頭
+2,Traditional Chinese,0x0809C32C,0x0047,0x0809C373,左噴頭
+2,Traditional Chinese,0x0809C32C,0x0057,0x0809C383,右噴頭
+2,Traditional Chinese,0x0809C32C,0x0067,0x0809C393,左噴頭
+2,Traditional Chinese,0x0809C32C,0x0080,0x0809C3AC,右噴頭
+2,Traditional Chinese,0x0809C32C,0x009C,0x0809C3C8,加熱平台
+2,Traditional Chinese,0x0809C32C,0x00B8,0x0809C3E4,開 始
+2,Traditional Chinese,0x0809C32C,0x00C8,0x0809C3F4,停 止
+2,Traditional Chinese,0x0809C32C,0x00D8,0x0809C404,完 成
+2,Traditional Chinese,0x0809C32C,0x00E2,0x0809C40E,換 絲
+2,Traditional Chinese,0x0809C32C,0x00F2,0x0809C41E,調 平
+2,Traditional Chinese,0x0809C32C,0x0102,0x0809C42E,回 零
+2,Traditional Chinese,0x0809C32C,0x0112,0x0809C43E,手動調整
+2,Traditional Chinese,0x0809C32C,0x0129,0x0809C455,設 置
+2,Traditional Chinese,0x0809C32C,0x013D,0x0809C469,關 於
+2,Traditional Chinese,0x0809C32C,0x014B,0x0809C477,設備状態
+2,Traditional Chinese,0x0809C32C,0x0163,0x0809C48F,語 言
+2,Traditional Chinese,0x0809C32C,0x016D,0x0809C499,觸摸校準
+2,Traditional Chinese,0x0809C32C,0x0185,0x0809C4B1,時 鐘
+2,Traditional Chinese,0x0809C32C,0x018F,0x0809C4BB,日 期
+2,Traditional Chinese,0x0809C32C,0x019F,0x0809C4CB,WIFI
+2,Traditional Chinese,0x0809C32C,0x01AD,0x0809C4D9,恢復出廠設置
+2,Traditional Chinese,0x0809C32C,0x01CE,0x0809C4FA,主 題
+2,Traditional Chinese,0x0809C32C,0x01DE,0x0809C50A,简体中文
+2,Traditional Chinese,0x0809C32C,0x01EC,0x0809C518,English
+2,Traditional Chinese,0x0809C32C,0x01F6,0x0809C522,日本語
+2,Traditional Chinese,0x0809C32C,0x0200,0x0809C52C,繁體中文
+2,Traditional Chinese,0x0809C32C,0x020E,0x0809C53A,Deutsch
+2,Traditional Chinese,0x0809C32C,0x0218,0x0809C544,한국어
+2,Traditional Chinese,0x0809C32C,0x0224,0x0809C550,Français
+2,Traditional Chinese,0x0809C32C,0x0230,0x0809C55C,Polski
+2,Traditional Chinese,0x0809C32C,0x023C,0x0809C568,Spanish
+2,Traditional Chinese,0x0809C32C,0x024B,0x0809C577,Portugues
+2,Traditional Chinese,0x0809C32C,0x025A,0x0809C586,確認打印
+2,Traditional Chinese,0x0809C32C,0x0282,0x0809C5AE,打 印
+2,Traditional Chinese,0x0809C32C,0x0291,0x0809C5BD,刪 除
+2,Traditional Chinese,0x0809C32C,0x029B,0x0809C5C7,複 製
+2,Traditional Chinese,0x0809C32C,0x02AA,0x0809C5D6,確認刪除
+2,Traditional Chinese,0x0809C32C,0x02D2,0x0809C5FE,左噴頭進絲
+2,Traditional Chinese,0x0809C32C,0x02FA,0x0809C626,左噴頭退絲
+2,Traditional Chinese,0x0809C32C,0x0322,0x0809C64E,右噴頭進絲
+2,Traditional Chinese,0x0809C32C,0x034A,0x0809C676,右噴頭退絲
+2,Traditional Chinese,0x0809C32C,0x0372,0x0809C69E,進 絲
+2,Traditional Chinese,0x0809C32C,0x039A,0x0809C6C6,退 絲
+2,Traditional Chinese,0x0809C32C,0x03C2,0x0809C6EE,打印时间
+2,Traditional Chinese,0x0809C32C,0x03DA,0x0809C706,取消打印
+2,Traditional Chinese,0x0809C32C,0x03FD,0x0809C729,是否取消打印任務?
+2,Traditional Chinese,0x0809C32C,0x0439,0x0809C765,是
+2,Traditional Chinese,0x0809C32C,0x0441,0x0809C76D,否
+2,Traditional Chinese,0x0809C32C,0x044D,0x0809C779,取消
+2,Traditional Chinese,0x0809C32C,0x045D,0x0809C789,"正在回零, 請等待..."
+2,Traditional Chinese,0x0809C32C,0x0495,0x0809C7C1,已回零
+2,Traditional Chinese,0x0809C32C,0x04BD,0x0809C7E9,請稍等，噴頭與平台正在完成初始化運動
+2,Traditional Chinese,0x0809C32C,0x052B,0x0809C857,請逆時針擰緊底板下三個螺母，再點擊下一步按鈕
+2,Traditional Chinese,0x0809C32C,0x0599,0x0809C8C5,"運動停止後, 請調節底板下前方螺母"
+2,Traditional Chinese,0x0809C32C,0x0607,0x0809C933,"運動停止後, 請調節底板下左後方螺母"
+2,Traditional Chinese,0x0809C32C,0x0675,0x0809C9A1,"運動停止後, 請調節底板下右後方螺母"
+2,Traditional Chinese,0x0809C32C,0x06E3,0x0809CA0F,底板調平已完成
+2,Traditional Chinese,0x0809C32C,0x071A,0x0809CA46,下一步
+2,Traditional Chinese,0x0809C32C,0x0724,0x0809CA50,USB已連接
+2,Traditional Chinese,0x0809C32C,0x0749,0x0809CA75,USB已斷開
+2,Traditional Chinese,0x0809C32C,0x0770,0x0809CA9C,正在加熱...
+2,Traditional Chinese,0x0809C32C,0x078C,0x0809CAB8,"噴頭沒有加熱, 請檢查接線"
+2,Traditional Chinese,0x0809C32C,0x07DE,0x0809CB0A,"請開始進絲/退絲, 按鍵退出"
+2,Traditional Chinese,0x0809C32C,0x084C,0x0809CB78,"開始進絲，請將絲料垂直插入,看到噴頭有絲料擠出時請點擊[完成]"
+2,Traditional Chinese,0x0809C32C,0x0900,0x0809CC2C,"開始退絲,按下壓板
+同時按壓絲料3秒後垂直拔出"
+2,Traditional Chinese,0x0809C32C,0x09B4,0x0809CCE0,"操作3分鐘超時, 按键退出"
+2,Traditional Chinese,0x0809C32C,0x0A18,0x0809CD44,取消進絲
+2,Traditional Chinese,0x0809C32C,0x0A4E,0x0809CD7A,是否取消進絲操作?
+2,Traditional Chinese,0x0809C32C,0x0A92,0x0809CDBE,取消退絲
+2,Traditional Chinese,0x0809C32C,0x0AC8,0x0809CDF4,是否取消退絲操作?
+2,Traditional Chinese,0x0809C32C,0x0B0C,0x0809CE38,操作確認
+2,Traditional Chinese,0x0809C32C,0x0B25,0x0809CE51,是否恢復出廠參數設置?
+2,Traditional Chinese,0x0809C32C,0x0B5D,0x0809CE89,設備名稱 :
+2,Traditional Chinese,0x0809C32C,0x0B7B,0x0809CEA7,設備型號 :
+2,Traditional Chinese,0x0809C32C,0x0B94,0x0809CEC0,序列號 :
+2,Traditional Chinese,0x0809C32C,0x0BB2,0x0809CEDE,韌體版本 :
+2,Traditional Chinese,0x0809C32C,0x0BD0,0x0809CEFC,可打印體積 :
+2,Traditional Chinese,0x0809C32C,0x0BEE,0x0809CF1A,噴頭數量 :
+2,Traditional Chinese,0x0809C32C,0x0C0C,0x0809CF38,累計使用 :
+2,Traditional Chinese,0x0809C32C,0x0C2F,0x0809CF5B,小時
+2,Traditional Chinese,0x0809C32C,0x0C43,0x0809CF6F,信號強度
+2,Traditional Chinese,0x0809C32C,0x0C5B,0x0809CF87,IP地址
+2,Traditional Chinese,0x0809C32C,0x0C6F,0x0809CF9B,默認網關
+2,Traditional Chinese,0x0809C32C,0x0C92,0x0809CFBE,子網掩碼
+2,Traditional Chinese,0x0809C32C,0x0CB0,0x0809CFDC,AP模式
+2,Traditional Chinese,0x0809C32C,0x0CCE,0x0809CFFA,連接失敗
+2,Traditional Chinese,0x0809C32C,0x0CEF,0x0809D01B,未連接
+2,Traditional Chinese,0x0809C32C,0x0D12,0x0809D03E,正在連接...
+2,Traditional Chinese,0x0809C32C,0x0D30,0x0809D05C,"正在暫停...
+等待緩存運動命令完成..."
+2,Traditional Chinese,0x0809C32C,0x0D7B,0x0809D0A7,準備恢復打印...
+2,Traditional Chinese,0x0809C32C,0x0D9F,0x0809D0CB,正在取消打印...
+2,Traditional Chinese,0x0809C32C,0x0DC3,0x0809D0EF,正在接收文件...
+2,Traditional Chinese,0x0809C32C,0x0DE7,0x0809D113,打印完成！ 用時: %d小時%d分鐘。
+2,Traditional Chinese,0x0809C32C,0x0E1F,0x0809D14B,錯誤
+2,Traditional Chinese,0x0809C32C,0x0E33,0x0809D15F,溫度讀取失敗，請檢查接線。
+2,Traditional Chinese,0x0809C32C,0x0E83,0x0809D1AF,已達到溫度限定值，請檢查接線。
+2,Traditional Chinese,0x0809C32C,0x0ED3,0x0809D1FF,加熱不正常，請檢查接線。
+2,Traditional Chinese,0x0809C32C,0x0F23,0x0809D24F,溫度正在下降，請檢查接線
+2,Traditional Chinese,0x0809C32C,0x0F73,0x0809D29F,溫度讀取超限，請檢查接線
+2,Traditional Chinese,0x0809C32C,0x0FC3,0x0809D2EF,未知錯誤
+2,Traditional Chinese,0x0809C32C,0x0FEB,0x0809D317,額外噴頭
+2,Traditional Chinese,0x0809C32C,0x0FFF,0x0809D32B,噴頭3
+2,Traditional Chinese,0x0809C32C,0x1013,0x0809D33F,噴頭2
+2,Traditional Chinese,0x0809C32C,0x1027,0x0809D353,噴頭1
+2,Traditional Chinese,0x0809C32C,0x103B,0x0809D367,風扇開
+2,Traditional Chinese,0x0809C32C,0x104F,0x0809D37B,風扇關
+2,Traditional Chinese,0x0809C32C,0x1063,0x0809D38F,複製模型
+2,Traditional Chinese,0x0809C32C,0x1077,0x0809D3A3,複製成功
+2,Traditional Chinese,0x0809C32C,0x1094,0x0809D3C0,複製失敗
+2,Traditional Chinese,0x0809C32C,0x10AF,0x0809D3DB,刪除成功
+2,Traditional Chinese,0x0809C32C,0x10CD,0x0809D3F9,正在復製文件
+2,Traditional Chinese,0x0809C32C,0x10EB,0x0809D417,WIFI 開啟
+2,Traditional Chinese,0x0809C32C,0x10FF,0x0809D42B,WIFI 關閉
+2,Traditional Chinese,0x0809C32C,0x1113,0x0809D43F,開
+2,Traditional Chinese,0x0809C32C,0x111D,0x0809D449,關
+2,Traditional Chinese,0x0809C32C,0x1127,0x0809D453,卡錯誤
+2,Traditional Chinese,0x0809C32C,0x113B,0x0809D467,重置
+2,Traditional Chinese,0x0809C32C,0x114F,0x0809D47B,直連
+2,Traditional Chinese,0x0809C32C,0x1163,0x0809D48F,重置无线
+2,Traditional Chinese,0x0809C32C,0x118C,0x0809D4B8,确认需要重置无线设置?
+2,Traditional Chinese,0x0809C32C,0x11DC,0x0809D508,內部溫度
+2,Traditional Chinese,0x0809C32C,0x11F0,0x0809D51C,帶輪類型
+2,Traditional Chinese,0x0809C32C,0x120E,0x0809D53A,黑色
+2,Traditional Chinese,0x0809C32C,0x122C,0x0809D558,銀色
+2,Traditional Chinese,0x0809C32C,0x124A,0x0809D576,帶輪
+2,Traditional Chinese,0x0809C32C,0x1270,0x0809D59C,打印文件不匹配!
+2,Traditional Chinese,0x0809C32C,0x12A2,0x0809D5CE,打印文件內容錯誤!
+2,Traditional Chinese,0x0809C32C,0x12D4,0x0809D600,確認
+2,Traditional Chinese,0x0809C32C,0x12E3,0x0809D60F,忽略
+2,Traditional Chinese,0x0809C32C,0x12F2,0x0809D61E,暫停
+2,Traditional Chinese,0x0809C32C,0x1310,0x0809D63C,暫停於Z: 
+2,Traditional Chinese,0x0809C32C,0x1342,0x0809D66E,完成
+2,Traditional Chinese,0x0809C32C,0x1357,0x0809D683,恢復打印
+2,Traditional Chinese,0x0809C32C,0x1378,0x0809D6A4,"上次打印未完成,是否繼續?"
+2,Traditional Chinese,0x0809C32C,0x13B4,0x0809D6E0,清理殘絲
+2,Traditional Chinese,0x0809C32C,0x1408,0x0809D734,清洗完噴頭和模型上的殘絲後點【是】繼續打印
+2,Traditional Chinese,0x0809C32C,0x149E,0x0809D7CA,"斷電續打 
+打開"
+2,Traditional Chinese,0x0809C32C,0x14CB,0x0809D7F7,"斷電續打 
+關閉"
+2,Traditional Chinese,0x0809C32C,0x14F5,0x0809D821,未開啟
+2,Traditional Chinese,0x0809C32C,0x1513,0x0809D83F,已開啟
+2,Traditional Chinese,0x0809C32C,0x1531,0x0809D85D,正在復位
+2,Traditional Chinese,0x0809C32C,0x155F,0x0809D88B,正在恢復出廠設置
+2,Traditional Chinese,0x0809C32C,0x1591,0x0809D8BD,升級
+2,Traditional Chinese,0x0809C32C,0x15A0,0x0809D8CC,攝像頭
+2,Traditional Chinese,0x0809C32C,0x15D7,0x0809D903,選擇直連/出廠設置
+2,Traditional Chinese,0x0809C32C,0x163B,0x0809D967,出廠設置
+2,Traditional Chinese,0x0809C32C,0x1658,0x0809D984,累積耗材使用量: 
+2,Traditional Chinese,0x0809C32C,0x168A,0x0809D9B6,米
+2,Traditional Chinese,0x0809C32C,0x16A8,0x0809D9D4,請先關掉WiFi!
+2,Traditional Chinese,0x0809C32C,0x16DA,0x0809DA06,正在檢查文件
+2,Traditional Chinese,0x0809C32C,0x16F8,0x0809DA24,確認升級
+2,Traditional Chinese,0x0809C32C,0x1720,0x0809DA4C,文件錯誤
+2,Traditional Chinese,0x0809C32C,0x173E,0x0809DA6A,"X校準...
+噴頭正在加熱，請把兩個噴頭插入絲料"
+2,Traditional Chinese,0x0809C32C,0x1806,0x0809DB32,"Y校準...
+噴頭正在加熱，請把兩個噴頭插入絲料"
+2,Traditional Chinese,0x0809C32C,0x18CE,0x0809DBFA,"Z校準...
+初始化運動"
+2,Traditional Chinese,0x0809C32C,0x1932,0x0809DC5E,"X校準完成
+是否需要繼續校準Y軸?"
+2,Traditional Chinese,0x0809C32C,0x19C8,0x0809DCF4,Y校準完成
+2,Traditional Chinese,0x0809C32C,0x19FA,0x0809DD26,"Z校準完成
+是否需要繼續校準X軸?"
+2,Traditional Chinese,0x0809C32C,0x1A90,0x0809DDBC,X校準已取消
+2,Traditional Chinese,0x0809C32C,0x1AD6,0x0809DE02,Y校準已取消
+2,Traditional Chinese,0x0809C32C,0x1B1C,0x0809DE48,Z校準已取消
+2,Traditional Chinese,0x0809C32C,0x1B62,0x0809DE8E,正在等待降溫
+2,Traditional Chinese,0x0809C32C,0x1B80,0x0809DEAC,請選擇噴頭
+2,Traditional Chinese,0x0809C32C,0x1BE4,0x0809DF10,驗證
+2,Traditional Chinese,0x0809C32C,0x1C02,0x0809DF2E,校準
+2,Traditional Chinese,0x0809C32C,0x1C20,0x0809DF4C,請點擊X-，X+ 調整距離，使得兩條線保持一致
+2,Traditional Chinese,0x0809C32C,0x1CB6,0x0809DFE2,請點擊Y-，Y+ 調整距離，使得兩條線保持一致
+2,Traditional Chinese,0x0809C32C,0x1D4C,0x0809E078,"在噴嘴與平台間插入調平卡，請點擊 Z-, Z+調整合適的間距"
+2,Traditional Chinese,0x0809C32C,0x1E14,0x0809E140,是否需要繼續校準Z軸?
+2,Traditional Chinese,0x0809C32C,0x1E78,0x0809E1A4,手動偏移調整
+2,Traditional Chinese,0x0809C32C,0x1EAA,0x0809E1D6,此功能僅供高級用戶使用。經過打印機校準。如有需要，微調X軸或Y軸的校正偏移量
+2,Traditional Chinese,0x0809C32C,0x1F72,0x0809E29E,"專家
+模式"
+2,Traditional Chinese,0x0809C32C,0x1F90,0x0809E2BC,停止右
+2,Traditional Chinese,0x0809C32C,0x1FAE,0x0809E2DA,停止左
+2,Traditional Chinese,0x0809C32C,0x1FCC,0x0809E2F8,打印速度:
+2,Traditional Chinese,0x0809C32C,0x1FEA,0x0809E316,Z 補償:
+2,Traditional Chinese,0x0809C32C,0x2008,0x0809E334,返回
+3,Japanese,0x0809E33E,0x0000,0x0809E33E,ジョブ実行
+3,Japanese,0x0809E33E,0x0014,0x0809E352,加熱準備
+3,Japanese,0x0809E33E,0x0028,0x0809E366,ツール
+3,Japanese,0x0809E33E,0x0036,0x0809E374,ヘッド
+3,Japanese,0x0809E33E,0x0047,0x0809E385,左ヘッド
+3,Japanese,0x0809E33E,0x0057,0x0809E395,右ヘッド
+3,Japanese,0x0809E33E,0x0067,0x0809E3A5,左ヘッド
+3,Japanese,0x0809E33E,0x0080,0x0809E3BE,右ヘッド
+3,Japanese,0x0809E33E,0x009C,0x0809E3DA,プラットフォーム
+3,Japanese,0x0809E33E,0x00B8,0x0809E3F6,スタート
+3,Japanese,0x0809E33E,0x00C8,0x0809E406,ストップ
+3,Japanese,0x0809E33E,0x00D8,0x0809E416,完了
+3,Japanese,0x0809E33E,0x00E2,0x0809E420,樹脂交換
+3,Japanese,0x0809E33E,0x00F2,0x0809E430,水平出し
+3,Japanese,0x0809E33E,0x0102,0x0809E440,原点移動
+3,Japanese,0x0809E33E,0x0112,0x0809E450,手動調節
+3,Japanese,0x0809E33E,0x0129,0x0809E467,設定
+3,Japanese,0x0809E33E,0x013D,0x0809E47B,その他
+3,Japanese,0x0809E33E,0x014B,0x0809E489,設備状態
+3,Japanese,0x0809E33E,0x0163,0x0809E4A1,言語
+3,Japanese,0x0809E33E,0x016D,0x0809E4AB,タッチセット
+3,Japanese,0x0809E33E,0x0185,0x0809E4C3,時計
+3,Japanese,0x0809E33E,0x018F,0x0809E4CD,日付
+3,Japanese,0x0809E33E,0x019F,0x0809E4DD,WiFi
+3,Japanese,0x0809E33E,0x01AD,0x0809E4EB,工場出荷設定
+3,Japanese,0x0809E33E,0x01CE,0x0809E50C,テーマ
+3,Japanese,0x0809E33E,0x01DE,0x0809E51C,简体中文
+3,Japanese,0x0809E33E,0x01EC,0x0809E52A,English
+3,Japanese,0x0809E33E,0x01F6,0x0809E534,日本語
+3,Japanese,0x0809E33E,0x0200,0x0809E53E,繁體中文
+3,Japanese,0x0809E33E,0x020E,0x0809E54C,Deutsch
+3,Japanese,0x0809E33E,0x0218,0x0809E556,한국어
+3,Japanese,0x0809E33E,0x0224,0x0809E562,Français
+3,Japanese,0x0809E33E,0x0230,0x0809E56E,Polski
+3,Japanese,0x0809E33E,0x023C,0x0809E57A,Spanish
+3,Japanese,0x0809E33E,0x024B,0x0809E589,Portugues
+3,Japanese,0x0809E33E,0x025A,0x0809E598,プリント確認
+3,Japanese,0x0809E33E,0x0282,0x0809E5C0,プリント
+3,Japanese,0x0809E33E,0x0291,0x0809E5CF,削除
+3,Japanese,0x0809E33E,0x029B,0x0809E5D9,コピー
+3,Japanese,0x0809E33E,0x02AA,0x0809E5E8,削除確認
+3,Japanese,0x0809E33E,0x02D2,0x0809E610,左フィラメントの引込み
+3,Japanese,0x0809E33E,0x02FA,0x0809E638,左フィラメントの取出し
+3,Japanese,0x0809E33E,0x0322,0x0809E660,右フィラメントの引込み
+3,Japanese,0x0809E33E,0x034A,0x0809E688,右フィラメントの取出し
+3,Japanese,0x0809E33E,0x0372,0x0809E6B0,フィラメントの引込み
+3,Japanese,0x0809E33E,0x039A,0x0809E6D8,フィラメントの押出し
+3,Japanese,0x0809E33E,0x03C2,0x0809E700,プリントタイム
+3,Japanese,0x0809E33E,0x03DA,0x0809E718,プリントの中止
+3,Japanese,0x0809E33E,0x03FD,0x0809E73B,プリントを中止しますか？
+3,Japanese,0x0809E33E,0x0439,0x0809E777,はい
+3,Japanese,0x0809E33E,0x0441,0x0809E77F,いいえ
+3,Japanese,0x0809E33E,0x044D,0x0809E78B,キャンセル
+3,Japanese,0x0809E33E,0x045D,0x0809E79B,原点移動中、しばらくお待ちください
+3,Japanese,0x0809E33E,0x0495,0x0809E7D3,原点移動終了
+3,Japanese,0x0809E33E,0x04BD,0x0809E7FB,ノズルとプラットフォームが初期化動作を完了するまでお待ちください
+3,Japanese,0x0809E33E,0x052B,0x0809E869,反時計回りにある3つのナットを締めてから、[OK]ボタンをクリックしてください
+3,Japanese,0x0809E33E,0x0599,0x0809E8D7,移動が止まってから、前側ヒーテッドベットの下のネジを回しながら調整する。
+3,Japanese,0x0809E33E,0x0607,0x0809E945,移動が止まってから、左側ヒーテッドベットの下のネジを回しながら調整する。
+3,Japanese,0x0809E33E,0x0675,0x0809E9B3,移動が止まってから、右側ヒーテッドベットの下のネジを回しながら調整する。
+3,Japanese,0x0809E33E,0x06E3,0x0809EA21,水平出しが完了しました!
+3,Japanese,0x0809E33E,0x071A,0x0809EA58,終了
+3,Japanese,0x0809E33E,0x0724,0x0809EA62,USBが接続されました
+3,Japanese,0x0809E33E,0x0749,0x0809EA87,USBの接続が切れました
+3,Japanese,0x0809E33E,0x0770,0x0809EAAE,ホットエンド加熱
+3,Japanese,0x0809E33E,0x078C,0x0809EACA,ホットエンドの配線をチエックして下さい
+3,Japanese,0x0809E33E,0x07DE,0x0809EB1C,引込または取出を開始、タッチして戻る
+3,Japanese,0x0809E33E,0x084C,0x0809EB8A,樹脂押出、樹脂を真っすぐ入れます、ノズルから樹脂が流れてから完了を押します
+3,Japanese,0x0809E33E,0x0900,0x0809EC3E,フィラメント取出、レバーを押しながらフィラメントを取出
+3,Japanese,0x0809E33E,0x09B4,0x0809ECF2,3分タイムアウト、タッチして終了
+3,Japanese,0x0809E33E,0x0A18,0x0809ED56,押出中止
+3,Japanese,0x0809E33E,0x0A4E,0x0809ED8C,押出キャンセル？
+3,Japanese,0x0809E33E,0x0A92,0x0809EDD0,取出中止
+3,Japanese,0x0809E33E,0x0AC8,0x0809EE06,取出キャンセル?
+3,Japanese,0x0809E33E,0x0B0C,0x0809EE4A,モード確認
+3,Japanese,0x0809E33E,0x0B25,0x0809EE63,工場出荷設定に戻しますか？
+3,Japanese,0x0809E33E,0x0B5D,0x0809EE9B,製品名 :
+3,Japanese,0x0809E33E,0x0B7B,0x0809EEB9,製品型番 :
+3,Japanese,0x0809E33E,0x0B94,0x0809EED2,シリアルナンバー :
+3,Japanese,0x0809E33E,0x0BB2,0x0809EEF0,システムバージョン :
+3,Japanese,0x0809E33E,0x0BD0,0x0809EF0E,プリントエリアー :
+3,Japanese,0x0809E33E,0x0BEE,0x0809EF2C,ヘッド数 :
+3,Japanese,0x0809E33E,0x0C0C,0x0809EF4A,稼働時間計:
+3,Japanese,0x0809E33E,0x0C2F,0x0809EF6D,時間
+3,Japanese,0x0809E33E,0x0C43,0x0809EF81,信号強度
+3,Japanese,0x0809E33E,0x0C5B,0x0809EF99,IPアドレス
+3,Japanese,0x0809E33E,0x0C6F,0x0809EFAD,デフォルト ゲートウェイ
+3,Japanese,0x0809E33E,0x0C92,0x0809EFD0,サブネットマスク
+3,Japanese,0x0809E33E,0x0CB0,0x0809EFEE,APモード
+3,Japanese,0x0809E33E,0x0CCE,0x0809F00C,接続が失敗しました
+3,Japanese,0x0809E33E,0x0CEF,0x0809F02D,接続されていません
+3,Japanese,0x0809E33E,0x0D12,0x0809F050,接続中...
+3,Japanese,0x0809E33E,0x0D30,0x0809F06E,"一時停止作業中...
+しばらくお待ちください"
+3,Japanese,0x0809E33E,0x0D7B,0x0809F0B9,プリントを再開します
+3,Japanese,0x0809E33E,0x0D9F,0x0809F0DD,プリントを中止していますファイル読み込み中
+3,Japanese,0x0809E33E,0x0DE7,0x0809F125,プリント完了！所要時間：%d時間%d分
+3,Japanese,0x0809E33E,0x0E1F,0x0809F15D,エラー
+3,Japanese,0x0809E33E,0x0E33,0x0809F171,加熱に失敗しました、配線を確認してください。
+3,Japanese,0x0809E33E,0x0E83,0x0809F1C1,温度限界に達しました。配線を確認してください。
+3,Japanese,0x0809E33E,0x0ED3,0x0809F211,正しく加熱されませんでした。配線を確認してください
+3,Japanese,0x0809E33E,0x0F23,0x0809F261,温度が下がっています。配線を確認してください
+3,Japanese,0x0809E33E,0x0F73,0x0809F2B1,温度策定範囲外です、配線を確認してください。
+3,Japanese,0x0809E33E,0x0FC3,0x0809F301,不明のエラー
+3,Japanese,0x0809E33E,0x0FEB,0x0809F329,エキストラ
+3,Japanese,0x0809E33E,0x0FFF,0x0809F33D,ヒーター3
+3,Japanese,0x0809E33E,0x1013,0x0809F351,ヒーター2
+3,Japanese,0x0809E33E,0x1027,0x0809F365,ヒーター1
+3,Japanese,0x0809E33E,0x103B,0x0809F379,ファン、オン
+3,Japanese,0x0809E33E,0x104F,0x0809F38D,ファン、オフ
+3,Japanese,0x0809E33E,0x1063,0x0809F3A1,モデルコピー
+3,Japanese,0x0809E33E,0x1077,0x0809F3B5,コピー完了
+3,Japanese,0x0809E33E,0x1094,0x0809F3D2,コピー失敗
+3,Japanese,0x0809E33E,0x10AF,0x0809F3ED,成功したモデルを削除複写ファイル
+3,Japanese,0x0809E33E,0x10EB,0x0809F429,Wi-Fiオン
+3,Japanese,0x0809E33E,0x10FF,0x0809F43D,Wi-Fiオフ
+3,Japanese,0x0809E33E,0x1113,0x0809F451,オン
+3,Japanese,0x0809E33E,0x111D,0x0809F45B,オフ
+3,Japanese,0x0809E33E,0x1127,0x0809F465,カードエラー
+3,Japanese,0x0809E33E,0x113B,0x0809F479,リセット
+3,Japanese,0x0809E33E,0x114F,0x0809F48D,ダイレクト
+3,Japanese,0x0809E33E,0x1163,0x0809F4A1,WIFIリセット
+3,Japanese,0x0809E33E,0x118C,0x0809F4CA,確かに無線LANの設定をリセットするには？
+3,Japanese,0x0809E33E,0x11DC,0x0809F51A,内部
+3,Japanese,0x0809E33E,0x11F0,0x0809F52E,プーリータイプ
+3,Japanese,0x0809E33E,0x120E,0x0809F54C,ブラック
+3,Japanese,0x0809E33E,0x122C,0x0809F56A,シルバー
+3,Japanese,0x0809E33E,0x124A,0x0809F588,プーリー
+3,Japanese,0x0809E33E,0x1270,0x0809F5AE,印刷ファイルが一致しません！
+3,Japanese,0x0809E33E,0x12A2,0x0809F5E0,印刷ファイルのコンテンツエラー!
+3,Japanese,0x0809E33E,0x12D4,0x0809F612,確認
+3,Japanese,0x0809E33E,0x12E3,0x0809F621,無視
+3,Japanese,0x0809E33E,0x12F2,0x0809F630,停止
+3,Japanese,0x0809E33E,0x1310,0x0809F64E,Z軸停止:
+3,Japanese,0x0809E33E,0x1342,0x0809F680,完了
+3,Japanese,0x0809E33E,0x1357,0x0809F695,再開を印刷
+3,Japanese,0x0809E33E,0x1378,0x0809F6B6,完成した印刷ジョブを再開しますか?
+3,Japanese,0x0809E33E,0x13B4,0x0809F6F2,残りのフィラメントを削除
+3,Japanese,0x0809E33E,0x1408,0x0809F746,ノズルで印刷対象物にフィラメントの破片を除去した後、[はい]をタップします
+3,Japanese,0x0809E33E,0x149E,0x0809F7DC,"再開を印刷 
+ON"
+3,Japanese,0x0809E33E,0x14CB,0x0809F809,"再開を印刷 
+OFF"
+3,Japanese,0x0809E33E,0x14F5,0x0809F833,オンになっていませんオン
+3,Japanese,0x0809E33E,0x1531,0x0809F86F,再設定
+3,Japanese,0x0809E33E,0x155F,0x0809F89D,工場出荷時の設定に復元します
+3,Japanese,0x0809E33E,0x1591,0x0809F8CF,更新
+3,Japanese,0x0809E33E,0x15A0,0x0809F8DE,カメラ
+3,Japanese,0x0809E33E,0x15D7,0x0809F915,選択します ダイレクト / 工場
+3,Japanese,0x0809E33E,0x163B,0x0809F979,工場
+3,Japanese,0x0809E33E,0x1658,0x0809F996,累積使用フィラメント: 
+3,Japanese,0x0809E33E,0x168A,0x0809F9C8,メーター
+3,Japanese,0x0809E33E,0x16A8,0x0809F9E6,まずWiFiをオフにしてください!
+3,Japanese,0x0809E33E,0x16DA,0x0809FA18,ファイルチェック
+3,Japanese,0x0809E33E,0x16F8,0x0809FA36,必ず更新してください
+3,Japanese,0x0809E33E,0x1720,0x0809FA5E,ファイルエラー
+3,Japanese,0x0809E33E,0x173E,0x0809FA7C,"X軸の校正中です...
+エクストルーダーを加熱しています。フィラメントをエクストルーダーに差し込んでください"
+3,Japanese,0x0809E33E,0x1806,0x0809FB44,"Y軸の校正中です...
+エクストルーダーを加熱しています。フィラメントをエクストルーダーに差し込んでください"
+3,Japanese,0x0809E33E,0x18CE,0x0809FC0C,"Z軸の校正中です...
+ノズルとプラットフォームの位置を初期設定中です"
+3,Japanese,0x0809E33E,0x1932,0x0809FC70,"X軸の校正が完了しました 
+続けてY軸を校正しますか？"
+3,Japanese,0x0809E33E,0x19C8,0x0809FD06,Y軸校正完了
+3,Japanese,0x0809E33E,0x19FA,0x0809FD38,"Z軸校正完了 
+X軸校正を続けますか？"
+3,Japanese,0x0809E33E,0x1A90,0x0809FDCE,X軸の校正をキャンセルしました
+3,Japanese,0x0809E33E,0x1AD6,0x0809FE14,Y軸の校正をキャンセルしました
+3,Japanese,0x0809E33E,0x1B1C,0x0809FE5A,Z軸の校正をキャンセルしました
+3,Japanese,0x0809E33E,0x1B62,0x0809FEA0,冷却待ち
+3,Japanese,0x0809E33E,0x1B80,0x0809FEBE,ヘッドを選んでください
+3,Japanese,0x0809E33E,0x1BE4,0x0809FF22,確認
+3,Japanese,0x0809E33E,0x1C02,0x0809FF40,校正
+3,Japanese,0x0809E33E,0x1C20,0x0809FF5E,X-、X+をタッチして、2つの線が一致させてください
+3,Japanese,0x0809E33E,0x1CB6,0x0809FFF4,Y-、Y+をタッチして、2つの線が一致させてください
+3,Japanese,0x0809E33E,0x1D4C,0x080A008A,ノズルとプラットフォームの間に水平出しカードを設置し、Z-とZ+をタッチして、適切な距離に調整します
+3,Japanese,0x0809E33E,0x1E14,0x080A0152,Z軸の校正を続行しますか？
+3,Japanese,0x0809E33E,0x1E78,0x080A01B6,手動調整
+3,Japanese,0x0809E33E,0x1EAA,0x080A01E8,この機能は上級ユーザー専用です。プリンタを校正した後、必要に応じてX軸またはY軸のオフセットを微調整します
+3,Japanese,0x0809E33E,0x1F72,0x080A02B0,"エキスパー\r
+トモードやめて"
+3,Japanese,0x0809E33E,0x1FAE,0x080A02EC,左に止まる
+3,Japanese,0x0809E33E,0x1FCC,0x080A030A,印刷速度:
+3,Japanese,0x0809E33E,0x1FEA,0x080A0328,Z 補正:
+3,Japanese,0x0809E33E,0x2008,0x080A0346,戻る
+4,German,0x080A0350,0x0000,0x080A0350,Drucken
+4,German,0x080A0350,0x0014,0x080A0364,Vorheizen
+4,German,0x080A0350,0x0028,0x080A0378,Tools
+4,German,0x080A0350,0x0036,0x080A0386,Extruder
+4,German,0x080A0350,0x0047,0x080A0397,Links
+4,German,0x080A0350,0x0057,0x080A03A7,Rechts
+4,German,0x080A0350,0x0067,0x080A03B7,L Extruder
+4,German,0x080A0350,0x0080,0x080A03D0,R Extruder
+4,German,0x080A0350,0x009C,0x080A03EC,Heizbett
+4,German,0x080A0350,0x00B8,0x080A0408,Start
+4,German,0x080A0350,0x00C8,0x080A0418,Stopp
+4,German,0x080A0350,0x00D8,0x080A0428,Fertig
+4,German,0x080A0350,0x00E2,0x080A0432,Filament
+4,German,0x080A0350,0x00F2,0x080A0442,Ausrichten
+4,German,0x080A0350,0x0102,0x080A0452,Parken
+4,German,0x080A0350,0x0112,0x080A0462,Manuell
+4,German,0x080A0350,0x0129,0x080A0479,Einstellung
+4,German,0x080A0350,0x013D,0x080A048D,Über
+4,German,0x080A0350,0x014B,0x080A049B,Status
+4,German,0x080A0350,0x0163,0x080A04B3,Sprache
+4,German,0x080A0350,0x016D,0x080A04BD,TP Anspassen
+4,German,0x080A0350,0x0185,0x080A04D5,Uhr
+4,German,0x080A0350,0x018F,0x080A04DF,Datum
+4,German,0x080A0350,0x019F,0x080A04EF,WIFI
+4,German,0x080A0350,0x01AD,0x080A04FD,Werksreset
+4,German,0x080A0350,0x01CE,0x080A051E,Design
+4,German,0x080A0350,0x01DE,0x080A052E,简体中文
+4,German,0x080A0350,0x01EC,0x080A053C,English
+4,German,0x080A0350,0x01F6,0x080A0546,日本語
+4,German,0x080A0350,0x0200,0x080A0550,繁體中文
+4,German,0x080A0350,0x020E,0x080A055E,Deutsch
+4,German,0x080A0350,0x0218,0x080A0568,한국어
+4,German,0x080A0350,0x0224,0x080A0574,Français
+4,German,0x080A0350,0x0230,0x080A0580,Polski
+4,German,0x080A0350,0x023C,0x080A058C,Spanish
+4,German,0x080A0350,0x024B,0x080A059B,Portugues
+4,German,0x080A0350,0x025A,0x080A05AA,Druck bestätigen
+4,German,0x080A0350,0x0282,0x080A05D2,bauen
+4,German,0x080A0350,0x0291,0x080A05E1,Entf.
+4,German,0x080A0350,0x029B,0x080A05EB,Kopie
+4,German,0x080A0350,0x02AA,0x080A05FA,Wirklich löschen?
+4,German,0x080A0350,0x02D2,0x080A0622,Links laden
+4,German,0x080A0350,0x02FA,0x080A064A,Links entladen
+4,German,0x080A0350,0x0322,0x080A0672,Rechts laden
+4,German,0x080A0350,0x034A,0x080A069A,Rechts entladen
+4,German,0x080A0350,0x0372,0x080A06C2,Laden
+4,German,0x080A0350,0x039A,0x080A06EA,Entladen
+4,German,0x080A0350,0x03C2,0x080A0712,Druckzeit
+4,German,0x080A0350,0x03DA,0x080A072A,Druck abbrechen
+4,German,0x080A0350,0x03FD,0x080A074D,Druck jetzt abbrechen?
+4,German,0x080A0350,0x0439,0x080A0789,Ja
+4,German,0x080A0350,0x0441,0x080A0791,Nein
+4,German,0x080A0350,0x044D,0x080A079D,Abbrechen
+4,German,0x080A0350,0x045D,0x080A07AD,Nullen! Bitte warten...
+4,German,0x080A0350,0x0495,0x080A07E5,Nullen abgeschlossen.
+4,German,0x080A0350,0x04BD,0x080A080D,"Bitte warten Sie, bis die Düse und die Plattform die Initialisierungsbewegung abgeschlossen haben"
+4,German,0x080A0350,0x052B,0x080A087B,Bitte ziehen Sie die drei Muttern gegen den Uhrzeigersinn an und klicken Sie dann auf die Schaltfläche OK
+4,German,0x080A0350,0x0599,0x080A08E9,Bitte verstelle die vor Schraube unter dem Heizbett.
+4,German,0x080A0350,0x0607,0x080A0957,Bitte verstelle die linke Schraube unter dem Heizbett.
+4,German,0x080A0350,0x0675,0x080A09C5,Bitte verstelle die rechte Schraube unter dem Heizbett.
+4,German,0x080A0350,0x06E3,0x080A0A33,Ausrichtung abgeschlossen!
+4,German,0x080A0350,0x071A,0x080A0A6A,weiter
+4,German,0x080A0350,0x0724,0x080A0A74,USB verbunden.
+4,German,0x080A0350,0x0749,0x080A0A99,USB getrennt.
+4,German,0x080A0350,0x0770,0x080A0AC0,Heizen...
+4,German,0x080A0350,0x078C,0x080A0ADC,Extruder heizt nicht. Bitte Verkabelung prüfen
+4,German,0x080A0350,0x07DE,0x080A0B2E,"Beginnt Einzug/Auswurf.
+ [Abbrechen] zum Abbruch drücken."
+4,German,0x080A0350,0x084C,0x080A0B9C,"Start Laden, Filament vertik. in Extr. drücken u. [Fertig] drück., wenn d. Filament a.d. Extr. kommt"
+4,German,0x080A0350,0x0900,0x080A0C50,"Beginnt Auswurf, nach unten drücken Feder Presser und zurückzuziehen Filament"
+4,German,0x080A0350,0x09B4,0x080A0D04,"Das 3 Minuten Zeitlimit ist abgelaufen!
+Tippen Sie auf den Zurückpfeil zum beenden."
+4,German,0x080A0350,0x0A18,0x080A0D68,Abbrechen Last
+4,German,0x080A0350,0x0A4E,0x080A0D9E,Sind Sie sicher Last abbrechen?
+4,German,0x080A0350,0x0A92,0x080A0DE2,Abbrechen Entladen
+4,German,0x080A0350,0x0AC8,0x080A0E18,Sind Sie sicher Entladen abbrechen?
+4,German,0x080A0350,0x0B0C,0x080A0E5C,Vorgang abgeschlossen
+4,German,0x080A0350,0x0B25,0x080A0E75,Auf Werkseinstellungen zurücksetzen?
+4,German,0x080A0350,0x0B5D,0x080A0EAD,Druckername :
+4,German,0x080A0350,0x0B7B,0x080A0ECB,Druckertyp :
+4,German,0x080A0350,0x0B94,0x080A0EE4,Seriennummer :
+4,German,0x080A0350,0x0BB2,0x080A0F02,Firmwareversion :
+4,German,0x080A0350,0x0BD0,0x080A0F20,Druckgrösse:
+4,German,0x080A0350,0x0BEE,0x080A0F3E,Anzahl Extruder :
+4,German,0x080A0350,0x0C0C,0x080A0F5C,Nutzungszeit:
+4,German,0x080A0350,0x0C2F,0x080A0F7F,stunden
+4,German,0x080A0350,0x0C43,0x080A0F93,Signalstärke
+4,German,0x080A0350,0x0C5B,0x080A0FAB,IP Adresse
+4,German,0x080A0350,0x0C6F,0x080A0FBF,Standardgateway
+4,German,0x080A0350,0x0C92,0x080A0FE2,Subnetzmaske
+4,German,0x080A0350,0x0CB0,0x080A1000,AP Modus
+4,German,0x080A0350,0x0CCE,0x080A101E,Verbindung fehlgeschlagen
+4,German,0x080A0350,0x0CEF,0x080A103F,Nicht verbunden
+4,German,0x080A0350,0x0D12,0x080A1062,Verbinde...
+4,German,0x080A0350,0x0D30,0x080A1080,"Mache Pause...
+Stoppe Materialfluss..."
+4,German,0x080A0350,0x0D7B,0x080A10CB,Pause beenden...
+4,German,0x080A0350,0x0D9F,0x080A10EF,Druck abbrechen...
+4,German,0x080A0350,0x0DC3,0x080A1113,Empfange Datei...
+4,German,0x080A0350,0x0DE7,0x080A1137,Druck abgeschlossen! Druckzeit: %dh%dm.
+4,German,0x080A0350,0x0E1F,0x080A116F,Fehler
+4,German,0x080A0350,0x0E33,0x080A1183,Auslesen der Temperatur schlägt fehl. Bitte Verdrahtung prüfen.
+4,German,0x080A0350,0x0E83,0x080A11D3,Temperaturlimit erreicht. Bitte Gerät ausschalten oder neustarten.
+4,German,0x080A0350,0x0ED3,0x080A1223,"Heizt nicht, bitte Verdrahtung prüfen."
+4,German,0x080A0350,0x0F23,0x080A1273,Temperaturabfall. Bitte Verdrahtung prüfen.
+4,German,0x080A0350,0x0F73,0x080A12C3,Gelesene Temperatur ist ausserhalb des Bereichs. Bitte Verdrahtung prüfen.
+4,German,0x080A0350,0x0FC3,0x080A1313,Unbekannter Fehler
+4,German,0x080A0350,0x0FEB,0x080A133B,Heizung 1
+4,German,0x080A0350,0x0FFF,0x080A134F,Heizung 2
+4,German,0x080A0350,0x1013,0x080A1363,Heizung 3
+4,German,0x080A0350,0x1027,0x080A1377,Extra
+4,German,0x080A0350,0x103B,0x080A138B,Lüfter an
+4,German,0x080A0350,0x104F,0x080A139F,Lüfter aus
+4,German,0x080A0350,0x1063,0x080A13B3,Modell kopieren
+4,German,0x080A0350,0x1077,0x080A13C7,Kopieren erfolgreich
+4,German,0x080A0350,0x1094,0x080A13E4,Kopieren fehlgeschlagen
+4,German,0x080A0350,0x10AF,0x080A13FF,Modell entfernen erfolgreich
+4,German,0x080A0350,0x10CD,0x080A141D,Kopiere Datei
+4,German,0x080A0350,0x10EB,0x080A143B,WIFI ein
+4,German,0x080A0350,0x10FF,0x080A144F,WIFI aus
+4,German,0x080A0350,0x1113,0x080A1463,ein
+4,German,0x080A0350,0x111D,0x080A146D,aus
+4,German,0x080A0350,0x1127,0x080A1477,Kartenfehler
+4,German,0x080A0350,0x113B,0x080A148B,Reset
+4,German,0x080A0350,0x114F,0x080A149F,Direkte
+4,German,0x080A0350,0x1163,0x080A14B3,WIFI-Reset
+4,German,0x080A0350,0x118C,0x080A14DC,"Sicher, WIFI-Einstellung zurücksetzen?"
+4,German,0x080A0350,0x11DC,0x080A152C,Intern
+4,German,0x080A0350,0x11F0,0x080A1540,Rolle Typ
+4,German,0x080A0350,0x120E,0x080A155E,Black
+4,German,0x080A0350,0x122C,0x080A157C,Silver
+4,German,0x080A0350,0x124A,0x080A159A,Rolle
+4,German,0x080A0350,0x1270,0x080A15C0,Druckdateien stimmen nicht überein!
+4,German,0x080A0350,0x12A2,0x080A15F2,Datei drucken Inhalt Fehler!
+4,German,0x080A0350,0x12D4,0x080A1624,OK
+4,German,0x080A0350,0x12E3,0x080A1633,überspringen
+4,German,0x080A0350,0x12F2,0x080A1642,Pause
+4,German,0x080A0350,0x1310,0x080A1660,Pause bei Z:
+4,German,0x080A0350,0x1342,0x080A1692,Done
+4,German,0x080A0350,0x1357,0x080A16A7,Drucken fortsetzen
+4,German,0x080A0350,0x1378,0x080A16C8,Fortsetzen des abgeschlossenen Druckjobs?
+4,German,0x080A0350,0x13B4,0x080A1704,Restliches Filament entfernen
+4,German,0x080A0350,0x1408,0x080A1758,"Tippen Sie auf [Ja], nachdem Sie Filamentschutt in der Düse und auf dem bedruckten Objekt entfernt haben"
+4,German,0x080A0350,0x149E,0x080A17EE,"Drucken
+fortsetzen ON"
+4,German,0x080A0350,0x14CB,0x080A181B,"Drucken
+fortsetzen OFF"
+4,German,0x080A0350,0x14F5,0x080A1845,Nicht eingeschaltet
+4,German,0x080A0350,0x1513,0x080A1863,Eingeschaltet
+4,German,0x080A0350,0x1531,0x080A1881,Neueinstellung
+4,German,0x080A0350,0x155F,0x080A18AF,Wiederherstellung der Werkseinstellungen
+4,German,0x080A0350,0x1591,0x080A18E1,Aktualisieren
+4,German,0x080A0350,0x15A0,0x080A18F0,Kamera
+4,German,0x080A0350,0x15D7,0x080A1927,Wählen Direkte / Fabrik
+4,German,0x080A0350,0x163B,0x080A198B,Fabrik
+4,German,0x080A0350,0x1658,0x080A19A8,Akkumuliertes gebrauchtes Filament: 
+4,German,0x080A0350,0x168A,0x080A19DA,Meter
+4,German,0x080A0350,0x16A8,0x080A19F8,WLAN abschalt!
+4,German,0x080A0350,0x16DA,0x080A1A2A,Datei wird überprüft
+4,German,0x080A0350,0x16F8,0x080A1A48,Sicher zu aktualisieren
+4,German,0x080A0350,0x1720,0x080A1A70,Dateifehler
+4,German,0x080A0350,0x173E,0x080A1A8E,"X-Kalibrierung...
+Extruder aufwärmen, bitte Filament in beide Extruder einführen."
+4,German,0x080A0350,0x1806,0x080A1B56,"Y-Kalibrierung...
+Extruder aufwärmen, bitte Filament in beide Extruder einführen."
+4,German,0x080A0350,0x18CE,0x080A1C1E,"Z-Kalibrierung...
+Bewegen wird initialisiert."
+4,German,0x080A0350,0x1932,0x080A1C82,"X-Kalibrierung abgeschlossen
+Weiter mit Kalibrierung Y-Achse?"
+4,German,0x080A0350,0x19C8,0x080A1D18,Y-Kalibrierung abgeschlossen
+4,German,0x080A0350,0x19FA,0x080A1D4A,"Z-Kalibrierung abgeschlossen
+Weiter mit Kalibrierung X-Achse?"
+4,German,0x080A0350,0x1A90,0x080A1DE0,X-Kalibrierung abgebrochen
+4,German,0x080A0350,0x1AD6,0x080A1E26,Y-Kalibrierung abgebrochen
+4,German,0x080A0350,0x1B1C,0x080A1E6C,Z-Kalibrierung abgebrochen
+4,German,0x080A0350,0x1B62,0x080A1EB2,Warten auf Abkühlung
+4,German,0x080A0350,0x1B80,0x080A1ED0,Bitte einen beliebigen Extruder für die Kalibrierung wählen.
+4,German,0x080A0350,0x1BE4,0x080A1F34,Verifizieren
+4,German,0x080A0350,0x1C02,0x080A1F52,Kalibrierung
+4,German,0x080A0350,0x1C20,0x080A1F70,"Bitte X-, Y+ berühren, um die Ausrichtung der Linien anzupassen und zu bestätigen."
+4,German,0x080A0350,0x1CB6,0x080A2006,"Bitte Y-, Y+ berühren, um die Ausrichtung der Linien anzupassen und zu bestätigen."
+4,German,0x080A0350,0x1D4C,0x080A209C,"Bitte für die Anpassung Z-, Z+ berühren und Nivellierkarte zwischen Düse und Plattform einführen, um die Distanz zu prüfen."
+4,German,0x080A0350,0x1E14,0x080A2164,Weiter mit Kalibrierung Z-Achse?
+4,German,0x080A0350,0x1E78,0x080A21C8,Manuelle Feinkalibrierung
+4,German,0x080A0350,0x1EAA,0x080A21FA,"Dieser Assistent ist nur für fortgeschrittener Benutzer bestimmt. Nach einer Druckerkalibrierung. Die Feinabstimmung der Kalibrierung versetzt die X- oder Y-Achse, wenn erforderlich."
+4,German,0x080A0350,0x1F72,0x080A22C2,"Experten
+Modus"
+4,German,0x080A0350,0x1F90,0x080A22E0,Halt rechts an
+4,German,0x080A0350,0x1FAE,0x080A22FE,Halt links
+4,German,0x080A0350,0x1FCC,0x080A231C,Drucken:
+4,German,0x080A0350,0x1FEA,0x080A233A,Z-Versatz:
+4,German,0x080A0350,0x2008,0x080A2358,Zurück
+5,Korean,0x080A2362,0x0000,0x080A2362,출력
+5,Korean,0x080A2362,0x0014,0x080A2376,예열
+5,Korean,0x080A2362,0x0028,0x080A238A,도구모음
+5,Korean,0x080A2362,0x0036,0x080A2398,익스트루더
+5,Korean,0x080A2362,0x0047,0x080A23A9,왼쪽
+5,Korean,0x080A2362,0x0057,0x080A23B9,오른쪽
+5,Korean,0x080A2362,0x0067,0x080A23C9,왼쪽
+5,Korean,0x080A2362,0x0080,0x080A23E2,오른쪽
+5,Korean,0x080A2362,0x009C,0x080A23FE,히팅베드
+5,Korean,0x080A2362,0x00B8,0x080A241A,시작
+5,Korean,0x080A2362,0x00C8,0x080A242A,멈춤
+5,Korean,0x080A2362,0x00D8,0x080A243A,종료
+5,Korean,0x080A2362,0x00E2,0x080A2444,필라멘트
+5,Korean,0x080A2362,0x00F2,0x080A2454,레벨링
+5,Korean,0x080A2362,0x0102,0x080A2464,초기메뉴
+5,Korean,0x080A2362,0x0112,0x080A2474,수동 조절
+5,Korean,0x080A2362,0x0129,0x080A248B,설정
+5,Korean,0x080A2362,0x013D,0x080A249F,기기정보
+5,Korean,0x080A2362,0x014B,0x080A24AD,진행사항 확인
+5,Korean,0x080A2362,0x0163,0x080A24C5,언어
+5,Korean,0x080A2362,0x016D,0x080A24CF,TP 정렬
+5,Korean,0x080A2362,0x0185,0x080A24E7,시계
+5,Korean,0x080A2362,0x018F,0x080A24F1,날짜
+5,Korean,0x080A2362,0x019F,0x080A2501,와이파이
+5,Korean,0x080A2362,0x01AD,0x080A250F,초기값 복원
+5,Korean,0x080A2362,0x01CE,0x080A2530,테마
+5,Korean,0x080A2362,0x01DE,0x080A2540,简体中文
+5,Korean,0x080A2362,0x01EC,0x080A254E,English
+5,Korean,0x080A2362,0x01F6,0x080A2558,日本語
+5,Korean,0x080A2362,0x0200,0x080A2562,繁體中文
+5,Korean,0x080A2362,0x020E,0x080A2570,Deutsch
+5,Korean,0x080A2362,0x0218,0x080A257A,한국어
+5,Korean,0x080A2362,0x0224,0x080A2586,Français
+5,Korean,0x080A2362,0x0230,0x080A2592,Polski
+5,Korean,0x080A2362,0x023C,0x080A259E,Spanish
+5,Korean,0x080A2362,0x024B,0x080A25AD,Portugues
+5,Korean,0x080A2362,0x025A,0x080A25BC,출력 확인
+5,Korean,0x080A2362,0x0282,0x080A25E4,출력
+5,Korean,0x080A2362,0x0291,0x080A25F3,삭제
+5,Korean,0x080A2362,0x029B,0x080A25FD,부
+5,Korean,0x080A2362,0x02AA,0x080A260C,삭제 확인
+5,Korean,0x080A2362,0x02D2,0x080A2634,왼쪽 로딩
+5,Korean,0x080A2362,0x02FA,0x080A265C,왼쪽 언로딩
+5,Korean,0x080A2362,0x0322,0x080A2684,오른쪽 로딩
+5,Korean,0x080A2362,0x034A,0x080A26AC,오른쪽 언로딩
+5,Korean,0x080A2362,0x0372,0x080A26D4,로딩
+5,Korean,0x080A2362,0x039A,0x080A26FC,언로딩
+5,Korean,0x080A2362,0x03C2,0x080A2724,조형 시간
+5,Korean,0x080A2362,0x03DA,0x080A273C,출력 취소
+5,Korean,0x080A2362,0x03FD,0x080A275F,출력을 취소할까요 ?
+5,Korean,0x080A2362,0x0439,0x080A279B,네
+5,Korean,0x080A2362,0x0441,0x080A27A3,아니오
+5,Korean,0x080A2362,0x044D,0x080A27AF,명령취소
+5,Korean,0x080A2362,0x045D,0x080A27BF,초기위치로 이동중 ! 잠시만요
+5,Korean,0x080A2362,0x0495,0x080A27F7,초기위치로 설정되었습니다.
+5,Korean,0x080A2362,0x04BD,0x080A281F,노즐과 플랫폼이 초기화 이동을 완료하는 동안 기다려주십시오
+5,Korean,0x080A2362,0x052B,0x080A288D,시계 반대 방향으로 3 개의 너트를 조인 다음 확인 버튼을 클릭하십시오.
+5,Korean,0x080A2362,0x0599,0x080A28FB,"히팅베드가 멈춘 후, 앞 아래에 있는 나사를 돌려 레벨링하세요."
+5,Korean,0x080A2362,0x0607,0x080A2969,"히팅베드가 멈춘 후, 왼쪽 아래에 있는 나사를 돌려 레벨링하세요."
+5,Korean,0x080A2362,0x0675,0x080A29D7,"히팅베드가 멈춘 후, 오른쪽 아래에 있는 나사를 돌려 레벨링하세요."
+5,Korean,0x080A2362,0x06E3,0x080A2A45,레벨링이 끝났습니다 !
+5,Korean,0x080A2362,0x071A,0x080A2A7C,다음
+5,Korean,0x080A2362,0x0724,0x080A2A86,USB가 연결되었습니다.
+5,Korean,0x080A2362,0x0749,0x080A2AAB,USB 연결이 해제되었습니다.
+5,Korean,0x080A2362,0x0770,0x080A2AD2,가열중...
+5,Korean,0x080A2362,0x078C,0x080A2AEE,익스트루더가 가열되지 않습니다. 배선을 확인해 주세요.
+5,Korean,0x080A2362,0x07DE,0x080A2B40,필라멘트 로딩/언로딩을 시작 합니다. 빠져나오려면 [취소]를 눌러 주세요.
+5,Korean,0x080A2362,0x084C,0x080A2BAE,"로드시작, 필라멘트를 수직으로 삽입하세요! 노즐에서 필라멘트가 출력되면, [완성] 을 누르세요"
+5,Korean,0x080A2362,0x0900,0x080A2C62,"언로드 시작, 압출레버를 누르면  3초후에 필라멘트가 수직으로 발출합니다"
+5,Korean,0x080A2362,0x09B4,0x080A2D16,3분 대기가 지났습니다. 빠져나오려면 [리턴]화살표를 눌러 주세요
+5,Korean,0x080A2362,0x0A18,0x080A2D7A,로드 취소
+5,Korean,0x080A2362,0x0A4E,0x080A2DB0,언로드를 취소하겠습니까?
+5,Korean,0x080A2362,0x0A92,0x080A2DF4,언로드 취소
+5,Korean,0x080A2362,0x0AC8,0x080A2E2A,언로드를 취소하겠습니까?
+5,Korean,0x080A2362,0x0B0C,0x080A2E6E,작업명령 확인
+5,Korean,0x080A2362,0x0B25,0x080A2E87,공장 출고시 세팅값으로 되돌릴까요 ?
+5,Korean,0x080A2362,0x0B5D,0x080A2EBF,기기 이름 :
+5,Korean,0x080A2362,0x0B7B,0x080A2EDD,기기 종류 :
+5,Korean,0x080A2362,0x0B94,0x080A2EF6,제조일련번호 :
+5,Korean,0x080A2362,0x0BB2,0x080A2F14,펌웨어 버전 :
+5,Korean,0x080A2362,0x0BD0,0x080A2F32,조형 볼륨 :
+5,Korean,0x080A2362,0x0BEE,0x080A2F50,사용시간 :
+5,Korean,0x080A2362,0x0C0C,0x080A2F6E,누적 사용 :
+5,Korean,0x080A2362,0x0C2F,0x080A2F91,시간
+5,Korean,0x080A2362,0x0C43,0x080A2FA5,신호 세기
+5,Korean,0x080A2362,0x0C5B,0x080A2FBD,IP 주소
+5,Korean,0x080A2362,0x0C6F,0x080A2FD1,기본 게이트웨이:
+5,Korean,0x080A2362,0x0C92,0x080A2FF4,서브넷 마스크
+5,Korean,0x080A2362,0x0CB0,0x080A3012,AP 모드
+5,Korean,0x080A2362,0x0CCE,0x080A3030,연결이 되지 않습니다.
+5,Korean,0x080A2362,0x0CEF,0x080A3051,연결되어 있지 않습니다.
+5,Korean,0x080A2362,0x0D12,0x080A3074,연결중…
+5,Korean,0x080A2362,0x0D30,0x080A3092,"진입 잠시 멈춤...
+파이프라인 건조중..."
+5,Korean,0x080A2362,0x0D7B,0x080A30DD,퇴출 잠시 멈춤...
+5,Korean,0x080A2362,0x0D9F,0x080A3101,프린트 취소중...
+5,Korean,0x080A2362,0x0DC3,0x080A3125,파일 다운로딩...
+5,Korean,0x080A2362,0x0DE7,0x080A3149,프린트 완료! 프린트 시간: %dh%dm.
+5,Korean,0x080A2362,0x0E1F,0x080A3181,Error
+5,Korean,0x080A2362,0x0E33,0x080A3195,온도를 측정하는 데 실패했습니다. 연결선을 확인하세요.
+5,Korean,0x080A2362,0x0E83,0x080A31E5,한계 온도입니다. 작업을 멈추고 다시 시작하세요.
+5,Korean,0x080A2362,0x0ED3,0x080A3235,가열이 되지 않습니다. 연결선을 확인해 주세요.
+5,Korean,0x080A2362,0x0F23,0x080A3285,온도가 떨어집니다. 연결선을 확인해 주세요.
+5,Korean,0x080A2362,0x0F73,0x080A32D5,온도측정이 되지 않습니다. 연결선을 확인해 주세요.
+5,Korean,0x080A2362,0x0FC3,0x080A3325,알 수 없는 오류
+5,Korean,0x080A2362,0x0FEB,0x080A334D,엑스트라
+5,Korean,0x080A2362,0x0FFF,0x080A3361,히터 3
+5,Korean,0x080A2362,0x1013,0x080A3375,히터 2
+5,Korean,0x080A2362,0x1027,0x080A3389,히터 1
+5,Korean,0x080A2362,0x103B,0x080A339D,팬 On
+5,Korean,0x080A2362,0x104F,0x080A33B1,팬 Off
+5,Korean,0x080A2362,0x1063,0x080A33C5,모델 복사l
+5,Korean,0x080A2362,0x1077,0x080A33D9,복사 성공
+5,Korean,0x080A2362,0x1094,0x080A33F6,복사 실패
+5,Korean,0x080A2362,0x10AF,0x080A3411,모델 삭제 성공
+5,Korean,0x080A2362,0x10CD,0x080A342F,파일을 복사중
+5,Korean,0x080A2362,0x10EB,0x080A344D,와이파이 켬
+5,Korean,0x080A2362,0x10FF,0x080A3461,와이파이 끔
+5,Korean,0x080A2362,0x1113,0x080A3475,켬
+5,Korean,0x080A2362,0x111D,0x080A347F,끔
+5,Korean,0x080A2362,0x1127,0x080A3489,카드 에러
+5,Korean,0x080A2362,0x113B,0x080A349D,리셋
+5,Korean,0x080A2362,0x114F,0x080A34B1,직접
+5,Korean,0x080A2362,0x1163,0x080A34C5,WIFI 재설정
+5,Korean,0x080A2362,0x118C,0x080A34EE,물론 와이파이 설정을 재설정?
+5,Korean,0x080A2362,0x11DC,0x080A353E,내부
+5,Korean,0x080A2362,0x11F0,0x080A3552,풀리 유형
+5,Korean,0x080A2362,0x120E,0x080A3570,블랙
+5,Korean,0x080A2362,0x122C,0x080A358E,실버
+5,Korean,0x080A2362,0x124A,0x080A35AC,도르래
+5,Korean,0x080A2362,0x1270,0x080A35D2,인쇄 파일이 일치하지 않습니다!
+5,Korean,0x080A2362,0x12A2,0x080A3604,인쇄 파일 컨텐츠 에러!
+5,Korean,0x080A2362,0x12D4,0x080A3636,OK
+5,Korean,0x080A2362,0x12E3,0x080A3645,슬립
+5,Korean,0x080A2362,0x12F2,0x080A3654,잠시멈춤
+5,Korean,0x080A2362,0x1310,0x080A3672,에서 잠시멈춤 Z:
+5,Korean,0x080A2362,0x1342,0x080A36A4,완성
+5,Korean,0x080A2362,0x1357,0x080A36B9,이력서 인쇄
+5,Korean,0x080A2362,0x1378,0x080A36DA,완성 된 인쇄 작업을 다시 시작?
+5,Korean,0x080A2362,0x13B4,0x080A3716,나머지 필라멘트를 제거
+5,Korean,0x080A2362,0x1408,0x080A376A,노즐과 인쇄 된 개체에 필라멘트 이물질을 제거한 후 [예]를 누릅니다
+5,Korean,0x080A2362,0x149E,0x080A3800,"이력서 인쇄
+ON"
+5,Korean,0x080A2362,0x14CB,0x080A382D,"이력서 인쇄
+OFF"
+5,Korean,0x080A2362,0x14F5,0x080A3857,꺼져
+5,Korean,0x080A2362,0x1513,0x080A3875,설정
+5,Korean,0x080A2362,0x1531,0x080A3893,재설정
+5,Korean,0x080A2362,0x155F,0x080A38C1,초기 설정 값으로 복원
+5,Korean,0x080A2362,0x1591,0x080A38F3,최신 정보
+5,Korean,0x080A2362,0x15A0,0x080A3902,카메라
+5,Korean,0x080A2362,0x15D7,0x080A3939,고르다 직접 / 공장
+5,Korean,0x080A2362,0x163B,0x080A399D,공장
+5,Korean,0x080A2362,0x1658,0x080A39BA,축적 된 필라멘트: 
+5,Korean,0x080A2362,0x168A,0x080A39EC,미터
+5,Korean,0x080A2362,0x16A8,0x080A3A0A,먼저 WiFi를 끄십시오!
+5,Korean,0x080A2362,0x16DA,0x080A3A3C,파일 검사 중
+5,Korean,0x080A2362,0x16F8,0x080A3A5A,반드시 업데이트하십시오.
+5,Korean,0x080A2362,0x1720,0x080A3A82,파일 오류
+5,Korean,0x080A2362,0x173E,0x080A3AA0,"X축 보정...
+익스트루더 히팅중, 필라멘트를 양쪽 익스트루더에 삽입 하세요."
+5,Korean,0x080A2362,0x1806,0x080A3B68,"Y축 보정...
+익스트루더 히팅중, 필라멘트를 양쪽 익스트루더에 삽입 하세요."
+5,Korean,0x080A2362,0x18CE,0x080A3C30,"Z축 보정...
+이동 초기화..."
+5,Korean,0x080A2362,0x1932,0x080A3C94,"X축 보정 완료!
+Y축 보정을 진행 하시겠습니까?"
+5,Korean,0x080A2362,0x19C8,0x080A3D2A,Y축보정 완료!
+5,Korean,0x080A2362,0x19FA,0x080A3D5C,"Z축 보정 완료!
+X축 보정을 진행 하시겠습니까?"
+5,Korean,0x080A2362,0x1A90,0x080A3DF2,X축 보정 취소
+5,Korean,0x080A2362,0x1AD6,0x080A3E38,Y축 보정 취소
+5,Korean,0x080A2362,0x1B1C,0x080A3E7E,Z축 보정 취소
+5,Korean,0x080A2362,0x1B62,0x080A3EC4,쿨링 중...기다리세요.
+5,Korean,0x080A2362,0x1B80,0x080A3EE2,보정할 익스트루더를 임의로 선택 하세요.
+5,Korean,0x080A2362,0x1BE4,0x080A3F46,승인
+5,Korean,0x080A2362,0x1C02,0x080A3F64,보정
+5,Korean,0x080A2362,0x1C20,0x080A3F82,"X-, X+를 탭하여 선이 정렬되어 있는지 확인하고 조정하십시오."
+5,Korean,0x080A2362,0x1CB6,0x080A4018,"Y-, Y+를 탭하여 선이 정렬되어 있는지 확인하고 조정하십시오."
+5,Korean,0x080A2362,0x1D4C,0x080A40AE,"Z-, Z+를 탭하여 레벨링 카드의 두께만큼 노즐과 플랫폼 사이를 조정하여 적정 거리를 확인하세요."
+5,Korean,0x080A2362,0x1E14,0x080A4176,Z축 보정을 계속 하시겠습니까?
+5,Korean,0x080A2362,0x1E78,0x080A41DA,소동 미세 조정(보정)
+5,Korean,0x080A2362,0x1EAA,0x080A420C,이 보조자는 고급 사용자 전용입니다. 프린터 보정 후. 필요한 경우 X 또는 Y 축의 보정 오프셋을 미세 조정하십시오.
+5,Korean,0x080A2362,0x1F72,0x080A42D4,"전문가
+모드"
+5,Korean,0x080A2362,0x1F90,0x080A42F2,멈춰라
+5,Korean,0x080A2362,0x1FAE,0x080A4310,좌회전
+5,Korean,0x080A2362,0x1FCC,0x080A432E,인쇄 속도:
+5,Korean,0x080A2362,0x1FEA,0x080A434C,Z-오프셋:
+5,Korean,0x080A2362,0x2008,0x080A436A,반환
+6,French,0x080A4374,0x0000,0x080A4374,Imprimer
+6,French,0x080A4374,0x0014,0x080A4388,Préchauffage
+6,French,0x080A4374,0x0028,0x080A439C,Outils
+6,French,0x080A4374,0x0036,0x080A43AA,Extrudeur
+6,French,0x080A4374,0x0047,0x080A43BB,Gauche
+6,French,0x080A4374,0x0057,0x080A43CB,Droite
+6,French,0x080A4374,0x0067,0x080A43DB,Extrud.G
+6,French,0x080A4374,0x0080,0x080A43F4,Extrud.D
+6,French,0x080A4374,0x009C,0x080A4410,Plateau
+6,French,0x080A4374,0x00B8,0x080A442C,Démarrer
+6,French,0x080A4374,0x00C8,0x080A443C,Stop
+6,French,0x080A4374,0x00D8,0x080A444C,Terminer
+6,French,0x080A4374,0x00E2,0x080A4456,Fil
+6,French,0x080A4374,0x00F2,0x080A4466,Hauteur
+6,French,0x080A4374,0x0102,0x080A4476,Home
+6,French,0x080A4374,0x0112,0x080A4486,Reg. Manu
+6,French,0x080A4374,0x0129,0x080A449D,Réglage
+6,French,0x080A4374,0x013D,0x080A44B1,Info
+6,French,0x080A4374,0x014B,0x080A44BF,Statut
+6,French,0x080A4374,0x0163,0x080A44D7,Langue
+6,French,0x080A4374,0x016D,0x080A44E1,"Réglage
+temp"
+6,French,0x080A4374,0x0185,0x080A44F9,Horloge
+6,French,0x080A4374,0x018F,0x080A4503,Date
+6,French,0x080A4374,0x019F,0x080A4513,WIFI
+6,French,0x080A4374,0x01AD,0x080A4521,"Réglages
+usine"
+6,French,0x080A4374,0x01CE,0x080A4542,Thème
+6,French,0x080A4374,0x01DE,0x080A4552,简体中文
+6,French,0x080A4374,0x01EC,0x080A4560,English
+6,French,0x080A4374,0x01F6,0x080A456A,日本語
+6,French,0x080A4374,0x0200,0x080A4574,繁體中文
+6,French,0x080A4374,0x020E,0x080A4582,Deutsch
+6,French,0x080A4374,0x0218,0x080A458C,한국어
+6,French,0x080A4374,0x0224,0x080A4598,Français
+6,French,0x080A4374,0x0230,0x080A45A4,Polski
+6,French,0x080A4374,0x023C,0x080A45B0,Spanish
+6,French,0x080A4374,0x024B,0x080A45BF,Portugues
+6,French,0x080A4374,0x025A,0x080A45CE,Confirmer impression
+6,French,0x080A4374,0x0282,0x080A45F6,Imprimer
+6,French,0x080A4374,0x0291,0x080A4605,Supprimer
+6,French,0x080A4374,0x029B,0x080A460F,Copier
+6,French,0x080A4374,0x02AA,0x080A461E,Confirmer suppression fichier
+6,French,0x080A4374,0x02D2,0x080A4646,Chargement Gauche
+6,French,0x080A4374,0x02FA,0x080A466E,Déchargement Gauche
+6,French,0x080A4374,0x0322,0x080A4696,Chargement Droite
+6,French,0x080A4374,0x034A,0x080A46BE,Déchargement Droite
+6,French,0x080A4374,0x0372,0x080A46E6,Chargement
+6,French,0x080A4374,0x039A,0x080A470E,Déchargement
+6,French,0x080A4374,0x03C2,0x080A4736,Temps d’impression
+6,French,0x080A4374,0x03DA,0x080A474E,Annulation impression
+6,French,0x080A4374,0x03FD,0x080A4771,Voulez-vous annuler l’impression?
+6,French,0x080A4374,0x0439,0x080A47AD,Oui
+6,French,0x080A4374,0x0441,0x080A47B5,Non
+6,French,0x080A4374,0x044D,0x080A47C1,Annuler
+6,French,0x080A4374,0x045D,0x080A47D1,Mise à zéro – Patientez SVP…
+6,French,0x080A4374,0x0495,0x080A4809,Mise à zéro terminée.
+6,French,0x080A4374,0x04BD,0x080A4831,Veuillez patienter pendant que la buse et la plate-forme terminent le mouvement d'initialisation
+6,French,0x080A4374,0x052B,0x080A489F,"Veuillez serrer les trois écrous sous le sens antihoraire, puis cliquez sur le bouton OK"
+6,French,0x080A4374,0x0599,0x080A490D,Merci d’ajuster la vis de gauche sous le plateau après l’arrêt.
+6,French,0x080A4374,0x0607,0x080A497B,Merci d’ajuster la vis de droite sous le plateau après l’arrêt.
+6,French,0x080A4374,0x0675,0x080A49E9,Merci d’ajuster la vis de derrière sous le plateau après l’arrêt.
+6,French,0x080A4374,0x06E3,0x080A4A57,Réglage de niveau terminé!
+6,French,0x080A4374,0x071A,0x080A4A8E,Suivant
+6,French,0x080A4374,0x0724,0x080A4A98,USB connecté.
+6,French,0x080A4374,0x0749,0x080A4ABD,USB déconnecté.
+6,French,0x080A4374,0x0770,0x080A4AE4,En chauffe...
+6,French,0x080A4374,0x078C,0x080A4B00,L’extrudeur n’est pas chaud – vérifier la connexion du câble.
+6,French,0x080A4374,0x07DE,0x080A4B52,Chargement/déchargement. Flèche pour sortir.
+6,French,0x080A4374,0x084C,0x080A4BC0,"Le chargement démarre,poussez alors le fil verticalement dans l’extrudeur et appuyez sur [Done] lorsque le fil sort de l’extrudeur"
+6,French,0x080A4374,0x0900,0x080A4C74,"Décharger commence,appuyez ressort presseur et retirer filament"
+6,French,0x080A4374,0x09B4,0x080A4D28,Temporisation expirée ! Flèche pour sortir.
+6,French,0x080A4374,0x0A18,0x080A4D8C,Annuler la charge
+6,French,0x080A4374,0x0A4E,0x080A4DC2,Etes-vous sûr d'annuler la charge?
+6,French,0x080A4374,0x0A92,0x080A4E06,Annuler déchargement
+6,French,0x080A4374,0x0AC8,0x080A4E3C,Etes-vous sûr d'annuler le déchargement?
+6,French,0x080A4374,0x0B0C,0x080A4E80,Action confirmée
+6,French,0x080A4374,0x0B25,0x080A4E99,Réinitialiser les valeurs par défaut d’usine?
+6,French,0x080A4374,0x0B5D,0x080A4ED1,Nom de machine :
+6,French,0x080A4374,0x0B7B,0x080A4EEF,Type de machine :
+6,French,0x080A4374,0x0B94,0x080A4F08,SN:
+6,French,0x080A4374,0x0BB2,0x080A4F26,Version du logiciel :
+6,French,0x080A4374,0x0BD0,0x080A4F44,Volume d’impression :
+6,French,0x080A4374,0x0BEE,0x080A4F62,Compteur :
+6,French,0x080A4374,0x0C0C,0x080A4F80,Usage compteur:
+6,French,0x080A4374,0x0C2F,0x080A4FA3,heures
+6,French,0x080A4374,0x0C43,0x080A4FB7,Puissance du signal
+6,French,0x080A4374,0x0C5B,0x080A4FCF,Adresse IP
+6,French,0x080A4374,0x0C6F,0x080A4FE3,Passerelle par défaut
+6,French,0x080A4374,0x0C92,0x080A5006,Masque de sous réseau
+6,French,0x080A4374,0x0CB0,0x080A5024,Mode du point d’accès
+6,French,0x080A4374,0x0CCE,0x080A5042,Echec connexion
+6,French,0x080A4374,0x0CEF,0x080A5063,Non connecté
+6,French,0x080A4374,0x0D12,0x080A5086,Connexion en cours...
+6,French,0x080A4374,0x0D30,0x080A50A4,En pause / vidage tuyau...
+6,French,0x080A4374,0x0D7B,0x080A50EF,Sortie de pause...
+6,French,0x080A4374,0x0D9F,0x080A5113,Annulation de l’impression...
+6,French,0x080A4374,0x0DC3,0x080A5137,Téléchargement du fichier...
+6,French,0x080A4374,0x0DE7,0x080A515B,Impression terminée / temps d’impression: %dh%dm.
+6,French,0x080A4374,0x0E1F,0x080A5193,Erreur
+6,French,0x080A4374,0x0E33,0x080A51A7,Problème lecture température – vérifier les câbles.
+6,French,0x080A4374,0x0E83,0x080A51F7,Température maximum atteinte / éteindre ou redémarrer.
+6,French,0x080A4374,0x0ED3,0x080A5247,Problème de chauffe / vérifier les câbles.
+6,French,0x080A4374,0x0F23,0x080A5297,Instabilité de la température – vérifier les câbles.
+6,French,0x080A4374,0x0F73,0x080A52E7,Lecture de température hors plage– vérifier les câbles.
+6,French,0x080A4374,0x0FC3,0x080A5337,Erreur inconnue
+6,French,0x080A4374,0x0FEB,0x080A535F,Extra
+6,French,0x080A4374,0x0FFF,0x080A5373,Chauffe Tête 3
+6,French,0x080A4374,0x1013,0x080A5387,Chauffe Tête 2
+6,French,0x080A4374,0x1027,0x080A539B,Chauffe Tête 1
+6,French,0x080A4374,0x103B,0x080A53AF,"Marche
+Ventilo"
+6,French,0x080A4374,0x104F,0x080A53C3,"Arrêt
+Ventilo"
+6,French,0x080A4374,0x1063,0x080A53D7,Copier Modèle
+6,French,0x080A4374,0x1077,0x080A53EB,Copie effectuée
+6,French,0x080A4374,0x1094,0x080A5408,Echec de la copie
+6,French,0x080A4374,0x10AF,0x080A5423,Modèle effacé
+6,French,0x080A4374,0x10CD,0x080A5441,Copie du modèle
+6,French,0x080A4374,0x10EB,0x080A545F,WIFI on
+6,French,0x080A4374,0x10FF,0x080A5473,WIFI off
+6,French,0x080A4374,0x1113,0x080A5487,on
+6,French,0x080A4374,0x111D,0x080A5491,off
+6,French,0x080A4374,0x1127,0x080A549B,Erreur SD
+6,French,0x080A4374,0x113B,0x080A54AF,Reinitialiser
+6,French,0x080A4374,0x114F,0x080A54C3,Direct
+6,French,0x080A4374,0x1163,0x080A54D7,Reinitialiser WIFI
+6,French,0x080A4374,0x118C,0x080A5500,Veillez à réinitialiser wifi?
+6,French,0x080A4374,0x11DC,0x080A5550,Interne
+6,French,0x080A4374,0x11F0,0x080A5564,Type poulie
+6,French,0x080A4374,0x120E,0x080A5582,Noire
+6,French,0x080A4374,0x122C,0x080A55A0,Grise
+6,French,0x080A4374,0x124A,0x080A55BE,Poulie
+6,French,0x080A4374,0x1270,0x080A55E4,Les fichiers d'impression ne correspondent pas!
+6,French,0x080A4374,0x12A2,0x080A5616,Erreur d'impression du contenu du fichier!
+6,French,0x080A4374,0x12D4,0x080A5648,OK
+6,French,0x080A4374,0x12E3,0x080A5657,Ignorer
+6,French,0x080A4374,0x12F2,0x080A5666,Pause
+6,French,0x080A4374,0x1310,0x080A5684,Pause sur z:
+6,French,0x080A4374,0x1342,0x080A56B6,Done
+6,French,0x080A4374,0x1357,0x080A56CB,Resume Imprimer
+6,French,0x080A4374,0x1378,0x080A56EC,Reprendre le travail d'impression terminé?
+6,French,0x080A4374,0x13B4,0x080A5728,Retirer restant filament
+6,French,0x080A4374,0x1408,0x080A577C,Appuyez sur [Oui] après l'enlèvement des débris de filament dans la buse et sur l'objet imprimé
+6,French,0x080A4374,0x149E,0x080A5812,"Resume
+Imprimer ON"
+6,French,0x080A4374,0x14CB,0x080A583F,"Resume
+Imprimer OFF"
+6,French,0x080A4374,0x14F5,0x080A5869,pas allumé
+6,French,0x080A4374,0x1513,0x080A5887,Allumé
+6,French,0x080A4374,0x1531,0x080A58A5,Réinitialisation
+6,French,0x080A4374,0x155F,0x080A58D3,Restaurer les paramètres d'usine
+6,French,0x080A4374,0x1591,0x080A5905,"Mettre
+à jourCaméra"
+6,French,0x080A4374,0x15D7,0x080A594B,Sélectionnez Direct / Usine
+6,French,0x080A4374,0x163B,0x080A59AF,Usine
+6,French,0x080A4374,0x1658,0x080A59CC,Filament usagé accumulé: 
+6,French,0x080A4374,0x168A,0x080A59FE,Mètre
+6,French,0x080A4374,0x16A8,0x080A5A1C,Veuillez désactiver d'abord la WiFi!
+6,French,0x080A4374,0x16DA,0x080A5A4E,Vérification du fichier
+6,French,0x080A4374,0x16F8,0x080A5A6C,Sûr de mettre à jour
+6,French,0x080A4374,0x1720,0x080A5A94,Erreur de fichier
+6,French,0x080A4374,0x173E,0x080A5AB2,"Étalonnage X...
+Chauffage extrudeuse, veuillez insérer le filament dans les deux extrudeuses."
+6,French,0x080A4374,0x1806,0x080A5B7A,"Étalonnage Y...
+Chauffage extrudeuse, veuillez insérer le filament dans les deux extrudeuses."
+6,French,0x080A4374,0x18CE,0x080A5C42,"Étalonnage Z...
+Initialisation du déplacement."
+6,French,0x080A4374,0x1932,0x080A5CA6,"Étalonnage X terminé
+Passez à l'étalonnage de l'axe Y ?"
+6,French,0x080A4374,0x19C8,0x080A5D3C,Étalonnage Y terminé
+6,French,0x080A4374,0x19FA,0x080A5D6E,"Étalonnage Z terminé
+Passez à l'étalonnage de l'axe X ?"
+6,French,0x080A4374,0x1A90,0x080A5E04,Étalonnage X annulé
+6,French,0x080A4374,0x1AD6,0x080A5E4A,Étalonnage Y annulé
+6,French,0x080A4374,0x1B1C,0x080A5E90,Étalonnage Z annulé
+6,French,0x080A4374,0x1B62,0x080A5ED6,En attente de refroidissement
+6,French,0x080A4374,0x1B80,0x080A5EF4,Veuillez sélectionner au hasard l'extrudeuse pour étalonnage.
+6,French,0x080A4374,0x1BE4,0x080A5F58,Vérifiez
+6,French,0x080A4374,0x1C02,0x080A5F76,Étalonnage
+6,French,0x080A4374,0x1C20,0x080A5F94,"Appuyez sur X-, X + pour régler et vérifier que les lignes sont alignées."
+6,French,0x080A4374,0x1CB6,0x080A602A,"Appuyez sur Y-, Y + pour régler et vérifier que les lignes sont alignées."
+6,French,0x080A4374,0x1D4C,0x080A60C0,"Appuyez sur Z-, Z + pour régler et placer la carte de mise à niveau entre la buse et la plate-forme pour vérifier une distance appropriée."
+6,French,0x080A4374,0x1E14,0x080A6188,Passez à l'étalonnage de l'axe Z ?
+6,French,0x080A4374,0x1E78,0x080A61EC,Calibration fine manuelle
+6,French,0x080A4374,0x1EAA,0x080A621E,Cet assistant est réservé aux utilisateurs avancés. Après étalonnage de l'imprimante. Affinez les décalages d'étalonnage de l'axe X ou Y si nécessaire.
+6,French,0x080A4374,0x1F72,0x080A62E6,"Expert
+Mode"
+6,French,0x080A4374,0x1F90,0x080A6304,Pause à droite
+6,French,0x080A4374,0x1FAE,0x080A6322,Pause à gauche
+6,French,0x080A4374,0x1FCC,0x080A6340,Impression:
+6,French,0x080A4374,0x1FEA,0x080A635E,Décalage Z:
+6,French,0x080A4374,0x2008,0x080A637C,Retour
+7,Polish,0x080A6386,0x0000,0x080A6386,Drukowanie
+7,Polish,0x080A6386,0x0014,0x080A639A,Rozgrzewanie
+7,Polish,0x080A6386,0x0028,0x080A63AE,Narzedzia
+7,Polish,0x080A6386,0x0036,0x080A63BC,Extruder
+7,Polish,0x080A6386,0x0047,0x080A63CD,Lewy
+7,Polish,0x080A6386,0x0057,0x080A63DD,Prawy
+7,Polish,0x080A6386,0x0067,0x080A63ED,L Extruder
+7,Polish,0x080A6386,0x0080,0x080A6406,R Extruder
+7,Polish,0x080A6386,0x009C,0x080A6422,Platforma
+7,Polish,0x080A6386,0x00B8,0x080A643E,Start
+7,Polish,0x080A6386,0x00C8,0x080A644E,Stop
+7,Polish,0x080A6386,0x00D8,0x080A645E,Zakoncz
+7,Polish,0x080A6386,0x00E2,0x080A6468,Filament
+7,Polish,0x080A6386,0x00F2,0x080A6478,Poziom
+7,Polish,0x080A6386,0x0102,0x080A6488,Wycentruj
+7,Polish,0x080A6386,0x0112,0x080A6498,Manual
+7,Polish,0x080A6386,0x0129,0x080A64AF,Ustawienia
+7,Polish,0x080A6386,0x013D,0x080A64C3,Informacje
+7,Polish,0x080A6386,0x014B,0x080A64D1,Monitor
+7,Polish,0x080A6386,0x0163,0x080A64E9,Jezyk
+7,Polish,0x080A6386,0x016D,0x080A64F3,Kalibracja TP
+7,Polish,0x080A6386,0x0185,0x080A650B,Zegar
+7,Polish,0x080A6386,0x018F,0x080A6515,Date
+7,Polish,0x080A6386,0x019F,0x080A6525,WIFI
+7,Polish,0x080A6386,0x01AD,0x080A6533,"Reset do
+ustawien
+fabrycznych"
+7,Polish,0x080A6386,0x01CE,0x080A6554,Motyw
+7,Polish,0x080A6386,0x01DE,0x080A6564,简体中文
+7,Polish,0x080A6386,0x01EC,0x080A6572,English
+7,Polish,0x080A6386,0x01F6,0x080A657C,日本語
+7,Polish,0x080A6386,0x0200,0x080A6586,繁體中文
+7,Polish,0x080A6386,0x020E,0x080A6594,Deutsch
+7,Polish,0x080A6386,0x0218,0x080A659E,한국어
+7,Polish,0x080A6386,0x0224,0x080A65AA,Français
+7,Polish,0x080A6386,0x0230,0x080A65B6,Polski
+7,Polish,0x080A6386,0x023C,0x080A65C2,Spanish
+7,Polish,0x080A6386,0x024B,0x080A65D1,Portugues
+7,Polish,0x080A6386,0x025A,0x080A65E0,Potwierdz wydruk
+7,Polish,0x080A6386,0x0282,0x080A6608,Drukuj
+7,Polish,0x080A6386,0x0291,0x080A6617,Usun
+7,Polish,0x080A6386,0x029B,0x080A6621,Kopiuj
+7,Polish,0x080A6386,0x02AA,0x080A6630,Potwierdz usuniecie pliku
+7,Polish,0x080A6386,0x02D2,0x080A6658,Zaladuj Lewy
+7,Polish,0x080A6386,0x02FA,0x080A6680,Rozladuj Lewy
+7,Polish,0x080A6386,0x0322,0x080A66A8,Zaladuj Prawy
+7,Polish,0x080A6386,0x034A,0x080A66D0,Rozladuj Prawy
+7,Polish,0x080A6386,0x0372,0x080A66F8,Laduj
+7,Polish,0x080A6386,0x039A,0x080A6720,Rozladuj
+7,Polish,0x080A6386,0x03C2,0x080A6748,Czas wydruku
+7,Polish,0x080A6386,0x03DA,0x080A6760,Odwolaj wydruk
+7,Polish,0x080A6386,0x03FD,0x080A6783,Odwolac wydruk?
+7,Polish,0x080A6386,0x0439,0x080A67BF,Tak
+7,Polish,0x080A6386,0x0441,0x080A67C7,Nie
+7,Polish,0x080A6386,0x044D,0x080A67D3,Cofnij
+7,Polish,0x080A6386,0x045D,0x080A67E3,Centruje! Zaczekaj...
+7,Polish,0x080A6386,0x0495,0x080A681B,Centrowanie zakonczone.
+7,Polish,0x080A6386,0x04BD,0x080A6843,"Poczekaj, aż dysza i platforma zakończą proces inicjalizacji"
+7,Polish,0x080A6386,0x052B,0x080A68B1,"Dokręć trzy nakrętki pod przeciwnie do ruchu wskazówek zegara, a następnie kliknij przycisk OK"
+7,Polish,0x080A6386,0x0599,0x080A691F,Dopasuj lewa srube pod platforma kiedy sie zatrzyma.
+7,Polish,0x080A6386,0x0607,0x080A698D,Dopasuj prawa srube pod platforma kiedy sie zatrzyma.
+7,Polish,0x080A6386,0x0675,0x080A69FB,Dopasuj tylna srube pod platforma kiedy sie zatrzyma.
+7,Polish,0x080A6386,0x06E3,0x080A6A69,Kalibracja zakonczona!
+7,Polish,0x080A6386,0x071A,0x080A6AA0,Dalej
+7,Polish,0x080A6386,0x0724,0x080A6AAA,USB Podlaczone.
+7,Polish,0x080A6386,0x0749,0x080A6ACF,USB Odlaczone.
+7,Polish,0x080A6386,0x0770,0x080A6AF6,Grzeje...
+7,Polish,0x080A6386,0x078C,0x080A6B12,Extruder nie grzeje. Sprawdz polaczenia.
+7,Polish,0x080A6386,0x07DE,0x080A6B64,"Rozpoczeto ladowanie/rozladowywanie. Nacisnij strzalke, aby przerwac."
+7,Polish,0x080A6386,0x084C,0x080A6BD2,"Obciążenie zaczyna, Push włókna pionowo do wytłaczarki, a następnie naciśnij przycisk [Gotowe], gdy widzisz żarnika wyjdzie z wytłaczarki"
+7,Polish,0x080A6386,0x0900,0x080A6C86,Wyładowanie zaczyna naciśnij dół sprężyny i wyjąć żarnik dociskarki
+7,Polish,0x080A6386,0x09B4,0x080A6D3A,"Minelo 3 minut! Nacisnij strzalke, aby wyjsc."
+7,Polish,0x080A6386,0x0A18,0x080A6D9E,Anuluj obciążenie
+7,Polish,0x080A6386,0x0A4E,0x080A6DD4,Czy na pewno chcesz zrezygnować obciążenia?
+7,Polish,0x080A6386,0x0A92,0x080A6E18,Anuluj rozładunek
+7,Polish,0x080A6386,0x0AC8,0x080A6E4E,Czy na pewno chcesz zrezygnować rozładunek?
+7,Polish,0x080A6386,0x0B0C,0x080A6E92,Operacja potwierdzona
+7,Polish,0x080A6386,0x0B25,0x080A6EAB,Przywrocic ustawienia fabryczne?
+7,Polish,0x080A6386,0x0B5D,0x080A6EE3,Nazwa urzadzenia :
+7,Polish,0x080A6386,0x0B7B,0x080A6F01,Typ urzadzenia :
+7,Polish,0x080A6386,0x0B94,0x080A6F1A,Numer Seryjny :
+7,Polish,0x080A6386,0x0BB2,0x080A6F38,Wersja oprogramowania :
+7,Polish,0x080A6386,0x0BD0,0x080A6F56,Print Volumn :
+7,Polish,0x080A6386,0x0BEE,0x080A6F74,Liczba głowic :
+7,Polish,0x080A6386,0x0C0C,0x080A6F92,Łączna suma :
+7,Polish,0x080A6386,0x0C2F,0x080A6FB5,godzin
+7,Polish,0x080A6386,0x0C43,0x080A6FC9,Sila sygnalu
+7,Polish,0x080A6386,0x0C5B,0x080A6FE1,Adres IP
+7,Polish,0x080A6386,0x0C6F,0x080A6FF5,Domyslna brama
+7,Polish,0x080A6386,0x0C92,0x080A7018,Maska podsieci
+7,Polish,0x080A6386,0x0CB0,0x080A7036,Tryb AP
+7,Polish,0x080A6386,0x0CCE,0x080A7054,Polaczenie nieudane
+7,Polish,0x080A6386,0x0CEF,0x080A7075,Niepolaczony
+7,Polish,0x080A6386,0x0D12,0x080A7098,Lacze...
+7,Polish,0x080A6386,0x0D30,0x080A70B6,"Wcisnieto pauze...
+ Oczyszczam dysze..."
+7,Polish,0x080A6386,0x0D7B,0x080A7101,Wychodze z pauzy...
+7,Polish,0x080A6386,0x0D9F,0x080A7125,Cofam Drukowanie...
+7,Polish,0x080A6386,0x0DC3,0x080A7149,Pobieram plik...
+7,Polish,0x080A6386,0x0DE7,0x080A716D,Drukowanie zakonczone! Czas drukowania: %dh%dm.
+7,Polish,0x080A6386,0x0E1F,0x080A71A5,Blad
+7,Polish,0x080A6386,0x0E33,0x080A71B9,Nie mozna odczytac temperatury. Sprawdz polaczenia
+7,Polish,0x080A6386,0x0E83,0x080A7209,Osiagnieto limit temperatury. Wylacz lub zrestuj drukarke.
+7,Polish,0x080A6386,0x0ED3,0x080A7259,Drukarka nie rozgrzewa sie. Sprawdz polaczenia.
+7,Polish,0x080A6386,0x0F23,0x080A72A9,Temperatura spada. Sprawdz polaczenia.
+7,Polish,0x080A6386,0x0F73,0x080A72F9,Zle wyniki pomiarow temperatury. Sprawdz polaczenia.
+7,Polish,0x080A6386,0x0FC3,0x080A7349,Nieznany blad
+7,Polish,0x080A6386,0x0FEB,0x080A7371,Extra
+7,Polish,0x080A6386,0x0FFF,0x080A7385,Dysza 3
+7,Polish,0x080A6386,0x1013,0x080A7399,Dysza 2
+7,Polish,0x080A6386,0x1027,0x080A73AD,Dysza 1
+7,Polish,0x080A6386,0x103B,0x080A73C1,Wlacz wiatrak
+7,Polish,0x080A6386,0x104F,0x080A73D5,"Wylacz
+wiatrak"
+7,Polish,0x080A6386,0x1063,0x080A73E9,Skopiuj model
+7,Polish,0x080A6386,0x1077,0x080A73FD,Kopiowanie udane
+7,Polish,0x080A6386,0x1094,0x080A741A,Kopiowanie nieudane
+7,Polish,0x080A6386,0x10AF,0x080A7435,Model zostal usuniety
+7,Polish,0x080A6386,0x10CD,0x080A7453,Kopiowanie pliku
+7,Polish,0x080A6386,0x10EB,0x080A7471,WIFI wlaczone
+7,Polish,0x080A6386,0x10FF,0x080A7485,WIFI wylaczone
+7,Polish,0x080A6386,0x1113,0x080A7499,ON
+7,Polish,0x080A6386,0x111D,0x080A74A3,OFF
+7,Polish,0x080A6386,0x1127,0x080A74AD,blad karty
+7,Polish,0x080A6386,0x113B,0x080A74C1,Reset
+7,Polish,0x080A6386,0x114F,0x080A74D5,Bezpośrednie
+7,Polish,0x080A6386,0x1163,0x080A74E9,Resetuj WIFI
+7,Polish,0x080A6386,0x118C,0x080A7512,Czy na pewno chcesz zresetowac ustawienia WIFI?
+7,Polish,0x080A6386,0x11DC,0x080A7562,wewnetrzny
+7,Polish,0x080A6386,0x11F0,0x080A7576,Typ Bloczka
+7,Polish,0x080A6386,0x120E,0x080A7594,Czarny
+7,Polish,0x080A6386,0x122C,0x080A75B2,Srebrny
+7,Polish,0x080A6386,0x124A,0x080A75D0,Bloczek
+7,Polish,0x080A6386,0x1270,0x080A75F6,Drukowanie plików nie pasują!
+7,Polish,0x080A6386,0x12A2,0x080A7628,Drukuj błąd Zawartość pliku!
+7,Polish,0x080A6386,0x12D4,0x080A765A,OK
+7,Polish,0x080A6386,0x12E3,0x080A7669,Pomin
+7,Polish,0x080A6386,0x12F2,0x080A7678,Pauza
+7,Polish,0x080A6386,0x1310,0x080A7696,Pauza na Z:
+7,Polish,0x080A6386,0x1342,0x080A76C8,Gotowe
+7,Polish,0x080A6386,0x1357,0x080A76DD,Wznowienie druku
+7,Polish,0x080A6386,0x1378,0x080A76FE,Wznowienie wypełnionego zadania drukowania?
+7,Polish,0x080A6386,0x13B4,0x080A773A,Usuń pozostały włókna
+7,Polish,0x080A6386,0x1408,0x080A778E,"Dotknij [Tak], po usunięciu gruzu żarnika w dyszy i na zadrukowanej obiektu"
+7,Polish,0x080A6386,0x149E,0x080A7824,"Wznowienie
+druku ON"
+7,Polish,0x080A6386,0x14CB,0x080A7851,"Wznowienie
+druku OFF"
+7,Polish,0x080A6386,0x14F5,0x080A787B,Nie włączone
+7,Polish,0x080A6386,0x1513,0x080A7899,Włączone
+7,Polish,0x080A6386,0x1531,0x080A78B7,Resetowanie
+7,Polish,0x080A6386,0x155F,0x080A78E5,Przywracanie ustawień fabrycznych
+7,Polish,0x080A6386,0x1591,0x080A7917,Aktualizacja
+7,Polish,0x080A6386,0x15A0,0x080A7926,Kamera
+7,Polish,0x080A6386,0x15D7,0x080A795D,Wybierz Bezpośrednie / Fabryka
+7,Polish,0x080A6386,0x163B,0x080A79C1,Fabryka
+7,Polish,0x080A6386,0x1658,0x080A79DE,Łączne zużycie materiałów eksploatacyjnych: 
+7,Polish,0x080A6386,0x168A,0x080A7A10,Miernik
+7,Polish,0x080A6386,0x16A8,0x080A7A2E,Najpierw wyłącz Wi-Fi!
+7,Polish,0x080A6386,0x16DA,0x080A7A60,Sprawdzanie pliku
+7,Polish,0x080A6386,0x16F8,0x080A7A7E,Pewnie zaktualizować
+7,Polish,0x080A6386,0x1720,0x080A7AA6,Błąd pliku
+7,Polish,0x080A6386,0x173E,0x080A7AC4,Kalibracja X
+7,Polish,0x080A6386,0x1806,0x080A7B8C,Kalibracja Y
+7,Polish,0x080A6386,0x18CE,0x080A7C54,Kalibracja Z
+7,Polish,0x080A6386,0x1932,0x080A7CB8,"Kalibracja X zakończona
+Czy muszę kontynuować kalibrację osi Y?"
+7,Polish,0x080A6386,0x19C8,0x080A7D4E,Kalibracja Y zakończona
+7,Polish,0x080A6386,0x19FA,0x080A7D80,"Kalibracja Z zakończona
+Czy muszę kontynuować kalibrację osi X?"
+7,Polish,0x080A6386,0x1A90,0x080A7E16,Kalibracja X anulowana
+7,Polish,0x080A6386,0x1AD6,0x080A7E5C,Kalibracja Y anulowana
+7,Polish,0x080A6386,0x1B1C,0x080A7EA2,Kalibracja Z anulowana
+7,Polish,0x080A6386,0x1B62,0x080A7EE8,Oczekiwanie na ochłodzenie
+7,Polish,0x080A6386,0x1B80,0x080A7F06,Wybierz dyszę
+7,Polish,0x080A6386,0x1BE4,0x080A7F6A,Zweryfikuj
+7,Polish,0x080A6386,0x1C02,0x080A7F88,Kalibracja
+7,Polish,0x080A6386,0x1C20,0x080A7FA6,"Kliknij X-, X+, aby dostosować odległość, aby dwie linie były spójne"
+7,Polish,0x080A6386,0x1CB6,0x080A803C,"Kliknij Y-, Y+, aby dostosować odległość, aby dwie linie były spójne"
+7,Polish,0x080A6386,0x1D4C,0x080A80D2,"Włóż kartę poziomującą między dyszę a platformę, kliknij Z-, Z+, aby dostosować odpowiedni odstęp"
+7,Polish,0x080A6386,0x1E14,0x080A819A,Czy muszę kontynuować kalibrację osi Z?
+7,Polish,0x080A6386,0x1E78,0x080A81FE,Ręczna regulacja przesunięcia
+7,Polish,0x080A6386,0x1EAA,0x080A8230,Ta funkcja jest przeznaczona tylko dla zaawansowanych użytkowników. Drukarka skalibrowana. W razie potrzeby dostrój korekcję korekcji osi X lub osi Y.
+7,Polish,0x080A6386,0x1F72,0x080A82F8,"Ekspert
+Tryb"
+7,Polish,0x080A6386,0x1F90,0x080A8316,Pauza w prawo
+7,Polish,0x080A6386,0x1FAE,0x080A8334,Pauza w lewo
+7,Polish,0x080A6386,0x1FCC,0x080A8352,Wydrukować:
+7,Polish,0x080A6386,0x1FEA,0x080A8370,Przesunięcie Z:
+7,Polish,0x080A6386,0x2008,0x080A838E,Powrót
+8,Spanish,0x080A8398,0x0000,0x080A8398,Imprimir
+8,Spanish,0x080A8398,0x0014,0x080A83AC,Precalentar
+8,Spanish,0x080A8398,0x0028,0x080A83C0,Herramientas
+8,Spanish,0x080A8398,0x0036,0x080A83CE,Extrusor
+8,Spanish,0x080A8398,0x0047,0x080A83DF,Izquierdo
+8,Spanish,0x080A8398,0x0057,0x080A83EF,Derecho
+8,Spanish,0x080A8398,0x0067,0x080A83FF,Extrusor I
+8,Spanish,0x080A8398,0x0080,0x080A8418,Extrusor D
+8,Spanish,0x080A8398,0x009C,0x080A8434,Plataforma
+8,Spanish,0x080A8398,0x00B8,0x080A8450,Iniciar
+8,Spanish,0x080A8398,0x00C8,0x080A8460,Detener
+8,Spanish,0x080A8398,0x00D8,0x080A8470,Finalizar
+8,Spanish,0x080A8398,0x00E2,0x080A847A,Filamento
+8,Spanish,0x080A8398,0x00F2,0x080A848A,Nivelar
+8,Spanish,0x080A8398,0x0102,0x080A849A,Inicio
+8,Spanish,0x080A8398,0x0112,0x080A84AA,Manual
+8,Spanish,0x080A8398,0x0129,0x080A84C1,Ajustes
+8,Spanish,0x080A8398,0x013D,0x080A84D5,Acerca de
+8,Spanish,0x080A8398,0x014B,0x080A84E3,Estado
+8,Spanish,0x080A8398,0x0163,0x080A84FB,Idioma
+8,Spanish,0x080A8398,0x016D,0x080A8505,Ajuste TP
+8,Spanish,0x080A8398,0x0185,0x080A851D,Reloj
+8,Spanish,0x080A8398,0x018F,0x080A8527,Fecha
+8,Spanish,0x080A8398,0x019F,0x080A8537,Wifi
+8,Spanish,0x080A8398,0x01AD,0x080A8545,"Ajuste de
+ fábrica"
+8,Spanish,0x080A8398,0x01CE,0x080A8566,Tema
+8,Spanish,0x080A8398,0x01DE,0x080A8576,简体中文
+8,Spanish,0x080A8398,0x01EC,0x080A8584,Inglés
+8,Spanish,0x080A8398,0x01F6,0x080A858E,日本語
+8,Spanish,0x080A8398,0x0200,0x080A8598,繁體中文
+8,Spanish,0x080A8398,0x020E,0x080A85A6,Alemán
+8,Spanish,0x080A8398,0x0218,0x080A85B0,한국어
+8,Spanish,0x080A8398,0x0224,0x080A85BC,Francés
+8,Spanish,0x080A8398,0x0230,0x080A85C8,Polaco
+8,Spanish,0x080A8398,0x023C,0x080A85D4,Spanish
+8,Spanish,0x080A8398,0x024B,0x080A85E3,Portugues
+8,Spanish,0x080A8398,0x025A,0x080A85F2,Confirmar impresión
+8,Spanish,0x080A8398,0x0282,0x080A861A,Imprimir
+8,Spanish,0x080A8398,0x0291,0x080A8629,Eliminar
+8,Spanish,0x080A8398,0x029B,0x080A8633,Copiar
+8,Spanish,0x080A8398,0x02AA,0x080A8642,Confirmar eliminación de archivo
+8,Spanish,0x080A8398,0x02D2,0x080A866A,Cargar izquierda
+8,Spanish,0x080A8398,0x02FA,0x080A8692,Descargar izquierda
+8,Spanish,0x080A8398,0x0322,0x080A86BA,Cargar derecha
+8,Spanish,0x080A8398,0x034A,0x080A86E2,Descargar derecha
+8,Spanish,0x080A8398,0x0372,0x080A870A,Cargar
+8,Spanish,0x080A8398,0x039A,0x080A8732,Descargar
+8,Spanish,0x080A8398,0x03C2,0x080A875A,Tiempo de impresión
+8,Spanish,0x080A8398,0x03DA,0x080A8772,Cancelar impresión
+8,Spanish,0x080A8398,0x03FD,0x080A8795,¿Cancelar impresión ahora?
+8,Spanish,0x080A8398,0x0439,0x080A87D1,Sí
+8,Spanish,0x080A8398,0x0441,0x080A87D9,No
+8,Spanish,0x080A8398,0x044D,0x080A87E5,Cancelar
+8,Spanish,0x080A8398,0x045D,0x080A87F5,"Estableciendo a cero, Espere..."
+8,Spanish,0x080A8398,0x0495,0x080A882D,Se ha establecido a cero.
+8,Spanish,0x080A8398,0x04BD,0x080A8855,Espere mientras la boquilla y la plataforma completan el movimiento de inicialización.
+8,Spanish,0x080A8398,0x052B,0x080A88C3,Apriete las tres tuercas debajo de las agujas del reloj y luego haga clic en el botón Aceptar
+8,Spanish,0x080A8398,0x0599,0x080A8931,Ajuste el tornillo de mariposa frontal debajo de la plataforma cuando se detenga.
+8,Spanish,0x080A8398,0x0607,0x080A899F,Ajuste el tornillo de mariposa izquierdo debajo de la plataforma cuando se detenga.
+8,Spanish,0x080A8398,0x0675,0x080A8A0D,Ajuste el tornillo de mariposa derecho debajo de la plataforma cuando se detenga.
+8,Spanish,0x080A8398,0x06E3,0x080A8A7B,Ajuste de nivel completado.
+8,Spanish,0x080A8398,0x071A,0x080A8AB2,Siguiente
+8,Spanish,0x080A8398,0x0724,0x080A8ABC,USB conectado.
+8,Spanish,0x080A8398,0x0749,0x080A8AE1,USB desconectado.
+8,Spanish,0x080A8398,0x0770,0x080A8B08,Calentando...
+8,Spanish,0x080A8398,0x078C,0x080A8B24,El extrusor no se calienta.Compruebe el cableado.
+8,Spanish,0x080A8398,0x07DE,0x080A8B76,"Inicie la carga/descarga.
+Pulse el botón para salir."
+8,Spanish,0x080A8398,0x084C,0x080A8BE4,Comienza la carga. Introduzca el filamento verticalmente en el extrusor y pulse [Listo] cuando vea salir el filamento del extrusor
+8,Spanish,0x080A8398,0x0900,0x080A8C98,Comienza la descarga. Presione el mecanismo de resorte y extraiga el filamento
+8,Spanish,0x080A8398,0x09B4,0x080A8D4C,"Se ha agotado el tiempo de espera de 5 minutos.
+Pulse la flecha hacia atrás para salir."
+8,Spanish,0x080A8398,0x0A18,0x080A8DB0,Cancelar carga
+8,Spanish,0x080A8398,0x0A4E,0x080A8DE6,¿Seguro que desea cancelar la carga?
+8,Spanish,0x080A8398,0x0A92,0x080A8E2A,Cancelar descarga
+8,Spanish,0x080A8398,0x0AC8,0x080A8E60,¿Seguro que desea cancelar la descarga?
+8,Spanish,0x080A8398,0x0B0C,0x080A8EA4,Confirmar operación
+8,Spanish,0x080A8398,0x0B25,0x080A8EBD,¿Restablecer los valores predeterminados de fábrica?
+8,Spanish,0x080A8398,0x0B5D,0x080A8EF5,Nombre de máquina:
+8,Spanish,0x080A8398,0x0B7B,0x080A8F13,Tipo de máquina:
+8,Spanish,0x080A8398,0x0B94,0x080A8F2C,N.º de serie:
+8,Spanish,0x080A8398,0x0BB2,0x080A8F4A,Versión de firmware:
+8,Spanish,0x080A8398,0x0BD0,0x080A8F68,Volumen de impresión:
+8,Spanish,0x080A8398,0x0BEE,0x080A8F86,Recuento de herramientas:
+8,Spanish,0x080A8398,0x0C0C,0x080A8FA4,Contador de uso:
+8,Spanish,0x080A8398,0x0C2F,0x080A8FC7,Horas
+8,Spanish,0x080A8398,0x0C43,0x080A8FDB,Intensidad de señal
+8,Spanish,0x080A8398,0x0C5B,0x080A8FF3,Dirección IP
+8,Spanish,0x080A8398,0x0C6F,0x080A9007,Puerta de enlace predeterminada
+8,Spanish,0x080A8398,0x0C92,0x080A902A,Máscara de subred
+8,Spanish,0x080A8398,0x0CB0,0x080A9048,Modo AP
+8,Spanish,0x080A8398,0x0CCE,0x080A9066,Error de conexión
+8,Spanish,0x080A8398,0x0CEF,0x080A9087,No conectado
+8,Spanish,0x080A8398,0x0D12,0x080A90AA,Conectando...
+8,Spanish,0x080A8398,0x0D30,0x080A90C8,"Entrando en pausa...
+Vaciando conducto..."
+8,Spanish,0x080A8398,0x0D7B,0x080A9113,Saliendo de pausa...
+8,Spanish,0x080A8398,0x0D9F,0x080A9137,Cancelando impresión...
+8,Spanish,0x080A8398,0x0DC3,0x080A915B,Descargando archivo...
+8,Spanish,0x080A8398,0x0DE7,0x080A917F,¡Impresión completada! Tiempo de impresión: %dh%dm.
+8,Spanish,0x080A8398,0x0E1F,0x080A91B7,Error
+8,Spanish,0x080A8398,0x0E33,0x080A91CB,Error de las mediciones de temperatura. Compruebe el cableado.
+8,Spanish,0x080A8398,0x0E83,0x080A921B,Se ha alcanzado el límite de temperatura. Apague o reinicie el equipo.
+8,Spanish,0x080A8398,0x0ED3,0x080A926B,Error de calentamiento. Compruebe el cableado.
+8,Spanish,0x080A8398,0x0F23,0x080A92BB,La temperatura está descendiendo. Compruebe el cableado.
+8,Spanish,0x080A8398,0x0F73,0x080A930B,Las mediciones de temperatura están fuera del intervalo. Compruebe el cableado.Error desconocido
+8,Spanish,0x080A8398,0x0FEB,0x080A9383,Extra
+8,Spanish,0x080A8398,0x0FFF,0x080A9397,Calentador 3
+8,Spanish,0x080A8398,0x1013,0x080A93AB,Calentador 2
+8,Spanish,0x080A8398,0x1027,0x080A93BF,Calentador 1
+8,Spanish,0x080A8398,0x103B,0x080A93D3,Ventilador On
+8,Spanish,0x080A8398,0x104F,0x080A93E7,Ventilador Off
+8,Spanish,0x080A8398,0x1063,0x080A93FB,Copiar modelo
+8,Spanish,0x080A8398,0x1077,0x080A940F,Copia completada
+8,Spanish,0x080A8398,0x1094,0x080A942C,Error de copia
+8,Spanish,0x080A8398,0x10AF,0x080A9447,Modelo eliminado
+8,Spanish,0x080A8398,0x10CD,0x080A9465,Copiando archivo
+8,Spanish,0x080A8398,0x10EB,0x080A9483,Wifi On
+8,Spanish,0x080A8398,0x10FF,0x080A9497,Wifi Off
+8,Spanish,0x080A8398,0x1113,0x080A94AB,On
+8,Spanish,0x080A8398,0x111D,0x080A94B5,Off
+8,Spanish,0x080A8398,0x1127,0x080A94BF,Error de tarjeta
+8,Spanish,0x080A8398,0x113B,0x080A94D3,Restablecer
+8,Spanish,0x080A8398,0x114F,0x080A94E7,Directa
+8,Spanish,0x080A8398,0x1163,0x080A94FB,Restablecer WIFI
+8,Spanish,0x080A8398,0x118C,0x080A9524,¿Seguro que desea restablecer los ajustes de WIFI?
+8,Spanish,0x080A8398,0x11DC,0x080A9574,interno
+8,Spanish,0x080A8398,0x11F0,0x080A9588,Tipo de polea
+8,Spanish,0x080A8398,0x120E,0x080A95A6,negra
+8,Spanish,0x080A8398,0x122C,0x080A95C4,gris
+8,Spanish,0x080A8398,0x124A,0x080A95E2,Polea
+8,Spanish,0x080A8398,0x1270,0x080A9608,¡El archivo de impresión no coincide!
+8,Spanish,0x080A8398,0x12A2,0x080A963A,¡Error de contenido del archivo de impresión!
+8,Spanish,0x080A8398,0x12D4,0x080A966C,Aceptar
+8,Spanish,0x080A8398,0x12E3,0x080A967B,Omitir
+8,Spanish,0x080A8398,0x12F2,0x080A968A,Pausar
+8,Spanish,0x080A8398,0x1310,0x080A96A8,Pausar en Z: 
+8,Spanish,0x080A8398,0x1342,0x080A96DA,Hecho
+8,Spanish,0x080A8398,0x1357,0x080A96EF,Reanudar impresión
+8,Spanish,0x080A8398,0x1378,0x080A9710,¿Reanudar el trabajo de impresión sin completar?
+8,Spanish,0x080A8398,0x13B4,0x080A974C,Extraiga el filamento restante
+8,Spanish,0x080A8398,0x1408,0x080A97A0,Pulse [Sí] tras extraer los restos de filamento de la boquilla y el objeto impreso
+8,Spanish,0x080A8398,0x149E,0x080A9836,"Reanudar
+ impresión
+ ON"
+8,Spanish,0x080A8398,0x14CB,0x080A9863,"Reanudar
+ impresión
+ OFF"
+8,Spanish,0x080A8398,0x14F5,0x080A988D,No activado
+8,Spanish,0x080A8398,0x1513,0x080A98AB,Activado
+8,Spanish,0x080A8398,0x1531,0x080A98C9,Restableciendo
+8,Spanish,0x080A8398,0x155F,0x080A98F7,Restableciendo los ajustes de fábrica
+8,Spanish,0x080A8398,0x1591,0x080A9929,Actualizar
+8,Spanish,0x080A8398,0x15A0,0x080A9938,Cámara
+8,Spanish,0x080A8398,0x15D7,0x080A996F,Seleccionar Directa/Fábrica
+8,Spanish,0x080A8398,0x163B,0x080A99D3,Fábrica
+8,Spanish,0x080A8398,0x1658,0x080A99F0,Filamento usado: 
+8,Spanish,0x080A8398,0x168A,0x080A9A22,metro
+8,Spanish,0x080A8398,0x16A8,0x080A9A40,"Por favor, apaga el wifi primero"
+8,Spanish,0x080A8398,0x16DA,0x080A9A72,Archivo de comprobación
+8,Spanish,0x080A8398,0x16F8,0x080A9A90,Seguro para actualizar
+8,Spanish,0x080A8398,0x1720,0x080A9AB8,Error de archivo
+8,Spanish,0x080A8398,0x173E,0x080A9AD6,"Calibración de X...
+Calentando el extrusor. Inserte el filamento en ambos extrusores."
+8,Spanish,0x080A8398,0x1806,0x080A9B9E,"Calibración de Y...
+Calentando el extrusor. Inserte el filamento en ambos extrusores."
+8,Spanish,0x080A8398,0x18CE,0x080A9C66,"Calibración de Z...
+Inicializando movimiento."
+8,Spanish,0x080A8398,0x1932,0x080A9CCA,"Se ha completado la calibración de X.
+¿Continuar con la calibración del eje Y?"
+8,Spanish,0x080A8398,0x19C8,0x080A9D60,Se ha completado la calibración de Y.
+8,Spanish,0x080A8398,0x19FA,0x080A9D92,"Se ha completado la calibración de Z.
+¿Continuar con la calibración del eje X?"
+8,Spanish,0x080A8398,0x1A90,0x080A9E28,Se ha cancelado la calibración de X.
+8,Spanish,0x080A8398,0x1AD6,0x080A9E6E,Se ha cancelado la calibración de Y.
+8,Spanish,0x080A8398,0x1B1C,0x080A9EB4,Se ha cancelado la calibración de Z.
+8,Spanish,0x080A8398,0x1B62,0x080A9EFA,Esperando para enfriar
+8,Spanish,0x080A8398,0x1B80,0x080A9F18,Seleccione aleatoriamente el extrusor para la calibración.
+8,Spanish,0x080A8398,0x1BE4,0x080A9F7C,Verificar
+8,Spanish,0x080A8398,0x1C02,0x080A9F9A,Calibración
+8,Spanish,0x080A8398,0x1C20,0x080A9FB8,"Pulse X-, X+ para ajustar (compruebe que las líneas estén alineadas)."
+8,Spanish,0x080A8398,0x1CB6,0x080AA04E,"Pulse Y-, Y+ para ajustar (compruebe que las líneas estén alineadas)."
+8,Spanish,0x080A8398,0x1D4C,0x080AA0E4,"Pulse Z-, Z+ para ajustar y coloque la tarjeta de nivelación entre la boquilla y la plataforma para verificar que la distancia sea la adecuada."
+8,Spanish,0x080A8398,0x1E14,0x080AA1AC,¿Continuar con la calibración del eje Z?
+8,Spanish,0x080A8398,0x1E78,0x080AA210,Calibración de precisión manual
+8,Spanish,0x080A8398,0x1EAA,0x080AA242,"Este asistente es solo para usuarios avanzados. Después de calibrar la impresora, ajuste los desplazamientos de calibración de los ejes X o Y si es necesario."
+8,Spanish,0x080A8398,0x1F72,0x080AA30A,"Experto
+Modo"
+8,Spanish,0x080A8398,0x1F90,0x080AA328,Pausa derecha
+8,Spanish,0x080A8398,0x1FAE,0x080AA346,Pausa izquierda
+8,Spanish,0x080A8398,0x1FCC,0x080AA364,Impresión:
+8,Spanish,0x080A8398,0x1FEA,0x080AA382,Desplazamiento Z:
+8,Spanish,0x080A8398,0x2008,0x080AA3A0,Atrás
+9,Portuguese,0x080AA3AA,0x0000,0x080AA3AA,Imprimir
+9,Portuguese,0x080AA3AA,0x0014,0x080AA3BE,Pré-aquecer
+9,Portuguese,0x080AA3AA,0x0028,0x080AA3D2,Ferramentas
+9,Portuguese,0x080AA3AA,0x0036,0x080AA3E0,Extrusora
+9,Portuguese,0x080AA3AA,0x0047,0x080AA3F1,Esquerda
+9,Portuguese,0x080AA3AA,0x0057,0x080AA401,Direita
+9,Portuguese,0x080AA3AA,0x0067,0x080AA411,Extrusora esq.
+9,Portuguese,0x080AA3AA,0x0080,0x080AA42A,Extrusor dir.
+9,Portuguese,0x080AA3AA,0x009C,0x080AA446,Plataforma
+9,Portuguese,0x080AA3AA,0x00B8,0x080AA462,Iniciar
+9,Portuguese,0x080AA3AA,0x00C8,0x080AA472,Parar
+9,Portuguese,0x080AA3AA,0x00D8,0x080AA482,Concluir
+9,Portuguese,0x080AA3AA,0x00E2,0x080AA48C,Filamento
+9,Portuguese,0x080AA3AA,0x00F2,0x080AA49C,Nivel
+9,Portuguese,0x080AA3AA,0x0102,0x080AA4AC,Home
+9,Portuguese,0x080AA3AA,0x0112,0x080AA4BC,Manual
+9,Portuguese,0x080AA3AA,0x0129,0x080AA4D3,Ajuste
+9,Portuguese,0x080AA3AA,0x013D,0x080AA4E7,Sobre
+9,Portuguese,0x080AA3AA,0x014B,0x080AA4F5,Status
+9,Portuguese,0x080AA3AA,0x0163,0x080AA50D,Idioma
+9,Portuguese,0x080AA3AA,0x016D,0x080AA517,Ajustes Touch Screen
+9,Portuguese,0x080AA3AA,0x0185,0x080AA52F,Relógio
+9,Portuguese,0x080AA3AA,0x018F,0x080AA539,Data
+9,Portuguese,0x080AA3AA,0x019F,0x080AA549,WiFi
+9,Portuguese,0x080AA3AA,0x01AD,0x080AA557,"Reset de
+Fábrica"
+9,Portuguese,0x080AA3AA,0x01CE,0x080AA578,Tema
+9,Portuguese,0x080AA3AA,0x01DE,0x080AA588,简体中文
+9,Portuguese,0x080AA3AA,0x01EC,0x080AA596,English
+9,Portuguese,0x080AA3AA,0x01F6,0x080AA5A0,日本語
+9,Portuguese,0x080AA3AA,0x0200,0x080AA5AA,繁體中文
+9,Portuguese,0x080AA3AA,0x020E,0x080AA5B8,Deutsch
+9,Portuguese,0x080AA3AA,0x0218,0x080AA5C2,한국어
+9,Portuguese,0x080AA3AA,0x0224,0x080AA5CE,Français
+9,Portuguese,0x080AA3AA,0x0230,0x080AA5DA,Polski
+9,Portuguese,0x080AA3AA,0x023C,0x080AA5E6,Spanish
+9,Portuguese,0x080AA3AA,0x024B,0x080AA5F5,Portugues
+9,Portuguese,0x080AA3AA,0x025A,0x080AA604,Confirmar Impressão
+9,Portuguese,0x080AA3AA,0x0282,0x080AA62C,Imprimir
+9,Portuguese,0x080AA3AA,0x0291,0x080AA63B,Deletar
+9,Portuguese,0x080AA3AA,0x029B,0x080AA645,Copiar
+9,Portuguese,0x080AA3AA,0x02AA,0x080AA654,Confirmar exclusão
+9,Portuguese,0x080AA3AA,0x02D2,0x080AA67C,Carregar esquerda
+9,Portuguese,0x080AA3AA,0x02FA,0x080AA6A4,Descarregar esquerda
+9,Portuguese,0x080AA3AA,0x0322,0x080AA6CC,Carregar direita
+9,Portuguese,0x080AA3AA,0x034A,0x080AA6F4,Descarregar direita
+9,Portuguese,0x080AA3AA,0x0372,0x080AA71C,Carregar
+9,Portuguese,0x080AA3AA,0x039A,0x080AA744,Descarregar
+9,Portuguese,0x080AA3AA,0x03C2,0x080AA76C,Tempo de Impressão
+9,Portuguese,0x080AA3AA,0x03DA,0x080AA784,Cancelar Impressão
+9,Portuguese,0x080AA3AA,0x03FD,0x080AA7A7,Cancelar Impressão Agora?
+9,Portuguese,0x080AA3AA,0x0439,0x080AA7E3,Sim
+9,Portuguese,0x080AA3AA,0x0441,0x080AA7EB,Não
+9,Portuguese,0x080AA3AA,0x044D,0x080AA7F7,Cancelar
+9,Portuguese,0x080AA3AA,0x045D,0x080AA807,"Voltando ao menu, aguarde..."
+9,Portuguese,0x080AA3AA,0x0495,0x080AA83F,Volta ao Menu
+9,Portuguese,0x080AA3AA,0x04BD,0x080AA867,Aguarde enquanto o bico e a plataforma estão concluindo o movimento de inicialização
+9,Portuguese,0x080AA3AA,0x052B,0x080AA8D5,Aperte as três porcas no sentido anti-horário e clique no botão OK
+9,Portuguese,0x080AA3AA,0x0599,0x080AA943,"Por favor, ajuste o parafuso de pressão frontal sob a plataforma, quando parar."
+9,Portuguese,0x080AA3AA,0x0607,0x080AA9B1,"Por favor, ajuste o parafuso de pressão esquerdo sob a plataforma, quando parar."
+9,Portuguese,0x080AA3AA,0x0675,0x080AAA1F,"Por favor, ajuste o parafuso de pressão direito sob a plataforma, quando parar."
+9,Portuguese,0x080AA3AA,0x06E3,0x080AAA8D,Nivelamento concluído!
+9,Portuguese,0x080AA3AA,0x071A,0x080AAAC4,Próximo
+9,Portuguese,0x080AA3AA,0x0724,0x080AAACE,USB Conectado.
+9,Portuguese,0x080AA3AA,0x0749,0x080AAAF3,USB Desconectado.
+9,Portuguese,0x080AA3AA,0x0770,0x080AAB1A,Aquecendo...
+9,Portuguese,0x080AA3AA,0x078C,0x080AAB36,"Extrusora não esquenta, verifique a conexão."
+9,Portuguese,0x080AA3AA,0x07DE,0x080AAB88,Iniciando Carga/Descarga. Aperte o botão para sair.
+9,Portuguese,0x080AA3AA,0x084C,0x080AABF6,"Iniciando carga, empurre o filamento na vertical no extrusor, e pressione [Feito] quando o filamento começar a sair"
+9,Portuguese,0x080AA3AA,0x0900,0x080AACAA,"Iniciando descarga, aperte a alavanca de controle de filamento e retire o mesmo"
+9,Portuguese,0x080AA3AA,0x09B4,0x080AAD5E,3 minutos decorridos! Toque na seta de retorno para sair.
+9,Portuguese,0x080AA3AA,0x0A18,0x080AADC2,Cancelar carga
+9,Portuguese,0x080AA3AA,0x0A4E,0x080AADF8,Você quer mesmo cancelar a carga?
+9,Portuguese,0x080AA3AA,0x0A92,0x080AAE3C,Cancelar descarga
+9,Portuguese,0x080AA3AA,0x0AC8,0x080AAE72,Você quer mesmo cancelar a descarga?
+9,Portuguese,0x080AA3AA,0x0B0C,0x080AAEB6,Confirmar operação
+9,Portuguese,0x080AA3AA,0x0B25,0x080AAECF,Redefinir o valor padrão de fábrica?
+9,Portuguese,0x080AA3AA,0x0B5D,0x080AAF07,Nome da máquina :
+9,Portuguese,0x080AA3AA,0x0B7B,0x080AAF25,Tipo da máquina :
+9,Portuguese,0x080AA3AA,0x0B94,0x080AAF3E,Numero de série :
+9,Portuguese,0x080AA3AA,0x0BB2,0x080AAF5C,Versão do Firmware :
+9,Portuguese,0x080AA3AA,0x0BD0,0x080AAF7A,Volume de impressão :
+9,Portuguese,0x080AA3AA,0x0BEE,0x080AAF98,Quantidade de extrusoras :
+9,Portuguese,0x080AA3AA,0x0C0C,0x080AAFB6,Contador de uso :
+9,Portuguese,0x080AA3AA,0x0C2F,0x080AAFD9,Horas
+9,Portuguese,0x080AA3AA,0x0C43,0x080AAFED,Força do sinal
+9,Portuguese,0x080AA3AA,0x0C5B,0x080AB005,Endereço IP
+9,Portuguese,0x080AA3AA,0x0C6F,0x080AB019,Gateway padrão
+9,Portuguese,0x080AA3AA,0x0C92,0x080AB03C,Máscara Subnet
+9,Portuguese,0x080AA3AA,0x0CB0,0x080AB05A,Modo AP
+9,Portuguese,0x080AA3AA,0x0CCE,0x080AB078,Falha de conexão
+9,Portuguese,0x080AA3AA,0x0CEF,0x080AB099,Não conectada
+9,Portuguese,0x080AA3AA,0x0D12,0x080AB0BC,Conectando...
+9,Portuguese,0x080AA3AA,0x0D30,0x080AB0DA,"Entrando em modo de pausa...
+aguardando para finalizar o comando do cache"
+9,Portuguese,0x080AA3AA,0x0D7B,0x080AB125,Prosseguindo com o processo...
+9,Portuguese,0x080AA3AA,0x0D9F,0x080AB149,Cancelando a impressão...
+9,Portuguese,0x080AA3AA,0x0DC3,0x080AB16D,Fazendo download do arquivo...
+9,Portuguese,0x080AA3AA,0x0DE7,0x080AB191,Impressão finalizada! Tempo de impressão: %dh%dm
+9,Portuguese,0x080AA3AA,0x0E1F,0x080AB1C9,Erro
+9,Portuguese,0x080AA3AA,0x0E33,0x080AB1DD,"Leitura de temperatura está falhando. Por favor, cheque a conexão."
+9,Portuguese,0x080AA3AA,0x0E83,0x080AB22D,"Temperatura limite! Por favor, desligue a máquina ou reinicie."
+9,Portuguese,0x080AA3AA,0x0ED3,0x080AB27D,"Sem aquecimento. Por favor, verifique as conexões."
+9,Portuguese,0x080AA3AA,0x0F23,0x080AB2CD,A temperatura está caindo. Por favor verifique as conexões.
+9,Portuguese,0x080AA3AA,0x0F73,0x080AB31D,"A temperatura está passado do limite. Por favor, verifique suas conexões."
+9,Portuguese,0x080AA3AA,0x0FC3,0x080AB36D,Erro desconhecido
+9,Portuguese,0x080AA3AA,0x0FEB,0x080AB395,Extra
+9,Portuguese,0x080AA3AA,0x0FFF,0x080AB3A9,Aquecedor 3
+9,Portuguese,0x080AA3AA,0x1013,0x080AB3BD,Aquecedor 2
+9,Portuguese,0x080AA3AA,0x1027,0x080AB3D1,Aquecedor 1
+9,Portuguese,0x080AA3AA,0x103B,0x080AB3E5,Fan ligado
+9,Portuguese,0x080AA3AA,0x104F,0x080AB3F9,Fan desligado
+9,Portuguese,0x080AA3AA,0x1063,0x080AB40D,Modelo de cópia
+9,Portuguese,0x080AA3AA,0x1077,0x080AB421,Cópia realizada com sucesso
+9,Portuguese,0x080AA3AA,0x1094,0x080AB43E,Cópia realizada com falha
+9,Portuguese,0x080AA3AA,0x10AF,0x080AB459,Modelo apagado com sucesso
+9,Portuguese,0x080AA3AA,0x10CD,0x080AB477,Copiando o arquivo
+9,Portuguese,0x080AA3AA,0x10EB,0x080AB495,WiFi ligado
+9,Portuguese,0x080AA3AA,0x10FF,0x080AB4A9,WiFi desligado
+9,Portuguese,0x080AA3AA,0x1113,0x080AB4BD,Ligado
+9,Portuguese,0x080AA3AA,0x111D,0x080AB4C7,Desligado
+9,Portuguese,0x080AA3AA,0x1127,0x080AB4D1,Erro no cartão
+9,Portuguese,0x080AA3AA,0x113B,0x080AB4E5,Reinicie
+9,Portuguese,0x080AA3AA,0x114F,0x080AB4F9,Conexão direta
+9,Portuguese,0x080AA3AA,0x1163,0x080AB50D,Reinicie o WiFi
+9,Portuguese,0x080AA3AA,0x118C,0x080AB536,Quer resetar as configurações do WiFi?
+9,Portuguese,0x080AA3AA,0x11DC,0x080AB586,Interno
+9,Portuguese,0x080AA3AA,0x11F0,0x080AB59A,Tipo de polia
+9,Portuguese,0x080AA3AA,0x120E,0x080AB5B8,preta
+9,Portuguese,0x080AA3AA,0x122C,0x080AB5D6,prateada
+9,Portuguese,0x080AA3AA,0x124A,0x080AB5F4,Polia
+9,Portuguese,0x080AA3AA,0x1270,0x080AB61A,Arquivo de impressão não suportado!
+9,Portuguese,0x080AA3AA,0x12A2,0x080AB64C,Arquivo de impressão contém erro!
+9,Portuguese,0x080AA3AA,0x12D4,0x080AB67E,OK
+9,Portuguese,0x080AA3AA,0x12E3,0x080AB68D,Pular
+9,Portuguese,0x080AA3AA,0x12F2,0x080AB69C,Pausar
+9,Portuguese,0x080AA3AA,0x1310,0x080AB6BA,Pause no Z: 
+9,Portuguese,0x080AA3AA,0x1342,0x080AB6EC,Feito
+9,Portuguese,0x080AA3AA,0x1357,0x080AB701,Retomar a impressão
+9,Portuguese,0x080AA3AA,0x1378,0x080AB722,Retomar a impressão incompleta?
+9,Portuguese,0x080AA3AA,0x13B4,0x080AB75E,Retire os restos do filamento
+9,Portuguese,0x080AA3AA,0x1408,0x080AB7B2,Aperte [SIM] após remover os restos de filamento da extrusora e no objeto impresso
+9,Portuguese,0x080AA3AA,0x149E,0x080AB848,"Retomar
+a impressão
+ ligado"
+9,Portuguese,0x080AA3AA,0x14CB,0x080AB875,"Retomar
+a impressão
+ desligado"
+9,Portuguese,0x080AA3AA,0x14F5,0x080AB89F,Não ligado
+9,Portuguese,0x080AA3AA,0x1513,0x080AB8BD,Ligado
+9,Portuguese,0x080AA3AA,0x1531,0x080AB8DB,Reconfigurado
+9,Portuguese,0x080AA3AA,0x155F,0x080AB909,Restaurar para as configurações de fábrica
+9,Portuguese,0x080AA3AA,0x1591,0x080AB93B,Updata
+9,Portuguese,0x080AA3AA,0x15A0,0x080AB94A,Câmera
+9,Portuguese,0x080AA3AA,0x15D7,0x080AB981,Escolha conexão direta ou configurações de fábrica
+9,Portuguese,0x080AA3AA,0x163B,0x080AB9E5,Configurações de fábrica
+9,Portuguese,0x080AA3AA,0x1658,0x080ABA02,Material consumido :
+9,Portuguese,0x080AA3AA,0x168A,0x080ABA34,Medidas
+9,Portuguese,0x080AA3AA,0x16A8,0x080ABA52,Primeiro desligue o WiFi!
+9,Portuguese,0x080AA3AA,0x16DA,0x080ABA84,arquivo de checagem
+9,Portuguese,0x080AA3AA,0x16F8,0x080ABAA2,Confirme a atualização
+9,Portuguese,0x080AA3AA,0x1720,0x080ABACA,Erro de arquivo
+9,Portuguese,0x080AA3AA,0x173E,0x080ABAE8,Calibração X
+9,Portuguese,0x080AA3AA,0x1806,0x080ABBB0,Calibração Y
+9,Portuguese,0x080AA3AA,0x18CE,0x080ABC78,Calibração Z
+9,Portuguese,0x080AA3AA,0x1932,0x080ABCDC,"Calibração X concluída
+Preciso continuar calibrando o eixo Y?"
+9,Portuguese,0x080AA3AA,0x19C8,0x080ABD72,Calibração Y concluída
+9,Portuguese,0x080AA3AA,0x19FA,0x080ABDA4,"Calibração Z concluída
+Preciso continuar calibrando o eixo X?"
+9,Portuguese,0x080AA3AA,0x1A90,0x080ABE3A,Calibração X cancelada
+9,Portuguese,0x080AA3AA,0x1AD6,0x080ABE80,Calibração Y cancelada
+9,Portuguese,0x080AA3AA,0x1B1C,0x080ABEC6,Calibração Z cancelada
+9,Portuguese,0x080AA3AA,0x1B62,0x080ABF0C,Aguardando resfriamento
+9,Portuguese,0x080AA3AA,0x1B80,0x080ABF2A,"Por favor, selecione um bico"
+9,Portuguese,0x080AA3AA,0x1BE4,0x080ABF8E,Verificar
+9,Portuguese,0x080AA3AA,0x1C02,0x080ABFAC,Calibração
+9,Portuguese,0x080AA3AA,0x1C20,0x080ABFCA,"Clique em X-, X+ para ajustar a distância para que as duas linhas sejam consistentes"
+9,Portuguese,0x080AA3AA,0x1CB6,0x080AC060,"Clique em Y-, Y+ para ajustar a distância para que as duas linhas sejam consistentes"
+9,Portuguese,0x080AA3AA,0x1D4C,0x080AC0F6,"Insira um cartão de nivelamento entre o bico e a plataforma, clique em Z-, Z+ para ajustar o espaçamento apropriado"
+9,Portuguese,0x080AA3AA,0x1E14,0x080AC1BE,Preciso continuar calibrando o eixo Z?
+9,Portuguese,0x080AA3AA,0x1E78,0x080AC222,Ajuste manual do deslocamento
+9,Portuguese,0x080AA3AA,0x1EAA,0x080AC254,"Esse recurso é apenas para usuários avançados. Impressora calibrada. Se necessário, ajuste o deslocamento da correção do eixo X ou Y"
+9,Portuguese,0x080AA3AA,0x1F72,0x080AC31C,"Especialista
+Modo"
+9,Portuguese,0x080AA3AA,0x1F90,0x080AC33A,Pare à direita
+9,Portuguese,0x080AA3AA,0x1FAE,0x080AC358,Pare à esquerda
+9,Portuguese,0x080AA3AA,0x1FCC,0x080AC376,Impressão:
+9,Portuguese,0x080AA3AA,0x1FEA,0x080AC394,Desplazamiento Z:
+9,Portuguese,0x080AA3AA,0x2008,0x080AC3B2,Voltar

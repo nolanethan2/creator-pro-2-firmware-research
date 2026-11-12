@@ -1,0 +1,1304 @@
+{
+  "source": "C:/Users/tech/Desktop/creator pro backup.bin",
+  "size": 1048576,
+  "sha256": "45e8691c1866211de3b9f74b74d784a902e5d63e4f6eba0559a7528532376502",
+  "bootVectors": [
+    {
+      "slot": 0,
+      "address": "0x08000000",
+      "value": "0x20005f28"
+    },
+    {
+      "slot": 1,
+      "address": "0x08000004",
+      "value": "0x08000231"
+    },
+    {
+      "slot": 2,
+      "address": "0x08000008",
+      "value": "0x080026a1"
+    },
+    {
+      "slot": 3,
+      "address": "0x0800000c",
+      "value": "0x080026a3"
+    },
+    {
+      "slot": 4,
+      "address": "0x08000010",
+      "value": "0x080026a7"
+    },
+    {
+      "slot": 5,
+      "address": "0x08000014",
+      "value": "0x080026ab"
+    },
+    {
+      "slot": 6,
+      "address": "0x08000018",
+      "value": "0x080026af"
+    },
+    {
+      "slot": 7,
+      "address": "0x0800001c",
+      "value": "0x00000000"
+    },
+    {
+      "slot": 8,
+      "address": "0x08000020",
+      "value": "0x00000000"
+    },
+    {
+      "slot": 9,
+      "address": "0x08000024",
+      "value": "0x00000000"
+    },
+    {
+      "slot": 10,
+      "address": "0x08000028",
+      "value": "0x00000000"
+    },
+    {
+      "slot": 11,
+      "address": "0x0800002c",
+      "value": "0x080026b3"
+    },
+    {
+      "slot": 12,
+      "address": "0x08000030",
+      "value": "0x080026b5"
+    },
+    {
+      "slot": 13,
+      "address": "0x08000034",
+      "value": "0x00000000"
+    },
+    {
+      "slot": 14,
+      "address": "0x08000038",
+      "value": "0x080026b7"
+    },
+    {
+      "slot": 15,
+      "address": "0x0800003c",
+      "value": "0x08000249"
+    },
+    {
+      "slot": 16,
+      "address": "0x08000040",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 17,
+      "address": "0x08000044",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 18,
+      "address": "0x08000048",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 19,
+      "address": "0x0800004c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 20,
+      "address": "0x08000050",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 21,
+      "address": "0x08000054",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 22,
+      "address": "0x08000058",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 23,
+      "address": "0x0800005c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 24,
+      "address": "0x08000060",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 25,
+      "address": "0x08000064",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 26,
+      "address": "0x08000068",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 27,
+      "address": "0x0800006c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 28,
+      "address": "0x08000070",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 29,
+      "address": "0x08000074",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 30,
+      "address": "0x08000078",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 31,
+      "address": "0x0800007c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 32,
+      "address": "0x08000080",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 33,
+      "address": "0x08000084",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 34,
+      "address": "0x08000088",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 35,
+      "address": "0x0800008c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 36,
+      "address": "0x08000090",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 37,
+      "address": "0x08000094",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 38,
+      "address": "0x08000098",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 39,
+      "address": "0x0800009c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 40,
+      "address": "0x080000a0",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 41,
+      "address": "0x080000a4",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 42,
+      "address": "0x080000a8",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 43,
+      "address": "0x080000ac",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 44,
+      "address": "0x080000b0",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 45,
+      "address": "0x080000b4",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 46,
+      "address": "0x080000b8",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 47,
+      "address": "0x080000bc",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 48,
+      "address": "0x080000c0",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 49,
+      "address": "0x080000c4",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 50,
+      "address": "0x080000c8",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 51,
+      "address": "0x080000cc",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 52,
+      "address": "0x080000d0",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 53,
+      "address": "0x080000d4",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 54,
+      "address": "0x080000d8",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 55,
+      "address": "0x080000dc",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 56,
+      "address": "0x080000e0",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 57,
+      "address": "0x080000e4",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 58,
+      "address": "0x080000e8",
+      "value": "0x080026c3"
+    },
+    {
+      "slot": 59,
+      "address": "0x080000ec",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 60,
+      "address": "0x080000f0",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 61,
+      "address": "0x080000f4",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 62,
+      "address": "0x080000f8",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 63,
+      "address": "0x080000fc",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 64,
+      "address": "0x08000100",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 65,
+      "address": "0x08000104",
+      "value": "0x080026e3"
+    },
+    {
+      "slot": 66,
+      "address": "0x08000108",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 67,
+      "address": "0x0800010c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 68,
+      "address": "0x08000110",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 69,
+      "address": "0x08000114",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 70,
+      "address": "0x08000118",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 71,
+      "address": "0x0800011c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 72,
+      "address": "0x08000120",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 73,
+      "address": "0x08000124",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 74,
+      "address": "0x08000128",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 75,
+      "address": "0x0800012c",
+      "value": "0x080026eb"
+    },
+    {
+      "slot": 76,
+      "address": "0x08000130",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 77,
+      "address": "0x08000134",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 78,
+      "address": "0x08000138",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 79,
+      "address": "0x0800013c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 80,
+      "address": "0x08000140",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 81,
+      "address": "0x08000144",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 82,
+      "address": "0x08000148",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 83,
+      "address": "0x0800014c",
+      "value": "0x080026b9"
+    },
+    {
+      "slot": 84,
+      "address": "0x08000150",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 85,
+      "address": "0x08000154",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 86,
+      "address": "0x08000158",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 87,
+      "address": "0x0800015c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 88,
+      "address": "0x08000160",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 89,
+      "address": "0x08000164",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 90,
+      "address": "0x08000168",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 91,
+      "address": "0x0800016c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 92,
+      "address": "0x08000170",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 93,
+      "address": "0x08000174",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 94,
+      "address": "0x08000178",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 95,
+      "address": "0x0800017c",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 96,
+      "address": "0x08000180",
+      "value": "0x0800024b"
+    },
+    {
+      "slot": 97,
+      "address": "0x08000184",
+      "value": "0x0800024b"
+    }
+  ],
+  "applicationVectors": [
+    {
+      "slot": 0,
+      "value": "0x2001d988"
+    },
+    {
+      "slot": 1,
+      "value": "0x0802c311"
+    },
+    {
+      "slot": 2,
+      "value": "0x08016159"
+    },
+    {
+      "slot": 3,
+      "value": "0x0801615b"
+    },
+    {
+      "slot": 4,
+      "value": "0x08016189"
+    },
+    {
+      "slot": 5,
+      "value": "0x0801618d"
+    },
+    {
+      "slot": 6,
+      "value": "0x08016191"
+    },
+    {
+      "slot": 7,
+      "value": "0x00000000"
+    },
+    {
+      "slot": 8,
+      "value": "0x00000000"
+    },
+    {
+      "slot": 9,
+      "value": "0x00000000"
+    },
+    {
+      "slot": 10,
+      "value": "0x00000000"
+    },
+    {
+      "slot": 11,
+      "value": "0x08016195"
+    },
+    {
+      "slot": 12,
+      "value": "0x08016197"
+    },
+    {
+      "slot": 13,
+      "value": "0x00000000"
+    },
+    {
+      "slot": 14,
+      "value": "0x08016199"
+    },
+    {
+      "slot": 15,
+      "value": "0x0801619b"
+    },
+    {
+      "slot": 16,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 17,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 18,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 19,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 20,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 21,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 22,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 23,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 24,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 25,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 26,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 27,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 28,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 29,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 30,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 31,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 32,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 33,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 34,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 35,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 36,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 37,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 38,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 39,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 40,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 41,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 42,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 43,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 44,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 45,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 46,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 47,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 48,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 49,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 50,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 51,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 52,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 53,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 54,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 55,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 56,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 57,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 58,
+      "value": "0x080161a3"
+    },
+    {
+      "slot": 59,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 60,
+      "value": "0x08017121"
+    },
+    {
+      "slot": 61,
+      "value": "0x0801713b"
+    },
+    {
+      "slot": 62,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 63,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 64,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 65,
+      "value": "0x080161d1"
+    },
+    {
+      "slot": 66,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 67,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 68,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 69,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 70,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 71,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 72,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 73,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 74,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 75,
+      "value": "0x080161d9"
+    },
+    {
+      "slot": 76,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 77,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 78,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 79,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 80,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 81,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 82,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 83,
+      "value": "0x080161c7"
+    },
+    {
+      "slot": 84,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 85,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 86,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 87,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 88,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 89,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 90,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 91,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 92,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 93,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 94,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 95,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 96,
+      "value": "0x0802c32b"
+    },
+    {
+      "slot": 97,
+      "value": "0x0802c32b"
+    }
+  ],
+  "stats": [
+    {
+      "start": "0x08000000",
+      "ff": 221,
+      "zero": 1213,
+      "entropy": 6.758127138500753
+    },
+    {
+      "start": "0x08004000",
+      "ff": 334,
+      "zero": 1127,
+      "entropy": 6.732831481827271
+    },
+    {
+      "start": "0x08008000",
+      "ff": 467,
+      "zero": 1997,
+      "entropy": 6.562359762978847
+    },
+    {
+      "start": "0x0800c000",
+      "ff": 14614,
+      "zero": 832,
+      "entropy": 0.8917341246453835
+    },
+    {
+      "start": "0x08010000",
+      "ff": 290,
+      "zero": 1541,
+      "entropy": 6.6270239484417
+    },
+    {
+      "start": "0x08014000",
+      "ff": 186,
+      "zero": 1605,
+      "entropy": 6.7204283467867905
+    },
+    {
+      "start": "0x08018000",
+      "ff": 671,
+      "zero": 1255,
+      "entropy": 6.654220903995901
+    },
+    {
+      "start": "0x0801c000",
+      "ff": 202,
+      "zero": 1191,
+      "entropy": 6.63227740272811
+    },
+    {
+      "start": "0x08020000",
+      "ff": 164,
+      "zero": 1229,
+      "entropy": 6.56052922711031
+    },
+    {
+      "start": "0x08024000",
+      "ff": 169,
+      "zero": 1131,
+      "entropy": 6.7058334316218104
+    },
+    {
+      "start": "0x08028000",
+      "ff": 267,
+      "zero": 1372,
+      "entropy": 6.7168670933103005
+    },
+    {
+      "start": "0x0802c000",
+      "ff": 191,
+      "zero": 1486,
+      "entropy": 6.670284523864308
+    },
+    {
+      "start": "0x08030000",
+      "ff": 419,
+      "zero": 1088,
+      "entropy": 6.8296727600894505
+    },
+    {
+      "start": "0x08034000",
+      "ff": 235,
+      "zero": 1201,
+      "entropy": 6.854451909782878
+    },
+    {
+      "start": "0x08038000",
+      "ff": 210,
+      "zero": 1184,
+      "entropy": 6.8719219060522345
+    },
+    {
+      "start": "0x0803c000",
+      "ff": 241,
+      "zero": 1373,
+      "entropy": 6.692579214390753
+    },
+    {
+      "start": "0x08040000",
+      "ff": 237,
+      "zero": 1161,
+      "entropy": 6.577851422923408
+    },
+    {
+      "start": "0x08044000",
+      "ff": 132,
+      "zero": 1055,
+      "entropy": 6.879067783705558
+    },
+    {
+      "start": "0x08048000",
+      "ff": 134,
+      "zero": 1402,
+      "entropy": 6.9434100696258225
+    },
+    {
+      "start": "0x0804c000",
+      "ff": 1846,
+      "zero": 10320,
+      "entropy": 3.0333086339192388
+    },
+    {
+      "start": "0x08050000",
+      "ff": 1084,
+      "zero": 14307,
+      "entropy": 1.0470737519245898
+    },
+    {
+      "start": "0x08054000",
+      "ff": 1692,
+      "zero": 14190,
+      "entropy": 0.8328411935014519
+    },
+    {
+      "start": "0x08058000",
+      "ff": 1458,
+      "zero": 14207,
+      "entropy": 0.9718406040183787
+    },
+    {
+      "start": "0x0805c000",
+      "ff": 822,
+      "zero": 14792,
+      "entropy": 0.8643976155547765
+    },
+    {
+      "start": "0x08060000",
+      "ff": 430,
+      "zero": 14950,
+      "entropy": 0.90834937959134
+    },
+    {
+      "start": "0x08064000",
+      "ff": 1379,
+      "zero": 14091,
+      "entropy": 1.0505461052029466
+    },
+    {
+      "start": "0x08068000",
+      "ff": 1203,
+      "zero": 11937,
+      "entropy": 1.6392345952937604
+    },
+    {
+      "start": "0x0806c000",
+      "ff": 1148,
+      "zero": 14573,
+      "entropy": 0.8491940961720778
+    },
+    {
+      "start": "0x08070000",
+      "ff": 493,
+      "zero": 15264,
+      "entropy": 0.6659305479915608
+    },
+    {
+      "start": "0x08074000",
+      "ff": 1124,
+      "zero": 9958,
+      "entropy": 2.907101767915641
+    },
+    {
+      "start": "0x08078000",
+      "ff": 54,
+      "zero": 1825,
+      "entropy": 3.347276669864629
+    },
+    {
+      "start": "0x0807c000",
+      "ff": 462,
+      "zero": 2219,
+      "entropy": 2.716464853812168
+    },
+    {
+      "start": "0x08080000",
+      "ff": 0,
+      "zero": 0,
+      "entropy": 1.8014111988207044
+    },
+    {
+      "start": "0x08084000",
+      "ff": 0,
+      "zero": 9,
+      "entropy": 2.04461781638753
+    },
+    {
+      "start": "0x08088000",
+      "ff": 0,
+      "zero": 0,
+      "entropy": 1.7967385066990977
+    },
+    {
+      "start": "0x0808c000",
+      "ff": 0,
+      "zero": 7,
+      "entropy": 2.094733595826633
+    },
+    {
+      "start": "0x08090000",
+      "ff": 0,
+      "zero": 10,
+      "entropy": 2.062262631479079
+    },
+    {
+      "start": "0x08094000",
+      "ff": 0,
+      "zero": 0,
+      "entropy": 2.280076135151434
+    },
+    {
+      "start": "0x08098000",
+      "ff": 0,
+      "zero": 9208,
+      "entropy": 3.697640250209426
+    },
+    {
+      "start": "0x0809c000",
+      "ff": 0,
+      "zero": 8090,
+      "entropy": 3.9716960707815794
+    },
+    {
+      "start": "0x080a0000",
+      "ff": 0,
+      "zero": 7692,
+      "entropy": 4.219880026337755
+    },
+    {
+      "start": "0x080a4000",
+      "ff": 0,
+      "zero": 8214,
+      "entropy": 3.715743227806435
+    },
+    {
+      "start": "0x080a8000",
+      "ff": 0,
+      "zero": 7619,
+      "entropy": 3.6118564768997583
+    },
+    {
+      "start": "0x080ac000",
+      "ff": 12,
+      "zero": 4078,
+      "entropy": 6.246973487884686
+    },
+    {
+      "start": "0x080b0000",
+      "ff": 16,
+      "zero": 16,
+      "entropy": 7.349685982542867
+    },
+    {
+      "start": "0x080b4000",
+      "ff": 16,
+      "zero": 16,
+      "entropy": 7.33995634273464
+    },
+    {
+      "start": "0x080b8000",
+      "ff": 16,
+      "zero": 16,
+      "entropy": 7.39751914881307
+    },
+    {
+      "start": "0x080bc000",
+      "ff": 16,
+      "zero": 16,
+      "entropy": 7.365908425208718
+    },
+    {
+      "start": "0x080c0000",
+      "ff": 115,
+      "zero": 21,
+      "entropy": 7.377301990999459
+    },
+    {
+      "start": "0x080c4000",
+      "ff": 11,
+      "zero": 13,
+      "entropy": 7.3220033304596654
+    },
+    {
+      "start": "0x080c8000",
+      "ff": 113,
+      "zero": 37,
+      "entropy": 7.4671789449017085
+    },
+    {
+      "start": "0x080cc000",
+      "ff": 16,
+      "zero": 14,
+      "entropy": 7.4164561359057855
+    },
+    {
+      "start": "0x080d0000",
+      "ff": 22,
+      "zero": 21,
+      "entropy": 7.404542721272909
+    },
+    {
+      "start": "0x080d4000",
+      "ff": 14,
+      "zero": 13,
+      "entropy": 7.41169982015388
+    },
+    {
+      "start": "0x080d8000",
+      "ff": 232,
+      "zero": 5219,
+      "entropy": 5.5660346273007635
+    },
+    {
+      "start": "0x080dc000",
+      "ff": 190,
+      "zero": 6315,
+      "entropy": 4.79548327805115
+    },
+    {
+      "start": "0x080e0000",
+      "ff": 161,
+      "zero": 7514,
+      "entropy": 4.139759636417394
+    },
+    {
+      "start": "0x080e4000",
+      "ff": 12604,
+      "zero": 1004,
+      "entropy": 2.0120810883070543
+    },
+    {
+      "start": "0x080e8000",
+      "ff": 16384,
+      "zero": 0,
+      "entropy": 0
+    },
+    {
+      "start": "0x080ec000",
+      "ff": 16384,
+      "zero": 0,
+      "entropy": 0
+    },
+    {
+      "start": "0x080f0000",
+      "ff": 16384,
+      "zero": 0,
+      "entropy": 0
+    },
+    {
+      "start": "0x080f4000",
+      "ff": 16384,
+      "zero": 0,
+      "entropy": 0
+    },
+    {
+      "start": "0x080f8000",
+      "ff": 16384,
+      "zero": 0,
+      "entropy": 0
+    },
+    {
+      "start": "0x080fc000",
+      "ff": 16384,
+      "zero": 0,
+      "entropy": 0
+    }
+  ],
+  "erasedRuns": [
+    {
+      "start": "0x0800c6f0",
+      "end": "0x0800ffff",
+      "length": 14608
+    },
+    {
+      "start": "0x080e4edc",
+      "end": "0x080fffff",
+      "length": 110884
+    }
+  ],
+  "vectorCandidates": [
+    {
+      "offset": "0x00000000",
+      "sp": "0x20005f28",
+      "reset": "0x08000231",
+      "valid": 97
+    },
+    {
+      "offset": "0x00010000",
+      "sp": "0x2001d988",
+      "reset": "0x0802c311",
+      "valid": 97
+    }
+  ],
+  "unchanged": true
+}

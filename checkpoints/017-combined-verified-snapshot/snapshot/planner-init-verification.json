@@ -1,0 +1,101 @@
+{
+  "method": "Original planner initialization and arithmetic. Axis scales seeded 80/80/400/96/96; lower-level axis/I/O/reset/timer setup calls intercepted. No hardware access. Defaults 850/900 and slowdown byte1 are present in decoded initialized RAM.",
+  "checks": [
+    {
+      "config_advance_fields": [
+        850,
+        900
+      ],
+      "advance_factors": [
+        0.008500000461935997,
+        0.008999999612569809
+      ],
+      "slowdown_enabled": 1,
+      "queue_threshold": 8,
+      "requested_acceleration": 2000,
+      "effective_accelerations": [
+        2000,
+        2000
+      ],
+      "axis_acceleration_limits": [
+        80000,
+        80000,
+        60000,
+        192000,
+        192000
+      ]
+    },
+    {
+      "config_advance_fields": [
+        0,
+        0
+      ],
+      "advance_factors": [
+        0.0,
+        0.0
+      ],
+      "slowdown_enabled": 0,
+      "queue_threshold": 0,
+      "requested_acceleration": 2000,
+      "effective_accelerations": [
+        2000,
+        2000
+      ],
+      "axis_acceleration_limits": [
+        80000,
+        80000,
+        60000,
+        192000,
+        192000
+      ]
+    },
+    {
+      "config_advance_fields": [
+        10000,
+        20000
+      ],
+      "advance_factors": [
+        0.10000000149011612,
+        0.20000000298023224
+      ],
+      "slowdown_enabled": 1,
+      "queue_threshold": 8,
+      "requested_acceleration": 20000,
+      "effective_accelerations": [
+        10000,
+        10000
+      ],
+      "axis_acceleration_limits": [
+        80000,
+        80000,
+        60000,
+        192000,
+        192000
+      ]
+    },
+    {
+      "config_advance_fields": [
+        12345,
+        54321
+      ],
+      "advance_factors": [
+        0.12345000356435776,
+        0.5432100296020508
+      ],
+      "slowdown_enabled": 0,
+      "queue_threshold": 0,
+      "requested_acceleration": 3000,
+      "effective_accelerations": [
+        3000,
+        3000
+      ],
+      "axis_acceleration_limits": [
+        80000,
+        80000,
+        60000,
+        192000,
+        192000
+      ]
+    }
+  ]
+}

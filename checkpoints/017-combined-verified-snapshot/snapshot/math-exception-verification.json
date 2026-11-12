@@ -1,0 +1,205 @@
+{
+  "method": "Original exceptional arithmetic, no replacement arithmetic or exception hooks. Entry tracing only. Classification comparison allows NaN payload differences. This tests the core arithmetic, not external error reporting or all exception descriptors.",
+  "checks": [
+    {
+      "test": "add infinity",
+      "address": "0x804a9f4",
+      "inputs": [
+        "inf",
+        "1.0"
+      ],
+      "actual": "inf",
+      "expected": "inf",
+      "matches_ieee_classification": true,
+      "dispatch": [
+        {
+          "address": "0x804b1f8",
+          "lr": "0x804ab3b",
+          "sp": "0x2001eff0"
+        }
+      ],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "opposite infinities",
+      "address": "0x804a9f4",
+      "inputs": [
+        "inf",
+        "-inf"
+      ],
+      "actual": "nan",
+      "expected": "nan",
+      "matches_ieee_classification": true,
+      "dispatch": [
+        {
+          "address": "0x804b1f8",
+          "lr": "0x804b733",
+          "sp": "0x2001eff0"
+        }
+      ],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "add NaN",
+      "address": "0x804a9f4",
+      "inputs": [
+        "nan",
+        "1.0"
+      ],
+      "actual": "nan",
+      "expected": "nan",
+      "matches_ieee_classification": true,
+      "dispatch": [
+        {
+          "address": "0x804b1f8",
+          "lr": "0x804ab3b",
+          "sp": "0x2001eff0"
+        }
+      ],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "divide by zero",
+      "address": "0x804ab6c",
+      "inputs": [
+        "1.0",
+        "0.0"
+      ],
+      "actual": "inf",
+      "expected": "inf",
+      "matches_ieee_classification": true,
+      "dispatch": [],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "negative divide by zero",
+      "address": "0x804ab6c",
+      "inputs": [
+        "-1.0",
+        "0.0"
+      ],
+      "actual": "-inf",
+      "expected": "-inf",
+      "matches_ieee_classification": true,
+      "dispatch": [],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "zero divided by zero",
+      "address": "0x804ab6c",
+      "inputs": [
+        "0.0",
+        "0.0"
+      ],
+      "actual": "nan",
+      "expected": "nan",
+      "matches_ieee_classification": true,
+      "dispatch": [],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "zero times infinity",
+      "address": "0x804b0a4",
+      "inputs": [
+        "0.0",
+        "inf"
+      ],
+      "actual": "nan",
+      "expected": "nan",
+      "matches_ieee_classification": true,
+      "dispatch": [
+        {
+          "address": "0x804b1f8",
+          "lr": "0x804b1c1",
+          "sp": "0x2001eff0"
+        }
+      ],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "subtract infinity",
+      "address": "0x804b570",
+      "inputs": [
+        "inf",
+        "1.0"
+      ],
+      "actual": "inf",
+      "expected": "inf",
+      "matches_ieee_classification": true,
+      "dispatch": [
+        {
+          "address": "0x804b1f8",
+          "lr": "0x804b733",
+          "sp": "0x2001eff0"
+        }
+      ],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "round infinity",
+      "address": "0x804b30c",
+      "inputs": [
+        "inf"
+      ],
+      "actual": "inf",
+      "expected": "inf",
+      "matches_ieee_classification": true,
+      "dispatch": [
+        {
+          "address": "0x804b1f8",
+          "lr": "0x804b3bd",
+          "sp": "0x2001eff0"
+        }
+      ],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "round NaN",
+      "address": "0x804b30c",
+      "inputs": [
+        "nan"
+      ],
+      "actual": "nan",
+      "expected": "nan",
+      "matches_ieee_classification": true,
+      "dispatch": [
+        {
+          "address": "0x804b1f8",
+          "lr": "0x804b3bd",
+          "sp": "0x2001eff0"
+        }
+      ],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "sqrt negative",
+      "address": "0x804b3d8",
+      "inputs": [
+        "-1.0"
+      ],
+      "actual": "nan",
+      "expected": "nan",
+      "matches_ieee_classification": true,
+      "dispatch": [],
+      "returned_to_original_caller": true
+    },
+    {
+      "test": "sqrt infinity",
+      "address": "0x804b3d8",
+      "inputs": [
+        "inf"
+      ],
+      "actual": "inf",
+      "expected": "inf",
+      "matches_ieee_classification": true,
+      "dispatch": [
+        {
+          "address": "0x804b1f8",
+          "lr": "0x804b55d",
+          "sp": "0x2001eff0"
+        }
+      ],
+      "returned_to_original_caller": true
+    }
+  ]
+}
