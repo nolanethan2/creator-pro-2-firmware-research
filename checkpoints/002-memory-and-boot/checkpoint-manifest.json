@@ -1,0 +1,26 @@
+{
+  "bootloader-verification.json": {
+    "bytes": 206,
+    "sha256": "af81dc27f5e92c4a72c9cf2b0c23cb3c6b1b9c8316b996340a483fc8ffd196db"
+  },
+  "CreatorPro2-Bootloader-Analyzed.gzf": {
+    "bytes": 265551,
+    "sha256": "e784066921f4947795b9aa65a01b897eef3302462569d240d396006d1fb1bf03"
+  },
+  "sources/BootSeed.java": {
+    "bytes": 2121,
+    "sha256": "80b28cb84747f9dce0a6339e9ded0542244545301229404227a1ebc54723ffc2"
+  },
+  "sources/FirmwareRefine.java": {
+    "bytes": 2764,
+    "sha256": "5975bd3077ca7b8b5f2c9cc762a94d8cd4a3c5c9a1f4a8562a6ffe0c0d436565"
+  },
+  "sources/FirmwareSeed.java": {
+    "bytes": 2914,
+    "sha256": "ae4d9474e1134eaf7b904c7b580843ba3a9439d313b50a1bdface4b1304a3721"
+  },
+  "sources/unpack_ram.py": {
+    "bytes": 1040,
+    "sha256": "92651526dd8fd05199a55fd0bc3fb744f3791666f5fbfed4a4fab3e321b62bd7"
+  }
+}
