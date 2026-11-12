@@ -1,0 +1,18 @@
+{
+  "Print-Pause-Resume-Findings.md": {
+    "bytes": 3766,
+    "sha256": "6be7ba5efc0a056f96f57cfa21888296ec581e8f5df0c55a45d0e3a714851296"
+  },
+  "print-state-verification.json": {
+    "bytes": 4581,
+    "sha256": "b157f9e3dbac93f60efc092770b7999ab1634433fed838ff092a0563644322e4"
+  },
+  "sources/emulate_print_state.py": {
+    "bytes": 2583,
+    "sha256": "6e4a9348cda5313990d0cbcda13cd5bbf763110667a3becb3f3f98b58b9da06c"
+  },
+  "sources/PrintStateSwitch.java": {
+    "bytes": 1084,
+    "sha256": "4bb05cedca9bca032931bf1545024a3e7ad4b055da0973d1c2bc13847534b08e"
+  }
+}
