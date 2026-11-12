@@ -1,0 +1,33 @@
+offset,bytes,type,field,evidence_scope
+0x00,20,uint32[5],axis_steps,absolute step counts
+0x14,4,uint32,step_event_count,dominant event count
+0x18,20,int32[5],start_steps,prior planner position
+0x2C,4,int32,accelerate_until,profile boundary
+0x30,4,int32,decelerate_after,profile boundary
+0x34,4,int32,acceleration_rate_fixed,scaled ISR acceleration term
+0x38,1,uint8,direction_bits,five axis direction bits
+0x39,1,uint8,extruder_index,selected extrusion channel
+0x3A,1,uint8,request_flags_unresolved,constructor fifth argument
+0x3B,1,uint8,advance_enabled,extrusion advance branch
+0x3C,2,int16,advance_initial,advance increment term
+0x3E,2,int16,advance_final,advance decrement term
+0x40,4,int32,advance_rate_adjustment,secondary factor contribution
+0x44,4,int16[2],advance_state,working advance terms
+0x48,4,float32,nominal_speed,accelerated path speed
+0x4C,4,float32,entry_speed,lookahead entry limit
+0x50,4,float32,max_entry_speed,junction limit
+0x54,4,float32,move_length,path length
+0x58,4,float32,acceleration,physical-space acceleration
+0x5C,1,uint8,recalculate,profile needs recalculation
+0x5D,1,uint8,nominal_length,sufficient-distance flag
+0x60,4,uint32,nominal_rate,nominal step event rate
+0x64,4,uint32,nominal_rate_squared,squared event rate
+0x68,4,uint32,initial_rate,clamped starting event rate
+0x6C,4,uint32,final_rate,clamped final event rate
+0x70,4,uint32,acceleration_steps,event-space acceleration
+0x74,1,uint8,accelerated,acceleration mode flag
+0x75,1,uint8,lookahead_ready,lookahead working flag
+0x76,1,uint8,busy,active block protected against profile rewrite
+0x77,1,uint8,dominant_axis,event-count source axis
+0x78,1,uint8,endstop_flags_candidate,partially inferred semantics
+0x7C,4,uint32,command_marker,copied command metadata

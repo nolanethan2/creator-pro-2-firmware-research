@@ -1,0 +1,46 @@
+{
+  "kinematics-queue-verification.json": {
+    "bytes": 42392,
+    "sha256": "90ecf92ed9281a04c817f2a07e2d4d01822e1908b3a9a88ffe8efd0d77f5b81e"
+  },
+  "motion-block-verification.json": {
+    "bytes": 8268,
+    "sha256": "7649dc601463667a59d285c3ee518a4f86a5324c6c5dc3ffa45b76841a81cb39"
+  },
+  "Motion-Planner-and-Runtime-Findings.md": {
+    "bytes": 7334,
+    "sha256": "dbd923be28ae1e1f4e7d4b8c7f2523152cfc4adc4fefd99e98c89e0e422774ac"
+  },
+  "planner-block-layout.csv": {
+    "bytes": 1785,
+    "sha256": "d7ce06ee14b6b8658ca00a82650ce0c5feaf5c522d51f7f7339001ae727c7d64"
+  },
+  "planner-init-verification.json": {
+    "bytes": 2185,
+    "sha256": "4f67f95808deb8d002c37f54ce5fbeccbbf5cf7229bd5dc557c0563c33151f42"
+  },
+  "sources/emulate_kinematics_queue.py": {
+    "bytes": 1987,
+    "sha256": "a00bc306fc701bf2fa57bcf9975929c0b7df6c7080420cb79f3b3be67fd8432c"
+  },
+  "sources/emulate_motion_blocks.py": {
+    "bytes": 3901,
+    "sha256": "7daf60db75a78736bfee8028ce3107fed87338fae2dd717aa9e849002a015ef7"
+  },
+  "sources/emulate_planner_init.py": {
+    "bytes": 1941,
+    "sha256": "ea93e32a7b19e25cd01cbab23036d21a567a8442c0e3ab7e10d15f5911e64805"
+  },
+  "sources/emulate_trapezoid.py": {
+    "bytes": 4340,
+    "sha256": "1c0368502f33f1eb2a8a5f7624e0b6d2595445b3f07e9b7a3c673ba84feb7299"
+  },
+  "sources/FirmwarePlannerTypes.java": {
+    "bytes": 3531,
+    "sha256": "d00b03c33ce04697694d62e2d2bb6a52215ad2101c6a0448c05f2741ecf7d22b"
+  },
+  "trapezoid-verification.json": {
+    "bytes": 47957,
+    "sha256": "430272a4ec8fd42d167f949e6e59470bf9535e1391865a0fd29ed4274a8bb8a8"
+  }
+}

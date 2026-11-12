@@ -1,0 +1,412 @@
+{
+  "method": "Original motion-block builder, trapezoid and arithmetic instructions; seeded initialized configuration/scales and displacement inputs. Axis/I/O/timer setup, motor-enable, interrupt wrappers and final multi-block lookahead pass intercepted. This isolates block construction, not the full command-to-motor path.",
+  "checks": [
+    {
+      "inputs": {
+        "name": "X move",
+        "delta": [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "speed": 20
+      },
+      "result": {
+        "axis_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ],
+        "step_events": 800,
+        "direction_bits": 0,
+        "tool": 0,
+        "advance_enabled": 0,
+        "nominal_speed": 20.0,
+        "nominal_rate": 1600,
+        "initial_rate": 160,
+        "final_rate": 160,
+        "accelerate_until": 15,
+        "decelerate_after": 785,
+        "next_head": 1,
+        "final_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "inputs": {
+        "name": "X plus extrusion",
+        "delta": [
+          10,
+          0,
+          0,
+          1,
+          0
+        ],
+        "speed": 20
+      },
+      "result": {
+        "axis_steps": [
+          800,
+          0,
+          0,
+          96,
+          0
+        ],
+        "step_events": 800,
+        "direction_bits": 0,
+        "tool": 0,
+        "advance_enabled": 1,
+        "nominal_speed": 20.0,
+        "nominal_rate": 1600,
+        "initial_rate": 160,
+        "final_rate": 160,
+        "accelerate_until": 15,
+        "decelerate_after": 785,
+        "next_head": 1,
+        "final_steps": [
+          800,
+          0,
+          0,
+          96,
+          0
+        ]
+      }
+    },
+    {
+      "inputs": {
+        "name": "extrusion only",
+        "delta": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "speed": 20
+      },
+      "result": {
+        "axis_steps": [
+          0,
+          0,
+          0,
+          96,
+          0
+        ],
+        "step_events": 96,
+        "direction_bits": 0,
+        "tool": 0,
+        "advance_enabled": 0,
+        "nominal_speed": 20.0,
+        "nominal_rate": 1920,
+        "initial_rate": 192,
+        "final_rate": 192,
+        "accelerate_until": 9,
+        "decelerate_after": 87,
+        "next_head": 1,
+        "final_steps": [
+          0,
+          0,
+          0,
+          96,
+          0
+        ]
+      }
+    },
+    {
+      "inputs": {
+        "name": "second extruder only",
+        "delta": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "speed": 20
+      },
+      "result": {
+        "axis_steps": [
+          0,
+          0,
+          0,
+          0,
+          96
+        ],
+        "step_events": 96,
+        "direction_bits": 0,
+        "tool": 1,
+        "advance_enabled": 0,
+        "nominal_speed": 20.0,
+        "nominal_rate": 1920,
+        "initial_rate": 192,
+        "final_rate": 192,
+        "accelerate_until": 9,
+        "decelerate_after": 87,
+        "next_head": 1,
+        "final_steps": [
+          0,
+          0,
+          0,
+          0,
+          96
+        ]
+      }
+    },
+    {
+      "inputs": {
+        "name": "negative X direction",
+        "delta": [
+          -10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "speed": 20
+      },
+      "result": {
+        "axis_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ],
+        "step_events": 800,
+        "direction_bits": 1,
+        "tool": 0,
+        "advance_enabled": 0,
+        "nominal_speed": 20.0,
+        "nominal_rate": 1600,
+        "initial_rate": 160,
+        "final_rate": 160,
+        "accelerate_until": 15,
+        "decelerate_after": 785,
+        "next_head": 1,
+        "final_steps": [
+          4294966496,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "inputs": {
+        "name": "ring head wraps",
+        "delta": [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "speed": 20,
+        "head": 15
+      },
+      "result": {
+        "axis_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ],
+        "step_events": 800,
+        "direction_bits": 0,
+        "tool": 0,
+        "advance_enabled": 0,
+        "nominal_speed": 20.0,
+        "nominal_rate": 1600,
+        "initial_rate": 160,
+        "final_rate": 160,
+        "accelerate_until": 15,
+        "decelerate_after": 785,
+        "next_head": 0,
+        "final_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "inputs": {
+        "name": "queue low-water slowdown",
+        "delta": [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "speed": 20,
+        "head": 4,
+        "tail": 0,
+        "slow_guard": 0
+      },
+      "result": {
+        "axis_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ],
+        "step_events": 800,
+        "direction_bits": 0,
+        "tool": 0,
+        "advance_enabled": 0,
+        "nominal_speed": 10.0,
+        "nominal_rate": 800,
+        "initial_rate": 800,
+        "final_rate": 800,
+        "accelerate_until": 0,
+        "decelerate_after": 800,
+        "next_head": 5,
+        "final_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "inputs": {
+        "name": "high speed with internal clamp gate",
+        "delta": [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "speed": 1000,
+        "limit_gate": 1
+      },
+      "result": {
+        "axis_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ],
+        "step_events": 800,
+        "direction_bits": 0,
+        "tool": 0,
+        "advance_enabled": 0,
+        "nominal_speed": 150.0,
+        "nominal_rate": 12000,
+        "initial_rate": 160,
+        "final_rate": 160,
+        "accelerate_until": 400,
+        "decelerate_after": 400,
+        "next_head": 1,
+        "final_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "inputs": {
+        "name": "high speed without internal clamp gate",
+        "delta": [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "speed": 1000,
+        "limit_gate": 0
+      },
+      "result": {
+        "axis_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ],
+        "step_events": 800,
+        "direction_bits": 0,
+        "tool": 0,
+        "advance_enabled": 0,
+        "nominal_speed": 500.0,
+        "nominal_rate": 40000,
+        "initial_rate": 160,
+        "final_rate": 160,
+        "accelerate_until": 400,
+        "decelerate_after": 400,
+        "next_head": 1,
+        "final_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "inputs": {
+        "name": "nonaccelerated X",
+        "delta": [
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "speed": 20,
+        "accelerated": 0
+      },
+      "result": {
+        "axis_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ],
+        "step_events": 800,
+        "direction_bits": 0,
+        "tool": 0,
+        "advance_enabled": 0,
+        "nominal_speed": 0.0,
+        "nominal_rate": 800,
+        "initial_rate": 0,
+        "final_rate": 0,
+        "accelerate_until": 0,
+        "decelerate_after": 801,
+        "next_head": 1,
+        "final_steps": [
+          800,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

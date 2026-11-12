@@ -1,0 +1,1970 @@
+{
+  "method": "Original 0x08029D88 instructions including all floating-point helpers; only interrupt-critical-section wrapper intercepted. Independent kinematic reference uses finite normal inputs with 32-bit products below overflow. Advanced extrusion test uses factor .125 and secondary factor zero.",
+  "profile_checks": 134,
+  "extra_checks": 7,
+  "checks": [
+    {
+      "nominal_rate": 1000,
+      "step_events": 2000,
+      "acceleration": 1000,
+      "entry_factor": 0.0,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 120,
+        "accelerate_until": 492,
+        "decelerate_after": 1508,
+        "plateau_steps": 1016
+      }
+    },
+    {
+      "nominal_rate": 1000,
+      "step_events": 100,
+      "acceleration": 1000,
+      "entry_factor": 0.1,
+      "exit_factor": 0.1,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 120,
+        "accelerate_until": 50,
+        "decelerate_after": 50,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 1000,
+      "step_events": 1,
+      "acceleration": 1000,
+      "entry_factor": 0.0,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 120,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 100,
+      "step_events": 200,
+      "acceleration": 1000,
+      "entry_factor": 0.5,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 120,
+        "accelerate_until": -2,
+        "decelerate_after": 202,
+        "plateau_steps": 204
+      }
+    },
+    {
+      "nominal_rate": 1000,
+      "step_events": 2000,
+      "acceleration": 0,
+      "entry_factor": 0.25,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 250,
+        "final_rate": 500,
+        "accelerate_until": 0,
+        "decelerate_after": 2000,
+        "plateau_steps": 2000
+      }
+    },
+    {
+      "nominal_rate": 1000,
+      "step_events": 100,
+      "acceleration": 1000,
+      "entry_factor": 1.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 1000,
+        "final_rate": 1000,
+        "accelerate_until": 0,
+        "decelerate_after": 100,
+        "plateau_steps": 100
+      }
+    },
+    {
+      "nominal_rate": 11741,
+      "step_events": 257,
+      "acceleration": 3602,
+      "entry_factor": 0.5,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 5871,
+        "final_rate": 120,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 1343,
+      "step_events": 3672,
+      "acceleration": 3136,
+      "entry_factor": 0.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 168,
+        "accelerate_until": 285,
+        "decelerate_after": 3389,
+        "plateau_steps": 3104
+      }
+    },
+    {
+      "nominal_rate": 10251,
+      "step_events": 2282,
+      "acceleration": 4167,
+      "entry_factor": 0.25,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 2563,
+        "final_rate": 120,
+        "accelerate_until": 747,
+        "decelerate_after": 747,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 6969,
+      "step_events": 2646,
+      "acceleration": 842,
+      "entry_factor": 0.25,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 1742,
+        "final_rate": 3485,
+        "accelerate_until": 2646,
+        "decelerate_after": 2646,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 12056,
+      "step_events": 1862,
+      "acceleration": 695,
+      "entry_factor": 1.0,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 12056,
+        "final_rate": 3014,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 13889,
+      "step_events": 4454,
+      "acceleration": 2438,
+      "entry_factor": 0.125,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 1736,
+        "final_rate": 3472,
+        "accelerate_until": 3154,
+        "decelerate_after": 3154,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 3781,
+      "step_events": 3353,
+      "acceleration": 2325,
+      "entry_factor": 0.125,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 473,
+        "final_rate": 3781,
+        "accelerate_until": 3026,
+        "decelerate_after": 3353,
+        "plateau_steps": 327
+      }
+    },
+    {
+      "nominal_rate": 9964,
+      "step_events": 1854,
+      "acceleration": 1541,
+      "entry_factor": 0.0,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 2491,
+        "accelerate_until": 1854,
+        "decelerate_after": 1854,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 11846,
+      "step_events": 4883,
+      "acceleration": 3581,
+      "entry_factor": 0.25,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 2962,
+        "final_rate": 5923,
+        "accelerate_until": 4278,
+        "decelerate_after": 4278,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 4208,
+      "step_events": 4804,
+      "acceleration": 2012,
+      "entry_factor": 0.25,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 1052,
+        "final_rate": 2104,
+        "accelerate_until": 2814,
+        "decelerate_after": 2814,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 7391,
+      "step_events": 3372,
+      "acceleration": 4629,
+      "entry_factor": 0.5,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 3696,
+        "final_rate": 120,
+        "accelerate_until": 949,
+        "decelerate_after": 949,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 6826,
+      "step_events": 1316,
+      "acceleration": 4503,
+      "entry_factor": 1.0,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 6826,
+        "final_rate": 6826,
+        "accelerate_until": 0,
+        "decelerate_after": 1316,
+        "plateau_steps": 1316
+      }
+    },
+    {
+      "nominal_rate": 3426,
+      "step_events": 2233,
+      "acceleration": 4443,
+      "entry_factor": 0.0,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 1713,
+        "accelerate_until": 1280,
+        "decelerate_after": 1280,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 13140,
+      "step_events": 641,
+      "acceleration": 3441,
+      "entry_factor": 0.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 6570,
+        "final_rate": 13140,
+        "accelerate_until": 641,
+        "decelerate_after": 641,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 6961,
+      "step_events": 1648,
+      "acceleration": 1979,
+      "entry_factor": 0.25,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 1740,
+        "final_rate": 120,
+        "accelerate_until": 443,
+        "decelerate_after": 443,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 12879,
+      "step_events": 2380,
+      "acceleration": 4428,
+      "entry_factor": 0.5,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 6440,
+        "final_rate": 12879,
+        "accelerate_until": 2380,
+        "decelerate_after": 2380,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 5638,
+      "step_events": 3858,
+      "acceleration": 3912,
+      "entry_factor": 1.0,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 5638,
+        "final_rate": 120,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 1401,
+      "step_events": 4958,
+      "acceleration": 4770,
+      "entry_factor": 0.25,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 350,
+        "final_rate": 175,
+        "accelerate_until": 192,
+        "decelerate_after": 4756,
+        "plateau_steps": 4564
+      }
+    },
+    {
+      "nominal_rate": 3246,
+      "step_events": 3300,
+      "acceleration": 1029,
+      "entry_factor": 0.0,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 3246,
+        "accelerate_until": 3300,
+        "decelerate_after": 3300,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 7418,
+      "step_events": 3703,
+      "acceleration": 4417,
+      "entry_factor": 0.0,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 120,
+        "accelerate_until": 1851,
+        "decelerate_after": 1851,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 10484,
+      "step_events": 1111,
+      "acceleration": 361,
+      "entry_factor": 0.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 1311,
+        "accelerate_until": 1111,
+        "decelerate_after": 1111,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 11249,
+      "step_events": 883,
+      "acceleration": 1590,
+      "entry_factor": 0.125,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 1406,
+        "final_rate": 5625,
+        "accelerate_until": 883,
+        "decelerate_after": 883,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 12757,
+      "step_events": 1239,
+      "acceleration": 4959,
+      "entry_factor": 0.5,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 6379,
+        "final_rate": 1595,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 11907,
+      "step_events": 377,
+      "acceleration": 126,
+      "entry_factor": 1.0,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 11907,
+        "final_rate": 11907,
+        "accelerate_until": 0,
+        "decelerate_after": 377,
+        "plateau_steps": 377
+      }
+    },
+    {
+      "nominal_rate": 1205,
+      "step_events": 4212,
+      "acceleration": 2234,
+      "entry_factor": 0.25,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 301,
+        "final_rate": 1205,
+        "accelerate_until": 304,
+        "decelerate_after": 4212,
+        "plateau_steps": 3908
+      }
+    },
+    {
+      "nominal_rate": 1050,
+      "step_events": 3969,
+      "acceleration": 3216,
+      "entry_factor": 1.5,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 1050,
+        "final_rate": 525,
+        "accelerate_until": 0,
+        "decelerate_after": 3841,
+        "plateau_steps": 3841
+      }
+    },
+    {
+      "nominal_rate": 3410,
+      "step_events": 1782,
+      "acceleration": 2602,
+      "entry_factor": 0.25,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 853,
+        "final_rate": 120,
+        "accelerate_until": 822,
+        "decelerate_after": 822,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 13466,
+      "step_events": 468,
+      "acceleration": 3958,
+      "entry_factor": 1.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 13466,
+        "final_rate": 13466,
+        "accelerate_until": 0,
+        "decelerate_after": 468,
+        "plateau_steps": 468
+      }
+    },
+    {
+      "nominal_rate": 12719,
+      "step_events": 3473,
+      "acceleration": 944,
+      "entry_factor": 0.0,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 12719,
+        "accelerate_until": 3473,
+        "decelerate_after": 3473,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 9233,
+      "step_events": 465,
+      "acceleration": 3569,
+      "entry_factor": 0.125,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 1154,
+        "final_rate": 9233,
+        "accelerate_until": 465,
+        "decelerate_after": 465,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 10698,
+      "step_events": 2683,
+      "acceleration": 4924,
+      "entry_factor": 1.0,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 10698,
+        "final_rate": 10698,
+        "accelerate_until": 0,
+        "decelerate_after": 2683,
+        "plateau_steps": 2683
+      }
+    },
+    {
+      "nominal_rate": 6091,
+      "step_events": 299,
+      "acceleration": 2369,
+      "entry_factor": 1.0,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 6091,
+        "final_rate": 6091,
+        "accelerate_until": 0,
+        "decelerate_after": 299,
+        "plateau_steps": 299
+      }
+    },
+    {
+      "nominal_rate": 13348,
+      "step_events": 918,
+      "acceleration": 1878,
+      "entry_factor": 0.0,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 13348,
+        "accelerate_until": 918,
+        "decelerate_after": 918,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 306,
+      "step_events": 1496,
+      "acceleration": 1994,
+      "entry_factor": 1.0,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 306,
+        "final_rate": 306,
+        "accelerate_until": 0,
+        "decelerate_after": 1496,
+        "plateau_steps": 1496
+      }
+    },
+    {
+      "nominal_rate": 12226,
+      "step_events": 2580,
+      "acceleration": 629,
+      "entry_factor": 1.0,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 12226,
+        "final_rate": 12226,
+        "accelerate_until": 0,
+        "decelerate_after": 2580,
+        "plateau_steps": 2580
+      }
+    },
+    {
+      "nominal_rate": 9672,
+      "step_events": 4332,
+      "acceleration": 2483,
+      "entry_factor": 0.5,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 4836,
+        "final_rate": 1209,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 11235,
+      "step_events": 581,
+      "acceleration": 3497,
+      "entry_factor": 1.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 11235,
+        "final_rate": 1404,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 14766,
+      "step_events": 4760,
+      "acceleration": 3324,
+      "entry_factor": 0.5,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 7383,
+        "final_rate": 1846,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 9552,
+      "step_events": 4268,
+      "acceleration": 3095,
+      "entry_factor": 0.5,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 4776,
+        "final_rate": 2388,
+        "accelerate_until": 752,
+        "decelerate_after": 752,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 13617,
+      "step_events": 1306,
+      "acceleration": 4123,
+      "entry_factor": 0.125,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 1702,
+        "final_rate": 13617,
+        "accelerate_until": 1306,
+        "decelerate_after": 1306,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 4343,
+      "step_events": 1852,
+      "acceleration": 90,
+      "entry_factor": 1.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 4343,
+        "final_rate": 4343,
+        "accelerate_until": 0,
+        "decelerate_after": 1852,
+        "plateau_steps": 1852
+      }
+    },
+    {
+      "nominal_rate": 6322,
+      "step_events": 4167,
+      "acceleration": 4067,
+      "entry_factor": 0.25,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 1581,
+        "final_rate": 120,
+        "accelerate_until": 1930,
+        "decelerate_after": 1930,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 253,
+      "step_events": 2954,
+      "acceleration": 1489,
+      "entry_factor": 1.5,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 253,
+        "final_rate": 127,
+        "accelerate_until": 0,
+        "decelerate_after": 2938,
+        "plateau_steps": 2938
+      }
+    },
+    {
+      "nominal_rate": 12296,
+      "step_events": 2852,
+      "acceleration": 4882,
+      "entry_factor": 0.0,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 6148,
+        "accelerate_until": 2852,
+        "decelerate_after": 2852,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 11218,
+      "step_events": 3452,
+      "acceleration": 2221,
+      "entry_factor": 1.5,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 11218,
+        "final_rate": 5609,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 10110,
+      "step_events": 2704,
+      "acceleration": 1268,
+      "entry_factor": 0.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 1264,
+        "accelerate_until": 1664,
+        "decelerate_after": 1664,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 13061,
+      "step_events": 3988,
+      "acceleration": 3211,
+      "entry_factor": 1.5,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 13061,
+        "final_rate": 1633,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 420,
+      "step_events": 2577,
+      "acceleration": 4649,
+      "entry_factor": 0.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 210,
+        "final_rate": 420,
+        "accelerate_until": 14,
+        "decelerate_after": 2577,
+        "plateau_steps": 2563
+      }
+    },
+    {
+      "nominal_rate": 4294,
+      "step_events": 4718,
+      "acceleration": 2184,
+      "entry_factor": 0.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 2147,
+        "final_rate": 4294,
+        "accelerate_until": 3165,
+        "decelerate_after": 4718,
+        "plateau_steps": 1553
+      }
+    },
+    {
+      "nominal_rate": 5640,
+      "step_events": 749,
+      "acceleration": 2594,
+      "entry_factor": 0.25,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 1410,
+        "final_rate": 1410,
+        "accelerate_until": 374,
+        "decelerate_after": 374,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 2222,
+      "step_events": 2089,
+      "acceleration": 2793,
+      "entry_factor": 0.5,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 1111,
+        "final_rate": 556,
+        "accelerate_until": 662,
+        "decelerate_after": 1261,
+        "plateau_steps": 599
+      }
+    },
+    {
+      "nominal_rate": 14303,
+      "step_events": 1833,
+      "acceleration": 2495,
+      "entry_factor": 0.25,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 3576,
+        "final_rate": 1788,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 6123,
+      "step_events": 2605,
+      "acceleration": 4125,
+      "entry_factor": 1.0,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 6123,
+        "final_rate": 6123,
+        "accelerate_until": 0,
+        "decelerate_after": 2605,
+        "plateau_steps": 2605
+      }
+    },
+    {
+      "nominal_rate": 7298,
+      "step_events": 4864,
+      "acceleration": 1041,
+      "entry_factor": 1.5,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 7298,
+        "final_rate": 1825,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 12074,
+      "step_events": 4196,
+      "acceleration": 1414,
+      "entry_factor": 0.0,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 3019,
+        "accelerate_until": 3706,
+        "decelerate_after": 3706,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 10293,
+      "step_events": 2246,
+      "acceleration": 4803,
+      "entry_factor": 1.0,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 10293,
+        "final_rate": 2573,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 9430,
+      "step_events": 2913,
+      "acceleration": 2980,
+      "entry_factor": 1.0,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 9430,
+        "final_rate": 9430,
+        "accelerate_until": 0,
+        "decelerate_after": 2913,
+        "plateau_steps": 2913
+      }
+    },
+    {
+      "nominal_rate": 5037,
+      "step_events": 3174,
+      "acceleration": 4274,
+      "entry_factor": 1.0,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 5037,
+        "final_rate": 2519,
+        "accelerate_until": 0,
+        "decelerate_after": 949,
+        "plateau_steps": 949
+      }
+    },
+    {
+      "nominal_rate": 4828,
+      "step_events": 4848,
+      "acceleration": 1100,
+      "entry_factor": 1.5,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 4828,
+        "final_rate": 1207,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 8954,
+      "step_events": 2904,
+      "acceleration": 4001,
+      "entry_factor": 0.5,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 4477,
+        "final_rate": 1119,
+        "accelerate_until": 277,
+        "decelerate_after": 277,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 7889,
+      "step_events": 1487,
+      "acceleration": 460,
+      "entry_factor": 0.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 3945,
+        "final_rate": 7889,
+        "accelerate_until": 1487,
+        "decelerate_after": 1487,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 13210,
+      "step_events": 2009,
+      "acceleration": 4655,
+      "entry_factor": 0.25,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 3303,
+        "final_rate": 3303,
+        "accelerate_until": 1004,
+        "decelerate_after": 1004,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 4502,
+      "step_events": 3433,
+      "acceleration": 3042,
+      "entry_factor": 0.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 563,
+        "accelerate_until": 1741,
+        "decelerate_after": 1741,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 5036,
+      "step_events": 1188,
+      "acceleration": 4756,
+      "entry_factor": 0.25,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 1259,
+        "final_rate": 120,
+        "accelerate_until": 511,
+        "decelerate_after": 511,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 10106,
+      "step_events": 1388,
+      "acceleration": 1371,
+      "entry_factor": 0.5,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 5053,
+        "final_rate": 120,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 8730,
+      "step_events": 2463,
+      "acceleration": 1753,
+      "entry_factor": 0.125,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 1091,
+        "final_rate": 1091,
+        "accelerate_until": 1231,
+        "decelerate_after": 1231,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 7951,
+      "step_events": 2524,
+      "acceleration": 4228,
+      "entry_factor": 0.25,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 1988,
+        "final_rate": 7951,
+        "accelerate_until": 2524,
+        "decelerate_after": 2524,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 6276,
+      "step_events": 4341,
+      "acceleration": 794,
+      "entry_factor": 0.125,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 785,
+        "final_rate": 785,
+        "accelerate_until": 2170,
+        "decelerate_after": 2170,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 5169,
+      "step_events": 4943,
+      "acceleration": 677,
+      "entry_factor": 0.25,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 1292,
+        "final_rate": 120,
+        "accelerate_until": 1860,
+        "decelerate_after": 1860,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 4032,
+      "step_events": 2598,
+      "acceleration": 4788,
+      "entry_factor": 0.25,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 1008,
+        "final_rate": 120,
+        "accelerate_until": 1246,
+        "decelerate_after": 1246,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 1696,
+      "step_events": 4595,
+      "acceleration": 2525,
+      "entry_factor": 0.0,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 848,
+        "accelerate_until": 566,
+        "decelerate_after": 4168,
+        "plateau_steps": 3602
+      }
+    },
+    {
+      "nominal_rate": 4457,
+      "step_events": 1840,
+      "acceleration": 3316,
+      "entry_factor": 0.5,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 2229,
+        "final_rate": 4457,
+        "accelerate_until": 1840,
+        "decelerate_after": 1840,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 9819,
+      "step_events": 4477,
+      "acceleration": 4441,
+      "entry_factor": 0.0,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 9819,
+        "accelerate_until": 4477,
+        "decelerate_after": 4477,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 10422,
+      "step_events": 1707,
+      "acceleration": 4634,
+      "entry_factor": 1.0,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 10422,
+        "final_rate": 10422,
+        "accelerate_until": 0,
+        "decelerate_after": 1707,
+        "plateau_steps": 1707
+      }
+    },
+    {
+      "nominal_rate": 7471,
+      "step_events": 3549,
+      "acceleration": 4108,
+      "entry_factor": 1.0,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 7471,
+        "final_rate": 7471,
+        "accelerate_until": 0,
+        "decelerate_after": 3549,
+        "plateau_steps": 3549
+      }
+    },
+    {
+      "nominal_rate": 423,
+      "step_events": 1960,
+      "acceleration": 194,
+      "entry_factor": 1.0,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 423,
+        "final_rate": 212,
+        "accelerate_until": 0,
+        "decelerate_after": 1615,
+        "plateau_steps": 1615
+      }
+    },
+    {
+      "nominal_rate": 4181,
+      "step_events": 3320,
+      "acceleration": 3054,
+      "entry_factor": 0.5,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 2091,
+        "final_rate": 4181,
+        "accelerate_until": 2146,
+        "decelerate_after": 3320,
+        "plateau_steps": 1174
+      }
+    },
+    {
+      "nominal_rate": 2215,
+      "step_events": 833,
+      "acceleration": 1683,
+      "entry_factor": 1.0,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 2215,
+        "final_rate": 554,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 11536,
+      "step_events": 3883,
+      "acceleration": 624,
+      "entry_factor": 1.5,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 11536,
+        "final_rate": 11536,
+        "accelerate_until": 0,
+        "decelerate_after": 3883,
+        "plateau_steps": 3883
+      }
+    },
+    {
+      "nominal_rate": 3716,
+      "step_events": 2116,
+      "acceleration": 3142,
+      "entry_factor": 0.0,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 3716,
+        "accelerate_until": 2116,
+        "decelerate_after": 2116,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 7757,
+      "step_events": 591,
+      "acceleration": 3852,
+      "entry_factor": 1.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 7757,
+        "final_rate": 970,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 6362,
+      "step_events": 1576,
+      "acceleration": 4718,
+      "entry_factor": 0.125,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 795,
+        "final_rate": 795,
+        "accelerate_until": 788,
+        "decelerate_after": 788,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 7994,
+      "step_events": 882,
+      "acceleration": 2790,
+      "entry_factor": 1.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 7994,
+        "final_rate": 999,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 2002,
+      "step_events": 3577,
+      "acceleration": 3227,
+      "entry_factor": 0.0,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 501,
+        "accelerate_until": 618,
+        "decelerate_after": 2995,
+        "plateau_steps": 2377
+      }
+    },
+    {
+      "nominal_rate": 3332,
+      "step_events": 772,
+      "acceleration": 3308,
+      "entry_factor": 1.5,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 3332,
+        "final_rate": 120,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 4890,
+      "step_events": 4165,
+      "acceleration": 4891,
+      "entry_factor": 0.125,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 611,
+        "final_rate": 611,
+        "accelerate_until": 2082,
+        "decelerate_after": 2082,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 481,
+      "step_events": 4817,
+      "acceleration": 3870,
+      "entry_factor": 1.0,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 481,
+        "final_rate": 481,
+        "accelerate_until": 0,
+        "decelerate_after": 4817,
+        "plateau_steps": 4817
+      }
+    },
+    {
+      "nominal_rate": 10716,
+      "step_events": 3512,
+      "acceleration": 2527,
+      "entry_factor": 0.5,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 5358,
+        "final_rate": 120,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 12240,
+      "step_events": 3828,
+      "acceleration": 1045,
+      "entry_factor": 1.5,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 12240,
+        "final_rate": 3060,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 8039,
+      "step_events": 4089,
+      "acceleration": 3731,
+      "entry_factor": 0.25,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 2010,
+        "final_rate": 2010,
+        "accelerate_until": 2044,
+        "decelerate_after": 2044,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 12447,
+      "step_events": 1525,
+      "acceleration": 3941,
+      "entry_factor": 1.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 12447,
+        "final_rate": 1556,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 14019,
+      "step_events": 3887,
+      "acceleration": 1362,
+      "entry_factor": 0.125,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 1752,
+        "final_rate": 3505,
+        "accelerate_until": 3635,
+        "decelerate_after": 3635,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 10023,
+      "step_events": 518,
+      "acceleration": 3029,
+      "entry_factor": 0.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 1253,
+        "accelerate_until": 387,
+        "decelerate_after": 387,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 4607,
+      "step_events": 4547,
+      "acceleration": 4759,
+      "entry_factor": 0.5,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 2304,
+        "final_rate": 2304,
+        "accelerate_until": 1672,
+        "decelerate_after": 2875,
+        "plateau_steps": 1203
+      }
+    },
+    {
+      "nominal_rate": 13674,
+      "step_events": 3351,
+      "acceleration": 4102,
+      "entry_factor": 0.25,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 3419,
+        "final_rate": 6837,
+        "accelerate_until": 3351,
+        "decelerate_after": 3351,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 12430,
+      "step_events": 3942,
+      "acceleration": 4071,
+      "entry_factor": 1.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 12430,
+        "final_rate": 12430,
+        "accelerate_until": 0,
+        "decelerate_after": 3942,
+        "plateau_steps": 3942
+      }
+    },
+    {
+      "nominal_rate": 8614,
+      "step_events": 1014,
+      "acceleration": 2905,
+      "entry_factor": 0.25,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 2154,
+        "final_rate": 8614,
+        "accelerate_until": 1014,
+        "decelerate_after": 1014,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 12779,
+      "step_events": 1291,
+      "acceleration": 2923,
+      "entry_factor": 0.125,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 1597,
+        "final_rate": 120,
+        "accelerate_until": 428,
+        "decelerate_after": 428,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 11564,
+      "step_events": 191,
+      "acceleration": 4736,
+      "entry_factor": 1.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 11564,
+        "final_rate": 11564,
+        "accelerate_until": 0,
+        "decelerate_after": 191,
+        "plateau_steps": 191
+      }
+    },
+    {
+      "nominal_rate": 6978,
+      "step_events": 137,
+      "acceleration": 2716,
+      "entry_factor": 0.5,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 3489,
+        "final_rate": 1745,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 14723,
+      "step_events": 3002,
+      "acceleration": 4392,
+      "entry_factor": 0.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 7362,
+        "final_rate": 14723,
+        "accelerate_until": 3002,
+        "decelerate_after": 3002,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 14054,
+      "step_events": 2962,
+      "acceleration": 1804,
+      "entry_factor": 0.0,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 3514,
+        "accelerate_until": 2962,
+        "decelerate_after": 2962,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 2783,
+      "step_events": 2528,
+      "acceleration": 2483,
+      "entry_factor": 0.5,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 1392,
+        "final_rate": 696,
+        "accelerate_until": 1117,
+        "decelerate_after": 1117,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 5017,
+      "step_events": 2428,
+      "acceleration": 2909,
+      "entry_factor": 0.5,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 2509,
+        "final_rate": 1254,
+        "accelerate_until": 808,
+        "decelerate_after": 808,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 4103,
+      "step_events": 4916,
+      "acceleration": 762,
+      "entry_factor": 0.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 2052,
+        "final_rate": 4103,
+        "accelerate_until": 4916,
+        "decelerate_after": 4916,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 5691,
+      "step_events": 82,
+      "acceleration": 217,
+      "entry_factor": 0.25,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 1423,
+        "final_rate": 5691,
+        "accelerate_until": 82,
+        "decelerate_after": 82,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 14107,
+      "step_events": 3545,
+      "acceleration": 660,
+      "entry_factor": 1.5,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 14107,
+        "final_rate": 3527,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 14496,
+      "step_events": 4523,
+      "acceleration": 1668,
+      "entry_factor": 0.125,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 1812,
+        "final_rate": 120,
+        "accelerate_until": 1771,
+        "decelerate_after": 1771,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 2734,
+      "step_events": 2399,
+      "acceleration": 1430,
+      "entry_factor": 0.5,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 1367,
+        "final_rate": 1367,
+        "accelerate_until": 1199,
+        "decelerate_after": 1199,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 7476,
+      "step_events": 4967,
+      "acceleration": 2226,
+      "entry_factor": 0.5,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 3738,
+        "final_rate": 3738,
+        "accelerate_until": 2483,
+        "decelerate_after": 2483,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 8228,
+      "step_events": 1619,
+      "acceleration": 4421,
+      "entry_factor": 0.25,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 2057,
+        "final_rate": 120,
+        "accelerate_until": 571,
+        "decelerate_after": 571,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 14585,
+      "step_events": 4667,
+      "acceleration": 2203,
+      "entry_factor": 0.25,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 3646,
+        "final_rate": 1823,
+        "accelerate_until": 1202,
+        "decelerate_after": 1202,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 4005,
+      "step_events": 1773,
+      "acceleration": 3525,
+      "entry_factor": 1.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 4005,
+        "final_rate": 501,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 1593,
+      "step_events": 507,
+      "acceleration": 3159,
+      "entry_factor": 1.0,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 1593,
+        "final_rate": 398,
+        "accelerate_until": 0,
+        "decelerate_after": 131,
+        "plateau_steps": 131
+      }
+    },
+    {
+      "nominal_rate": 12846,
+      "step_events": 3274,
+      "acceleration": 4913,
+      "entry_factor": 1.5,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 12846,
+        "final_rate": 1606,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 1079,
+      "step_events": 2338,
+      "acceleration": 462,
+      "entry_factor": 0.0,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 540,
+        "accelerate_until": 1244,
+        "decelerate_after": 1394,
+        "plateau_steps": 150
+      }
+    },
+    {
+      "nominal_rate": 11130,
+      "step_events": 3233,
+      "acceleration": 3244,
+      "entry_factor": 0.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 5565,
+        "final_rate": 11130,
+        "accelerate_until": 3233,
+        "decelerate_after": 3233,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 6386,
+      "step_events": 2610,
+      "acceleration": 919,
+      "entry_factor": 0.125,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 798,
+        "final_rate": 120,
+        "accelerate_until": 1135,
+        "decelerate_after": 1135,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 9671,
+      "step_events": 1378,
+      "acceleration": 927,
+      "entry_factor": 0.5,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 4836,
+        "final_rate": 9671,
+        "accelerate_until": 1378,
+        "decelerate_after": 1378,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 3368,
+      "step_events": 2828,
+      "acceleration": 14,
+      "entry_factor": 0.125,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 421,
+        "final_rate": 3368,
+        "accelerate_until": 2828,
+        "decelerate_after": 2828,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 14968,
+      "step_events": 446,
+      "acceleration": 4449,
+      "entry_factor": 0.125,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 1871,
+        "final_rate": 3742,
+        "accelerate_until": 446,
+        "decelerate_after": 446,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 4634,
+      "step_events": 4328,
+      "acceleration": 4618,
+      "entry_factor": 0.0,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 120,
+        "accelerate_until": 2164,
+        "decelerate_after": 2164,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 1771,
+      "step_events": 3987,
+      "acceleration": 2726,
+      "entry_factor": 0.0,
+      "exit_factor": 0.125,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 221,
+        "accelerate_until": 572,
+        "decelerate_after": 3421,
+        "plateau_steps": 2849
+      }
+    },
+    {
+      "nominal_rate": 5648,
+      "step_events": 2191,
+      "acceleration": 2098,
+      "entry_factor": 0.125,
+      "exit_factor": 0.25,
+      "result": {
+        "initial_rate": 706,
+        "final_rate": 1412,
+        "accelerate_until": 1273,
+        "decelerate_after": 1273,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 5417,
+      "step_events": 2844,
+      "acceleration": 831,
+      "entry_factor": 0.125,
+      "exit_factor": 1.5,
+      "result": {
+        "initial_rate": 677,
+        "final_rate": 5417,
+        "accelerate_until": 2844,
+        "decelerate_after": 2844,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 3277,
+      "step_events": 229,
+      "acceleration": 1743,
+      "entry_factor": 0.25,
+      "exit_factor": 0.0,
+      "result": {
+        "initial_rate": 819,
+        "final_rate": 120,
+        "accelerate_until": 20,
+        "decelerate_after": 20,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 15000,
+      "step_events": 1477,
+      "acceleration": 2305,
+      "entry_factor": 0.25,
+      "exit_factor": 1.0,
+      "result": {
+        "initial_rate": 3750,
+        "final_rate": 15000,
+        "accelerate_until": 1477,
+        "decelerate_after": 1477,
+        "plateau_steps": 0
+      }
+    },
+    {
+      "nominal_rate": 3062,
+      "step_events": 1176,
+      "acceleration": 1670,
+      "entry_factor": 0.5,
+      "exit_factor": 0.5,
+      "result": {
+        "initial_rate": 1531,
+        "final_rate": 1531,
+        "accelerate_until": 588,
+        "decelerate_after": 588,
+        "plateau_steps": 0
+      }
+    }
+  ],
+  "extras": [
+    {
+      "enabled": 0,
+      "busy": 0,
+      "result": {
+        "initial_rate": 1000,
+        "final_rate": 1000,
+        "accelerate_until": 0,
+        "decelerate_after": 2000,
+        "plateau_steps": 2000
+      }
+    },
+    {
+      "enabled": 0,
+      "busy": 1,
+      "result": {
+        "busy_preserved": true
+      }
+    },
+    {
+      "enabled": 1,
+      "busy": 1,
+      "result": {
+        "busy_preserved": true
+      }
+    },
+    {
+      "advance": true,
+      "step_events": 2000,
+      "entry": 0.0,
+      "exit": 0.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 120,
+        "accelerate_until": 492,
+        "decelerate_after": 1508,
+        "plateau_steps": 1016,
+        "advance_initial": 110,
+        "advance_final": 110
+      }
+    },
+    {
+      "advance": true,
+      "step_events": 100,
+      "entry": 0.0,
+      "exit": 0.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 120,
+        "accelerate_until": 50,
+        "decelerate_after": 50,
+        "plateau_steps": 0,
+        "advance_initial": 27,
+        "advance_final": 27
+      }
+    },
+    {
+      "advance": true,
+      "step_events": 100,
+      "entry": 0.5,
+      "exit": 0.25,
+      "result": {
+        "initial_rate": 500,
+        "final_rate": 250,
+        "accelerate_until": 3,
+        "decelerate_after": 3,
+        "plateau_steps": 0,
+        "advance_initial": 0,
+        "advance_final": 32
+      }
+    },
+    {
+      "advance": true,
+      "step_events": 1,
+      "entry": 0.0,
+      "exit": 0.0,
+      "result": {
+        "initial_rate": 120,
+        "final_rate": 120,
+        "accelerate_until": 0,
+        "decelerate_after": 0,
+        "plateau_steps": 0,
+        "advance_initial": 0,
+        "advance_final": 0
+      }
+    }
+  ]
+}
