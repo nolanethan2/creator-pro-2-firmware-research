@@ -1,0 +1,134 @@
+{
+  "method": "Offline execution only. EEPROM float reads and high-level default reads are stubbed; delays and GPIO/PWR calls are suppressed. Records one serial-backend startup path, not actual saved EEPROM values.",
+  "checks": [
+    {
+      "test": "calibration_offset_bounds",
+      "input": -6.0,
+      "expected": 5.0,
+      "actual": 5.0
+    },
+    {
+      "test": "calibration_offset_bounds",
+      "input": -5.0,
+      "expected": 5.0,
+      "actual": 5.0
+    },
+    {
+      "test": "calibration_offset_bounds",
+      "input": -4.0,
+      "expected": -4.0,
+      "actual": -4.0
+    },
+    {
+      "test": "calibration_offset_bounds",
+      "input": 0.0,
+      "expected": 0.0,
+      "actual": 0.0
+    },
+    {
+      "test": "calibration_offset_bounds",
+      "input": 4.0,
+      "expected": 4.0,
+      "actual": 4.0
+    },
+    {
+      "test": "calibration_offset_bounds",
+      "input": 5.0,
+      "expected": 5.0,
+      "actual": 5.0
+    },
+    {
+      "test": "calibration_offset_bounds",
+      "input": 6.0,
+      "expected": 5.0,
+      "actual": 5.0
+    }
+  ],
+  "float_default_sentinel_cases": [
+    {
+      "stored_word": "0x4f800000",
+      "returned_word": "0x40200000",
+      "returned_float_text": "2.5"
+    },
+    {
+      "stored_word": "0xffffffff",
+      "returned_word": "0xffffffff",
+      "returned_float_text": "nan"
+    },
+    {
+      "stored_word": "0x0",
+      "returned_word": "0x0",
+      "returned_float_text": "0.0"
+    },
+    {
+      "stored_word": "0x3f800000",
+      "returned_word": "0x3f800000",
+      "returned_float_text": "1.0"
+    }
+  ],
+  "serial_startup_reads": [
+    {
+      "operation": "read_byte_default",
+      "storage_address": 38,
+      "default": 18
+    },
+    {
+      "operation": "read_byte_default",
+      "storage_address": 12,
+      "default": 1
+    },
+    {
+      "operation": "block_read",
+      "storage_address": 64,
+      "length": 34,
+      "destination": "0x200001ca"
+    },
+    {
+      "operation": "read_byte_default",
+      "storage_address": 30,
+      "default": 7
+    },
+    {
+      "operation": "read_byte_default",
+      "storage_address": 32,
+      "default": 240
+    },
+    {
+      "operation": "read_byte_default",
+      "storage_address": 34,
+      "default": 240
+    },
+    {
+      "operation": "read_byte_default",
+      "storage_address": 36,
+      "default": 120
+    },
+    {
+      "operation": "float_word_read",
+      "storage_address": 0
+    },
+    {
+      "operation": "float_word_read",
+      "storage_address": 4
+    },
+    {
+      "operation": "float_word_read",
+      "storage_address": 8
+    },
+    {
+      "operation": "read_byte_default",
+      "storage_address": 40,
+      "default": 0
+    },
+    {
+      "operation": "read_u16_default",
+      "storage_address": 105,
+      "default": 0
+    },
+    {
+      "operation": "read_byte_default",
+      "storage_address": 107,
+      "default": 0
+    }
+  ]
+}

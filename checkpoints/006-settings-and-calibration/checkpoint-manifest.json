@@ -1,0 +1,14 @@
+{
+  "configuration-map.csv": {
+    "bytes": 2050,
+    "sha256": "3ce9f5b51c9e0fbeb5b7edce685d94530ea5f1bb44bd24d5233abccb1a138d18"
+  },
+  "settings-emulation-verification.json": {
+    "bytes": 3024,
+    "sha256": "9f63b250f59a27967b66457a114042611868517118034793146eff24e0842f96"
+  },
+  "sources/emulate_settings.py": {
+    "bytes": 2241,
+    "sha256": "39fd9a68b2958dbd9270867348506301f537f612f6e6c46ad8f51c1afb7ea9d5"
+  }
+}

@@ -1,0 +1,16 @@
+﻿storage_offset_hex,type,observed_role,default_on_inspected_serial_startup_path,reader_or_writer,evidence_limit
+0x00,float32,X calibration offset,not a default-read wrapper,0x08013BCA,Strict -5 < value < 5 accepted in seven finite tests; other tested values replaced with +5
+0x04,float32,Y calibration offset,not a default-read wrapper,0x08013C02,Parallel code to X loader; not independently emulated
+0x08,float32,Z calibration offset,not a default-read wrapper,0x08013C3E,Parallel code to X loader; not independently emulated
+0x0C,uint8,Language selector,1,0x08013D70,Resource/font fallbacks can change effective selection
+0x0E,uint8,Extruder-count selector: 1 single / 2 dual,not captured by this default-path trace,0x08013940,Changes home offsets and startup/UI/report behavior; not an IDEX unlock
+0x1E,uint8,Machine configuration field +0xB8,7,0x08013D70,Exact UI meaning unresolved
+0x20,uint8,Temperature preset/config field +0xB2,240,0x08013D70,Width in storage is one byte; destination is 16-bit
+0x22,uint8,Temperature preset/config field +0xB4,240,0x08013D70,Width in storage is one byte; destination is 16-bit
+0x24,uint8,Temperature preset/config field +0xB6,120,0x08013D70,Width in storage is one byte; destination is 16-bit
+0x26,uint8,Pulley Type profile: 0x11 Silver / 0x12 Black,0x12,0x08013D70,Selected initial motion tables identical in this dump; profile byte still changes
+0x28,uint8,PG5/PG6/PG7 output pattern selector,0,0x080139BA,Physical load/color identification not verified
+0x40,34-byte block,Machine name,no scalar default,0x08013A8A / 0x08013D70,Current external contents absent from flash dump
+0x69,uint16,Accumulated print hours,0,0x08013D3E,Original-instruction timer increment/reset tests; uint16 wraps at 65536
+0x6B,uint8,Accumulated print minute remainder,0,0x08013D3E,Original-instruction minute-carry and reset tests; partial-session remainder assumptions apply
+0xFC,uint8,M504 persistent flag,not established,immediate command dispatcher,Other settings offsets may exist; this is a partial schema
