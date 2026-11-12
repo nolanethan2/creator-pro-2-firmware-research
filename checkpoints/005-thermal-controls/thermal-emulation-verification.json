@@ -1,0 +1,119 @@
+{
+  "method": "Original ARM instructions in Unicorn only. Sensor readings, timer expiry, readiness predicate and output driver are deterministic stubs. No hardware access; not a hardware safety certification.",
+  "checks": [
+    {
+      "test": "target_clamp",
+      "heater_id": 2,
+      "request": 999,
+      "expected": 120,
+      "actual": 120
+    },
+    {
+      "test": "target_clamp",
+      "heater_id": 4,
+      "request": 999,
+      "expected": 240,
+      "actual": 240
+    },
+    {
+      "test": "target_clamp",
+      "heater_id": 3,
+      "request": -5,
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "test": "target_inhibited",
+      "field": "0x65",
+      "actual": 0
+    },
+    {
+      "test": "target_inhibited",
+      "field": "0x8f",
+      "actual": 0
+    },
+    {
+      "test": "sensor_status_3",
+      "calls_to_trip": 51,
+      "fault_code": 2,
+      "disabled": 1,
+      "target": 0,
+      "last_output": [
+        4,
+        0
+      ],
+      "record": "0x402"
+    },
+    {
+      "test": "sensor_status_4",
+      "calls_to_trip": 51,
+      "fault_code": 32,
+      "disabled": 1,
+      "target": 0,
+      "last_output": [
+        4,
+        0
+      ],
+      "record": "0x420"
+    },
+    {
+      "test": "over_temperature",
+      "calls_to_trip": 51,
+      "fault_code": 4,
+      "disabled": 1,
+      "target": 0,
+      "last_output": [
+        4,
+        0
+      ],
+      "record": "0x404"
+    },
+    {
+      "test": "rise_timeout",
+      "calls_to_trip": 51,
+      "fault_code": 8,
+      "disabled": 1,
+      "target": 0,
+      "last_output": [
+        4,
+        0
+      ],
+      "record": "0x408"
+    },
+    {
+      "test": "long_term_deficit",
+      "calls_to_trip": 51,
+      "fault_code": 16,
+      "disabled": 1,
+      "target": 0,
+      "last_output": [
+        4,
+        0
+      ],
+      "record": "0x410"
+    },
+    {
+      "test": "busy_sensor_status",
+      "status": 1,
+      "calls": 60,
+      "disabled": 0,
+      "sensor_error_count": 0
+    },
+    {
+      "test": "busy_sensor_status",
+      "status": 2,
+      "calls": 60,
+      "disabled": 0,
+      "sensor_error_count": 0
+    },
+    {
+      "test": "cold_full_power",
+      "error": 80,
+      "output": 255
+    },
+    {
+      "test": "zero_target_output",
+      "output": 0
+    }
+  ]
+}

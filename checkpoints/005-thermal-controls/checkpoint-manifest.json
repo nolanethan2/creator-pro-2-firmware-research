@@ -1,0 +1,10 @@
+{
+  "sources/emulate_thermal.py": {
+    "bytes": 3555,
+    "sha256": "c5f9cb3488b28423de9019e90dbf892d3cb44f83d7b4f7028c9c932a9d6d31eb"
+  },
+  "thermal-emulation-verification.json": {
+    "bytes": 2403,
+    "sha256": "f2e4e82953baf341060001259ad80428cd65b6ee91207ca86862421278758df4"
+  }
+}
