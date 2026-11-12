@@ -1,0 +1,18 @@
+{
+  "Decompiler-Limits-and-SD-Reconstruction.md": {
+    "bytes": 2197,
+    "sha256": "800e825ade50b596b664535047b47ab59de19637b73527b06996bcb5d4f77ff7"
+  },
+  "Recovered-SD-BusWidth-Reference.c": {
+    "bytes": 1491,
+    "sha256": "b400bdfc938f0539c8c038a1046b82c960a3c461b4829865ddc6c26872dbdf1a"
+  },
+  "sd-bus-width-verification.json": {
+    "bytes": 5583,
+    "sha256": "bb57838b8875a28c0b898a614149db6ac4db599d0ef0268d4f1f3a53d9765c7e"
+  },
+  "sources/emulate_sd_bus_width.py": {
+    "bytes": 2831,
+    "sha256": "129e1424c393e520b145d22e094e136e1b25d8633dfccab8d4a289da2af41a2e"
+  }
+}

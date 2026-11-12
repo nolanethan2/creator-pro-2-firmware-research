@@ -1,0 +1,313 @@
+{
+  "method": "Original two bus-width routines. SD response, SCR reader, command sender and response checker intercepted; no SDIO/card or physical storage access. Reconstructed control flow tested against return codes and complete command descriptors.",
+  "checks": [
+    {
+      "variant": "boot",
+      "test": "locked",
+      "selector": 1,
+      "result": 14,
+      "commands": [],
+      "response_checks": []
+    },
+    {
+      "variant": "boot",
+      "test": "SCR failure",
+      "selector": 1,
+      "result": 5,
+      "commands": [],
+      "response_checks": []
+    },
+    {
+      "variant": "boot",
+      "test": "wide unsupported",
+      "selector": 1,
+      "result": 37,
+      "commands": [],
+      "response_checks": []
+    },
+    {
+      "variant": "boot",
+      "test": "wide success",
+      "selector": 1,
+      "result": 0,
+      "commands": [
+        [
+          305397760,
+          55,
+          64,
+          0,
+          1024
+        ],
+        [
+          2,
+          6,
+          64,
+          0,
+          1024
+        ]
+      ],
+      "response_checks": [
+        55,
+        6
+      ]
+    },
+    {
+      "variant": "boot",
+      "test": "single success",
+      "selector": 0,
+      "result": 0,
+      "commands": [
+        [
+          305397760,
+          55,
+          64,
+          0,
+          1024
+        ],
+        [
+          0,
+          6,
+          64,
+          0,
+          1024
+        ]
+      ],
+      "response_checks": [
+        55,
+        6
+      ]
+    },
+    {
+      "variant": "boot",
+      "test": "non-one selector follows single branch",
+      "selector": 2,
+      "result": 0,
+      "commands": [
+        [
+          305397760,
+          55,
+          64,
+          0,
+          1024
+        ],
+        [
+          0,
+          6,
+          64,
+          0,
+          1024
+        ]
+      ],
+      "response_checks": [
+        55,
+        6
+      ]
+    },
+    {
+      "variant": "boot",
+      "test": "single unsupported",
+      "selector": 0,
+      "result": 37,
+      "commands": [],
+      "response_checks": []
+    },
+    {
+      "variant": "boot",
+      "test": "CMD55 failure",
+      "selector": 1,
+      "result": 9,
+      "commands": [
+        [
+          305397760,
+          55,
+          64,
+          0,
+          1024
+        ]
+      ],
+      "response_checks": [
+        55
+      ]
+    },
+    {
+      "variant": "boot",
+      "test": "ACMD6 failure",
+      "selector": 1,
+      "result": 7,
+      "commands": [
+        [
+          305397760,
+          55,
+          64,
+          0,
+          1024
+        ],
+        [
+          2,
+          6,
+          64,
+          0,
+          1024
+        ]
+      ],
+      "response_checks": [
+        55,
+        6
+      ]
+    },
+    {
+      "variant": "application",
+      "test": "locked",
+      "selector": 1,
+      "result": 14,
+      "commands": [],
+      "response_checks": []
+    },
+    {
+      "variant": "application",
+      "test": "SCR failure",
+      "selector": 1,
+      "result": 5,
+      "commands": [],
+      "response_checks": []
+    },
+    {
+      "variant": "application",
+      "test": "wide unsupported",
+      "selector": 1,
+      "result": 37,
+      "commands": [],
+      "response_checks": []
+    },
+    {
+      "variant": "application",
+      "test": "wide success",
+      "selector": 1,
+      "result": 0,
+      "commands": [
+        [
+          305397760,
+          55,
+          64,
+          0,
+          1024
+        ],
+        [
+          2,
+          6,
+          64,
+          0,
+          1024
+        ]
+      ],
+      "response_checks": [
+        55,
+        6
+      ]
+    },
+    {
+      "variant": "application",
+      "test": "single success",
+      "selector": 0,
+      "result": 0,
+      "commands": [
+        [
+          305397760,
+          55,
+          64,
+          0,
+          1024
+        ],
+        [
+          0,
+          6,
+          64,
+          0,
+          1024
+        ]
+      ],
+      "response_checks": [
+        55,
+        6
+      ]
+    },
+    {
+      "variant": "application",
+      "test": "non-one selector follows single branch",
+      "selector": 2,
+      "result": 0,
+      "commands": [
+        [
+          305397760,
+          55,
+          64,
+          0,
+          1024
+        ],
+        [
+          0,
+          6,
+          64,
+          0,
+          1024
+        ]
+      ],
+      "response_checks": [
+        55,
+        6
+      ]
+    },
+    {
+      "variant": "application",
+      "test": "single unsupported",
+      "selector": 0,
+      "result": 37,
+      "commands": [],
+      "response_checks": []
+    },
+    {
+      "variant": "application",
+      "test": "CMD55 failure",
+      "selector": 1,
+      "result": 9,
+      "commands": [
+        [
+          305397760,
+          55,
+          64,
+          0,
+          1024
+        ]
+      ],
+      "response_checks": [
+        55
+      ]
+    },
+    {
+      "variant": "application",
+      "test": "ACMD6 failure",
+      "selector": 1,
+      "result": 7,
+      "commands": [
+        [
+          305397760,
+          55,
+          64,
+          0,
+          1024
+        ],
+        [
+          2,
+          6,
+          64,
+          0,
+          1024
+        ]
+      ],
+      "response_checks": [
+        55,
+        6
+      ]
+    }
+  ]
+}
