@@ -1,0 +1,14 @@
+{
+  "hardware-references.csv": {
+    "bytes": 14675,
+    "sha256": "01374755d720e70c63709ae9d29778df25f42aab26bca0a06da75bf827e06bc6"
+  },
+  "sources/FirmwareSwitches.java": {
+    "bytes": 1358,
+    "sha256": "328d538c099e694531d4cca5046019ed10e2ad8d2b0448f62fc32fcd7b50e2b4"
+  },
+  "string-references.csv": {
+    "bytes": 9700,
+    "sha256": "1a493777abef7f360edbd7d3c352e6703ce8e10884e73489ea8d50bdfd7da4be"
+  }
+}
