@@ -1,0 +1,10 @@
+{
+  "gui_function_count": 2317,
+  "previous_function_count": 2220,
+  "additional_entries": 97,
+  "missing_previous_entries": 0,
+  "imported_entries": 97,
+  "flash_sha256": "45e8691c1866211de3b9f74b74d784a902e5d63e4f6eba0559a7528532376502",
+  "gui_review_archive": "work/GUI-DeepRun.gzf",
+  "scope": "New boundaries and source-byte integrity checked. Automatic roles remain unreviewed unless separately labeled. Existing annotated RAM/types retained; one shared-tail boundary split was reviewed in disassembly."
+}
