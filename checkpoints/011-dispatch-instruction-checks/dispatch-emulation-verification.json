@@ -1,0 +1,530 @@
+{
+  "method": "Original queued-dispatch instructions and field search/numeric conversion; decimal parser and all external handlers intercepted. Tests establish routing and queue/mode-state changes, not behavior of intercepted handlers. No printer/device access.",
+  "checks": [
+    {
+      "command": "G91",
+      "gate": 1,
+      "mask_before": 0,
+      "mask_after": 0,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 91
+        }
+      ]
+    },
+    {
+      "command": "G91",
+      "gate": 1,
+      "mask_before": 1,
+      "mask_after": 1,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 91
+        }
+      ]
+    },
+    {
+      "command": "G91",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 91
+        }
+      ]
+    },
+    {
+      "command": "G90",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 0,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 33,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 33
+        }
+      ]
+    },
+    {
+      "command": "G0",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080109f0",
+          "name": "GCode_G0_G1_LinearMove",
+          "r0": 0
+        },
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 0
+        }
+      ]
+    },
+    {
+      "command": "G1",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080109f0",
+          "name": "GCode_G0_G1_LinearMove",
+          "r0": 1
+        },
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 0
+        }
+      ]
+    },
+    {
+      "command": "G4",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08010b8a",
+          "name": "GCode_G4_Dwell",
+          "r0": 4
+        },
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 0
+        }
+      ]
+    },
+    {
+      "command": "G28",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08029b72",
+          "name": "FUN_08029b72",
+          "r0": 28
+        },
+        {
+          "address": "08010bde",
+          "name": "GCode_G28_Home_Candidate",
+          "r0": 1
+        },
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 0
+        }
+      ]
+    },
+    {
+      "command": "G92",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08010cd2",
+          "name": "GCode_G92_G93_SetPosition_Candidate",
+          "r0": 0
+        },
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 0
+        }
+      ]
+    },
+    {
+      "command": "G93",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08029b72",
+          "name": "FUN_08029b72",
+          "r0": 93
+        },
+        {
+          "address": "08010cd2",
+          "name": "GCode_G92_G93_SetPosition_Candidate",
+          "r0": 1
+        },
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 0
+        }
+      ]
+    },
+    {
+      "command": "G162",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080116a4",
+          "name": "FUN_080116a4",
+          "r0": 162
+        },
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 0
+        }
+      ]
+    },
+    {
+      "command": "G161",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 161
+        }
+      ]
+    },
+    {
+      "command": "M146",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 146
+        }
+      ]
+    },
+    {
+      "command": "M201",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 201
+        }
+      ]
+    },
+    {
+      "command": "M204",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 204
+        }
+      ]
+    },
+    {
+      "command": "M205",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 205
+        }
+      ]
+    },
+    {
+      "command": "M206",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 206
+        }
+      ]
+    },
+    {
+      "command": "M221",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 221
+        }
+      ]
+    },
+    {
+      "command": "M301",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 0
+        }
+      ]
+    },
+    {
+      "command": "M304",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 3
+        }
+      ]
+    },
+    {
+      "command": "M612",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 612
+        }
+      ]
+    },
+    {
+      "command": "M999",
+      "gate": 1,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 0,
+      "queue_read_index": 1,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "080106b6",
+          "name": "FUN_080106b6",
+          "r0": 93
+        }
+      ]
+    },
+    {
+      "command": "G28",
+      "gate": 0,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 1,
+      "queue_read_index": 0,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08029b72",
+          "name": "FUN_08029b72",
+          "r0": 28
+        }
+      ]
+    },
+    {
+      "command": "G93",
+      "gate": 0,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 1,
+      "queue_read_index": 0,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08029b72",
+          "name": "FUN_08029b72",
+          "r0": 93
+        }
+      ]
+    },
+    {
+      "command": "M18",
+      "gate": 0,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 1,
+      "queue_read_index": 0,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08029b72",
+          "name": "FUN_08029b72",
+          "r0": 18
+        }
+      ]
+    },
+    {
+      "command": "M108",
+      "gate": 0,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 1,
+      "queue_read_index": 0,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08029b72",
+          "name": "FUN_08029b72",
+          "r0": 108
+        }
+      ]
+    },
+    {
+      "command": "M109",
+      "gate": 0,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 1,
+      "queue_read_index": 0,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08029b72",
+          "name": "FUN_08029b72",
+          "r0": 109
+        }
+      ]
+    },
+    {
+      "command": "M110",
+      "gate": 0,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 1,
+      "queue_read_index": 0,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08029b72",
+          "name": "FUN_08029b72",
+          "r0": 110
+        }
+      ]
+    },
+    {
+      "command": "M111",
+      "gate": 0,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 1,
+      "queue_read_index": 0,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08029b72",
+          "name": "FUN_08029b72",
+          "r0": 111
+        }
+      ]
+    },
+    {
+      "command": "M906",
+      "gate": 0,
+      "mask_before": 31,
+      "mask_after": 31,
+      "queue_count": 1,
+      "queue_read_index": 0,
+      "change_counter": 32,
+      "calls": [
+        {
+          "address": "08029b72",
+          "name": "FUN_08029b72",
+          "r0": 0
+        }
+      ]
+    }
+  ]
+}
