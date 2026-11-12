@@ -1,0 +1,26 @@
+{
+  "motor-pin-table.csv": {
+    "bytes": 245,
+    "sha256": "dde4ca9a68b354faa48bd1bb9c9b638efa6354cfa2e3e6ea7dd79897037751a3"
+  },
+  "numeric-emulation-verification.json": {
+    "bytes": 1791,
+    "sha256": "5ffa0a35e2a19317c8228d1229775cbafb6a266a0435e7e6983e5fb2ac0612f0"
+  },
+  "Recovered-PID-Reference.c": {
+    "bytes": 1198,
+    "sha256": "a0ccd7ed56ad668f8f675acfe82601e031c747a1e00438a756d33db50897a280"
+  },
+  "sensor-tables.csv": {
+    "bytes": 1524,
+    "sha256": "f2b6941060a5b30db54e6c097ebb4079df344d8dc83735f72a42184e31603e2e"
+  },
+  "sources/emulate_numeric.py": {
+    "bytes": 3676,
+    "sha256": "b19e7ea4a0dc91bf583b7a81ee941387cdbbc2637cc4554b4b3a14a4a17b0323"
+  },
+  "sources/FirmwareMath.java": {
+    "bytes": 3230,
+    "sha256": "6ccf890a3ad3fe8f58062485f7462aec0b7681a3cbf587a37db97df8d91177e5"
+  }
+}
