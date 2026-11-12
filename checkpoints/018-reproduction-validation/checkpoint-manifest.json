@@ -1,0 +1,14 @@
+{
+  "CHECKPOINT.md": {
+    "bytes": 725,
+    "sha256": "54b97b0af339a821cced73314c8230ab875335d7b0b3a7a6796c86edac168984"
+  },
+  "reproduction-verification.json": {
+    "bytes": 659,
+    "sha256": "bc4ffee3775298c42d4c88bfd3e3b31589ae4df88ab37f61bbed7dca9ddffaeb"
+  },
+  "requirements-verified.txt": {
+    "bytes": 33,
+    "sha256": "e32ab1452dbaeaa660301982ec28a8fd500d5ee33204388ec221a84924ad461c"
+  }
+}
