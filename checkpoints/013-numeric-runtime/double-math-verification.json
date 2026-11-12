@@ -1,0 +1,64 @@
+{
+  "method": "Original arithmetic/conversion instructions, no replacement arithmetic hooks. Deterministic normal finite inputs; NaN, subnormal, overflow and FPU rounding-mode variations not covered.",
+  "total_cases": 5161,
+  "checks": [
+    {
+      "address": "0x804a9f4",
+      "operation": "add",
+      "cases": 512,
+      "comparison": "bit-exact finite IEEE binary64 reference",
+      "all_passed": true
+    },
+    {
+      "address": "0x804b570",
+      "operation": "subtract",
+      "cases": 512,
+      "comparison": "bit-exact finite IEEE binary64 reference",
+      "all_passed": true
+    },
+    {
+      "address": "0x804b3c0",
+      "operation": "reverse_subtract",
+      "cases": 512,
+      "comparison": "bit-exact finite IEEE binary64 reference",
+      "all_passed": true
+    },
+    {
+      "address": "0x804b0a4",
+      "operation": "multiply",
+      "cases": 512,
+      "comparison": "bit-exact finite IEEE binary64 reference",
+      "all_passed": true
+    },
+    {
+      "address": "0x804ab6c",
+      "operation": "divide",
+      "cases": 512,
+      "comparison": "bit-exact finite IEEE binary64 reference",
+      "all_passed": true
+    },
+    {
+      "address": "0x0804b30c",
+      "operation": "nearest integer, ties to even, signed zero preserved",
+      "cases": 553,
+      "all_passed": true
+    },
+    {
+      "address": "0x804b3d8",
+      "operation": "square root",
+      "cases": 512,
+      "all_passed": true
+    },
+    {
+      "address": "0x8049fcc",
+      "operation": "square root",
+      "cases": 512,
+      "all_passed": true
+    },
+    {
+      "operation": "F32/F64 conversion pair",
+      "cases": 1024,
+      "all_passed": true
+    }
+  ]
+}

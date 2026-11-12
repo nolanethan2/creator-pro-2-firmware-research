@@ -1,0 +1,38 @@
+{
+  "comparison-flags-verification.json": {
+    "bytes": 7669,
+    "sha256": "ed6031c7a48c924e9bcb618af79a93a6ac1e08f667b772ba4d4653dbccdf8f79"
+  },
+  "double-math-verification.json": {
+    "bytes": 1735,
+    "sha256": "eea84932d93fd585d7278d4a7d409b374d825ab29ac6767e67d782d26db8d98d"
+  },
+  "math-exception-verification.json": {
+    "bytes": 4828,
+    "sha256": "ff333fffe05f67727f22fd55f3c07f5b285ada7800ed607913bb1c0210dae160"
+  },
+  "sources/DumpFlagPcode.java": {
+    "bytes": 688,
+    "sha256": "b84e0a77e26bb5decc8b85b5360f9b5aa956341863bff3b369e99d5769625ea4"
+  },
+  "sources/emulate_compare_flags.py": {
+    "bytes": 1797,
+    "sha256": "275ef94d598a11698e26157517c6b3962cd95af05cbb884f05c9fe780530bb63"
+  },
+  "sources/emulate_double_math.py": {
+    "bytes": 2719,
+    "sha256": "b73717ac087f645881ffcc4c0f6b2e164496f65a476e597896e20c3fbc1955d1"
+  },
+  "sources/emulate_math_exceptions.py": {
+    "bytes": 2193,
+    "sha256": "26e1c49656f0a36615556c4bf86f1e8b0f6dc7d08292fe95aafca5daec5a2401"
+  },
+  "sources/FirmwareDoubleMath.java": {
+    "bytes": 2798,
+    "sha256": "cb43758b78e5113a9ae570189e32b3e7a7351bb187ee4f232a5acc24363b7101"
+  },
+  "sources/FirmwareFlagReturns.java": {
+    "bytes": 1869,
+    "sha256": "f048678efb6fa88341fa78654b456599944bc03a6f4488447262387deead7d77"
+  }
+}
