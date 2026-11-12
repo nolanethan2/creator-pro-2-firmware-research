@@ -1,0 +1,42 @@
+{
+  "Expert-Mode-and-UI-Findings.md": {
+    "bytes": 4031,
+    "sha256": "a5606a670c25996be9bc4702fbb1476e14ee7d7e32c585ab27c1664c6ae013c7"
+  },
+  "expert-mode-verification.json": {
+    "bytes": 1931,
+    "sha256": "a47efe9590b20cd0c787c2922fde18b15d2bfdae9a91bc9ebc2f81d926fbe4fb"
+  },
+  "sources/emulate_expert_ui.py": {
+    "bytes": 3278,
+    "sha256": "3a8f9e8a7b99fd3623b51d427183ff4d67bd1c1ef9862b11957efd944964b41e"
+  },
+  "sources/FirmwareUITypes.java": {
+    "bytes": 2124,
+    "sha256": "0c9eb1a4a77640b29a965a813b52a0d3cdc79a5373ec8a841be112cf339387b7"
+  },
+  "sources/ui_catalog.py": {
+    "bytes": 2591,
+    "sha256": "f0f0a57b66c38579fed5be038c7aff8bb349f28d94c3c1a9fc6ac609f42cfed5"
+  },
+  "ui-language-catalog.csv": {
+    "bytes": 119247,
+    "sha256": "14d2fd3782d851cf6d72d314c2c6c11dd412308396ed735fd3a11a3bac2f2306"
+  },
+  "ui-page-callbacks.csv": {
+    "bytes": 1574,
+    "sha256": "2928336fb8c861a8211da192f82689eebeb3dd82899d53132689f12378972cdc"
+  },
+  "ui-resource-references.csv": {
+    "bytes": 4791,
+    "sha256": "776ccc5118e3f64a7065b8589dc6ade652e019cb18c8a3a24f55921354c34835"
+  },
+  "ui-screen-catalog.json": {
+    "bytes": 114088,
+    "sha256": "67e8d1573dbc8bc0832081f47841dabba418842eb3946513caab6eca077b6fdd"
+  },
+  "ui-widgets.csv": {
+    "bytes": 19489,
+    "sha256": "b4a126983e6b9e2d6a99a0ba3808bafa6e77fe101648dee2205b71424ef6b433"
+  }
+}

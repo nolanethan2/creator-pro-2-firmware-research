@@ -1,0 +1,61 @@
+﻿function,name,english_resource_text
+08011756,FUN_08011756,"Entering Pause...
+Draining Pipeline..."
+0801217e,PrintJob_StateMachine_Candidate,Exiting Pause...
+080141ee,FUN_080141ee,Cancelling Build...
+080143ea,GCode_M28_BeginFileWrite,Downloading File...
+08014c68,Host_DispatchImmediateCommand,"Entering Pause...
+Draining Pipeline..."
+08015358,Host_ServiceInputAndState,Print file do not match! | Print file content error! | card error
+0801562c,FUN_0801562c,Build Finished! Build time: %dh%dm.
+0801bce4,FUN_0801bce4,card error | First turn off the wifi | OK | Pause at Z:  | Pause
+0801bd82,FUN_0801bd82,Remove remaining filament | Tap [Yes] after removing filament debris in the nozzle and on the printed object | Yes
+0801bdc4,FUN_0801bdc4,Temperature reads are failing. Please check wiring. | Temperature limit reached. Please shutdown or restart. | Not heating properly. Please check wiring. | Temperature dropping. Please check wiring. | Temperature reads are out of range.Please check wiring. | Unknow error | R Extruder | Platform | L Extruder | Error
+0801c026,FUN_0801c026,Preheat | Tools
+0801c32a,FUN_0801c32a,Machine Name : | Machine Type : | Firmware Version : | Print Volume : | Usage counter : | hours | Tool Count :
+0801d42c,FUN_0801d42c,Print Time | L Extruder | R Extruder | Extruder | Platform
+0801d886,FUN_0801d886,Yes | No
+0801ded8,FUN_0801ded8,"Entering Pause...
+Draining Pipeline..."
+0801e588,FUN_0801e588,Cancel Print | Cancel Print now? | Yes | No
+0801e642,FUN_0801e642,card error
+0801e9ce,FUN_0801e9ce,Filament | Level | Home | Manual | Setting | Status | About
+0801f3a8,FUN_0801f3a8,L Extruder | R Extruder | Extruder | Platform | Start | off | on
+0801f964,FUN_0801f964,Yes | No
+0801ff36,FUN_0801ff36,off | on
+0802072e,FUN_0802072e,Cancel | R Extruder | Extruder | L Extruder | Heating...
+08020a9a,FUN_08020a9a,Extruder is not heating. Check the wiring.
+08020ece,FUN_08020ece,Cancel unload | Are you sure to cancel unload? | Yes | No | Cancel load | Are you sure to cancel load?
+08020f3a,FUN_08020f3a,L Extruder | R Extruder | Load | Unload
+0802146a,FUN_0802146a,Yes | Cancel | Homing! Please wait...
+0802161c,FUN_0802161c,Homing Finished.
+08021eca,FUN_08021eca,简体中文 | English | 繁體中文 | 日本語 | Deutsch | Français | 한국어
+0802229c,FUN_0802229c,简体中文 | English | 繁體中文 | 日本語 | Deutsch | Français | 한국어 | Polski | Spanish | Portugues
+08022a72,FUN_08022a72,"Next | Please wait, device is homing."
+08022cf2,FUN_08022cf2,"Screw the three nuts under the platform counterclockwise until they are tight,then tap the [next]."
+08022e06,FUN_08022e06,L Extruder | R Extruder | Extruder | Platform
+080233a2,FUN_080233a2,L Extruder | R Extruder | Extruder | Platform
+0802364a,FUN_0802364a,L Extruder | R Extruder | Extruder | Platform | Stop
+08023c1a,FUN_08023c1a,"Language | Calibration | FactoryReset | Expert
+Mode"
+080240ba,FUN_080240ba,Operation Confirm | Reset the default value of factory? | Yes | No
+080240e2,Update_StageApplicationFile,Copying File | Copy Model | Copy Successful | OK | Copy Fail
+08024cde,FUN_08024cde,Filament | Stop left | Stop right | Back | Print Speed: | Z Offset:
+080257ae,FUN_080257ae,Delete
+08025ba6,FUN_08025ba6,Copy Fail | OK | Copying File | Copy Model | Copy Successful
+08025da0,FUN_08025da0,Copy Model | Yes | No
+08025dda,FUN_08025dda,Confirm Delete File | Yes | No
+08025fe4,UI_CaseVariantDialog_Initialize,Silver | Black | Yes | Cancel | Pulley Type
+08026222,UI_CaseVariantDialog_Callback,Black | Silver
+080263a2,FUN_080263a2,Cancel
+08026ad6,FUN_08026ad6,"Verify | Please tap X-，X+ to adjust and verify make sure the lines are aligned. | Please tap Y-，Y+ to adjust and verify make sure the lines are aligned. | Please tap Z-, Z+ to adjust and put the leveling card between nozzle and platform to verify a proper distance. | OK"
+08027624,FUN_08027624,"X Calibration cancelled. | X Calibration...
+Heating extruder, please insert filament into both of extruder. | Y Calibration cancelled. | Y Calibration...
+Heating extruder, please insert filament into both of extruder. | Z Calibration cancelled. | Z Calibration...
+Initializing moving. | Calibration | Please randomly select extruder to calibration. | Left | Right | Waiting for cooling... | X Calibration Complete!
+Continue to calibration Y axis? | Yes | No | Y Calibration Complete! | Z Calibration Complete!
+Continue to calibration X axis?"
+080280ee,FUN_080280ee,Yes | No | Continue to calibration Z axis?
+08028326,FUN_08028326,Next
+08028432,FUN_08028432,OK | Manual fine calibration
+08028a14,FUN_08028a14,Manual fine calibration | This assistant is for advanced users only. After a printer calibration. Fine-tune the calibration offsets of X or Y axis  if needed. | Next
